@@ -10416,12 +10416,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -10434,6 +10443,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -10556,180 +10568,6 @@
 					<Rotation>0.0</Rotation>
 				</RectangleNode>
 				<RectangleNode>
-					<Id>1774256494994</Id>
-					<Name><![CDATA[table4seater1]]></Name>
-					<X>321</X><Y>400</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<EmbeddedObject>
-						<Id>1774256495011</Id>
-						<ActiveObjectClass>
-							<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
-							<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
-						</ActiveObjectClass>
-						<GenericParameterSubstitute>
-							<GenericParameterSubstituteReference>
-								<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
-								<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
-								<ItemName><![CDATA[1574694148121]]></ItemName>
-							</GenericParameterSubstituteReference>
-						</GenericParameterSubstitute>
-						<Parameters>
-							<Parameter>
-								<Name><![CDATA[appliedClass]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[speedRestricted]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[maxSpeed]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[accessRestricted]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[accessRestrictionType]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[accessRestrictionCondition]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[capacity]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[throughput]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[schedule]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[avoidedIfClosed]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[onEnter]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[onEnterDenied]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[onExit]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[onOpen]]></Name>
-							</Parameter>
-							<Parameter>
-								<Name><![CDATA[onClose]]></Name>
-							</Parameter>
-						</Parameters>
-						<ReplicationFlag>false</ReplicationFlag>
-						<Replication Class="CodeValue">
-							<Code><![CDATA[100]]></Code>
-						</Replication>
-						<CollectionType>ARRAY_LIST_BASED</CollectionType>
-						<InitialLocationType>XYZ</InitialLocationType>
-						<ColumnCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</ColumnCode>
-						<RowCode Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</RowCode>
-						<LocationNameCode Class="CodeValue">
-							<Code><![CDATA[""]]></Code>
-						</LocationNameCode>
-						<InitializationType>SPECIFIED_NUMBER</InitializationType>
-						<InitializationDatabaseTableQuery>
-							<Id>1774256495010</Id>
-							<TableReference>
-							</TableReference>
-						</InitializationDatabaseTableQuery>
-						<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-						<QuantityColumn>
-						</QuantityColumn>
-					</EmbeddedObject>
-					<LineColor>-14774017</LineColor>
-					<FillColor/>
-					<LineWidth>1</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillMaterial>null</FillMaterial>
-					<LineStyle>DASHED</LineStyle>
-					<AttractorsLayout>random</AttractorsLayout>
-
-			<Presentation>
-				<Attractor>
-					<Id>1774256494997</Id>
-					<Name><![CDATA[attractor4]]></Name>
-					<X>321</X><Y>400</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
-				</Attractor>
-				<Attractor>
-					<Id>1774256495000</Id>
-					<Name><![CDATA[attractor5]]></Name>
-					<X>321</X><Y>430</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
-				</Attractor>
-				<Attractor>
-					<Id>1774256495003</Id>
-					<Name><![CDATA[attractor6]]></Name>
-					<X>339</X><Y>430</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Rotation>180.0</Rotation>	
-				</Attractor>
-				<Attractor>
-					<Id>1774256495006</Id>
-					<Name><![CDATA[attractor7]]></Name>
-					<X>339</X><Y>400</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Rotation>180.0</Rotation>	
-				</Attractor>
-			</Presentation>
-
-					<Sloped>false</Sloped>
-					<Slope>
-						<Id>1774256494992</Id>
-						<Name><![CDATA[table4seater1]]></Name>
-						<X>0</X><Y>10</Y>
-						<PublicFlag>false</PublicFlag>
-						<PresentationFlag>true</PresentationFlag>
-						<ShowLabel>true</ShowLabel>
-						<Dx>20</Dx>
-						<Dy>0</Dy>
-						<Dz>0</Dz>
-						<AngleX>30</AngleX>
-						<AngleZ>0</AngleZ>
-						<SlopeType>angle</SlopeType>	
-					</Slope>
-
-					<Width>18</Width>
-					<Height>30</Height>
-					<Rotation>0.0</Rotation>
-				</RectangleNode>
-				<RectangleNode>
 					<Id>1774256497864</Id>
 					<Name><![CDATA[table4seater2]]></Name>
 					<X>365</X><Y>399</Y>
@@ -10764,12 +10602,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -10782,6 +10629,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -10938,12 +10788,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -10956,6 +10815,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -11112,12 +10974,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -11130,6 +11001,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -11286,12 +11160,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -11304,6 +11187,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -11460,12 +11346,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -11478,6 +11373,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -11634,12 +11532,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -11652,6 +11559,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -11808,12 +11718,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -11826,6 +11745,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -11982,12 +11904,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -12000,6 +11931,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -12156,12 +12090,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -12174,6 +12117,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -12330,12 +12276,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -12348,6 +12303,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -12504,12 +12462,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -12522,6 +12489,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -12678,12 +12648,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -12696,6 +12675,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -12852,12 +12834,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -12870,6 +12861,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -13026,12 +13020,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -13044,6 +13047,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -13200,12 +13206,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -13218,6 +13233,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -13374,12 +13392,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -13392,6 +13419,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -13548,12 +13578,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -13566,6 +13605,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -13722,12 +13764,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -13740,6 +13791,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -13896,12 +13950,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -13914,6 +13977,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -14070,12 +14136,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -14088,6 +14163,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -14244,12 +14322,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -14262,6 +14349,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -14418,12 +14508,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -14436,6 +14535,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -14592,12 +14694,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -14610,6 +14721,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -14766,12 +14880,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -14784,6 +14907,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -14940,12 +15066,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -14958,6 +15093,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -15114,12 +15252,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -15132,6 +15279,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -15288,12 +15438,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -15306,6 +15465,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -15462,12 +15624,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -15480,6 +15651,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -15636,12 +15810,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -15654,6 +15837,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -15810,12 +15996,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -15828,6 +16023,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -15984,12 +16182,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -16002,6 +16209,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -16158,12 +16368,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -16176,6 +16395,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -16332,12 +16554,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -16350,6 +16581,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -16506,12 +16740,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -16524,6 +16767,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -16680,12 +16926,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -16698,6 +16953,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -16854,12 +17112,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -16872,6 +17139,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -17028,12 +17298,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -17046,6 +17325,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -17202,12 +17484,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -17220,6 +17511,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -17376,12 +17670,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -17394,6 +17697,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -17550,12 +17856,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -17568,6 +17883,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -17724,12 +18042,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -17742,6 +18069,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -17898,12 +18228,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -17916,6 +18255,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -18072,12 +18414,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -18090,6 +18441,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -18246,12 +18600,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -18264,6 +18627,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -18420,12 +18786,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -18438,6 +18813,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -18594,12 +18972,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -18612,6 +18999,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -18768,12 +19158,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -18786,6 +19185,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -18942,12 +19344,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -18960,6 +19371,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -19116,12 +19530,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -19134,6 +19557,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -19290,12 +19716,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -19308,6 +19743,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -19464,12 +19902,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -19482,6 +19929,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -19638,12 +20088,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -19656,6 +20115,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -19812,12 +20274,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -19830,6 +20301,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -19986,12 +20460,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -20004,6 +20487,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -20160,12 +20646,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -20178,6 +20673,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -20334,12 +20832,21 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[capacity]]></Name>
@@ -20352,6 +20859,9 @@
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
 							</Parameter>
 							<Parameter>
 								<Name><![CDATA[onEnter]]></Name>
@@ -20609,6 +21119,192 @@
 
 					<Width>70</Width>
 					<Height>40</Height>
+					<Rotation>0.0</Rotation>
+				</RectangleNode>
+				<RectangleNode>
+					<Id>1774285898208</Id>
+					<Name><![CDATA[table4seater1]]></Name>
+					<X>325</X><Y>399</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<EmbeddedObject>
+						<Id>1774285898225</Id>
+						<ActiveObjectClass>
+							<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
+							<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
+						</ActiveObjectClass>
+						<GenericParameterSubstitute>
+							<GenericParameterSubstituteReference>
+								<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
+								<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
+								<ItemName><![CDATA[1574694148121]]></ItemName>
+							</GenericParameterSubstituteReference>
+						</GenericParameterSubstitute>
+						<Parameters>
+							<Parameter>
+								<Name><![CDATA[appliedClass]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[speedRestricted]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[maxSpeed]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[accessRestricted]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[accessRestrictionType]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[self.CONDITION]]></Code>
+								</Value>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[accessRestrictionCondition]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[capacity]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[throughput]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[schedule]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[avoidedIfClosed]]></Name>
+								<Value Class="CodeValue">
+									<Code><![CDATA[true]]></Code>
+								</Value>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onEnter]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onEnterDenied]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onExit]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onOpen]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onClose]]></Name>
+							</Parameter>
+						</Parameters>
+						<ReplicationFlag>false</ReplicationFlag>
+						<Replication Class="CodeValue">
+							<Code><![CDATA[100]]></Code>
+						</Replication>
+						<CollectionType>ARRAY_LIST_BASED</CollectionType>
+						<InitialLocationType>XYZ</InitialLocationType>
+						<ColumnCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</ColumnCode>
+						<RowCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</RowCode>
+						<LocationNameCode Class="CodeValue">
+							<Code><![CDATA[""]]></Code>
+						</LocationNameCode>
+						<InitializationType>SPECIFIED_NUMBER</InitializationType>
+						<InitializationDatabaseTableQuery>
+							<Id>1774285898224</Id>
+							<TableReference>
+							</TableReference>
+						</InitializationDatabaseTableQuery>
+						<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+						<QuantityColumn>
+						</QuantityColumn>
+					</EmbeddedObject>
+					<LineColor>-14774017</LineColor>
+					<FillColor/>
+					<LineWidth>1</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillMaterial>null</FillMaterial>
+					<LineStyle>DASHED</LineStyle>
+					<AttractorsLayout>random</AttractorsLayout>
+
+			<Presentation>
+				<Attractor>
+					<Id>1774285898211</Id>
+					<Name><![CDATA[attractor242]]></Name>
+					<X>325</X><Y>405</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>	
+				</Attractor>
+				<Attractor>
+					<Id>1774285898214</Id>
+					<Name><![CDATA[attractor243]]></Name>
+					<X>325</X><Y>423</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>	
+				</Attractor>
+				<Attractor>
+					<Id>1774285898217</Id>
+					<Name><![CDATA[attractor244]]></Name>
+					<X>336</X><Y>423</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>180.0</Rotation>	
+				</Attractor>
+				<Attractor>
+					<Id>1774285898220</Id>
+					<Name><![CDATA[attractor245]]></Name>
+					<X>335</X><Y>405</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>180.0</Rotation>	
+				</Attractor>
+			</Presentation>
+
+					<Sloped>false</Sloped>
+					<Slope>
+						<Id>1774285898206</Id>
+						<Name><![CDATA[table4seater1]]></Name>
+						<X>0</X><Y>10</Y>
+						<PublicFlag>false</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>true</ShowLabel>
+						<Dx>20</Dx>
+						<Dy>0</Dy>
+						<Dz>0</Dz>
+						<AngleX>30</AngleX>
+						<AngleZ>0</AngleZ>
+						<SlopeType>angle</SlopeType>	
+					</Slope>
+
+					<Width>11</Width>
+					<Height>31</Height>
 					<Rotation>0.0</Rotation>
 				</RectangleNode>
 			</Presentation>
