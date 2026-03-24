@@ -35,6 +35,11 @@ Add `RectangularWall` elements matching the position/size of each 3D object.
 > Actual fix used: `accessRestricted=true` + `capacity=0` + `avoidedIfClosed=true`
 > Setting `capacity=0` means the node is permanently "full" → always closed → pedestrians avoid it.
 > `self.CONDITION` enum failed — see Bug #3.
+> 
+> **⚠️ UPDATE (2026-03-24): This fix CAUSED Bug #4.**
+> Setting `avoidedIfClosed = true` and `capacity=0` turns the ENTIRE table node (including its attractors) into a permanent obstacle. When pedestrians are forced to wait there via `PedWait`, they treat the seat as an obstacle, causing them to clump at the edges and fail to occupy unique attractors.
+> 
+> **Revised Fix for Bug #1:** Remove `accessRestricted`, `avoidedIfClosed`, and `capacity` overrides from the `table4seater` nodes entirely. To prevent walking through tables, draw a physical `RectangularWall` over the un-walkable center of the table (the wood/metal), leaving the bounding `RectangleNode` and its attractors walkable.
 
 ---
 
@@ -80,6 +85,34 @@ This avoids the enum entirely and achieves the same obstacle behavior.
   This evaluates group size safely at the moment it's needed.
 
 **Doc Reference:** https://anylogic.help/library-reference-guides/pedestrian-library/pedselectoutput.html
+
+**Doc Reference:** https://anylogic.help/library-reference-guides/pedestrian-library/pedselectoutput.html
+
+---
+
+## Bug #4 — Customers Clumping and Ignoring Attractors
+
+**Date:** 2026-03-24
+**Status:** ✅ Fixed
+
+### Problem
+Customers were all clumping at the exact same table (the first one) instead of distributing evenly. Additionally, multiple agents were stuck grouping together on the edges of the table node and failing to stand on their unique attractors (seats), while blocking other pedestrians from crossing nearby.
+
+### Root Cause
+Two separate issues:
+1. **Seating Selection:** The `seize4` block `onSeizeUnit` used `availableFourSeaters.remove(0)`. This always grabbed the first available table from the list, meaning all customers were funneled to whichever table was at index 0.
+2. **Attractor Obstacle Blockage:** The fix for **Bug #1** turned the entire `table4seater` `RectangleNode` into an obstacle (`capacity=0`, `avoidedIfClosed=true`). When `PedWait` forced an agent into that obstacle node, the pathfinder prevented them from fully entering to reach their designated attractor.
+
+### Fix
+1. **Distribution:** Changed `onSeizeUnit` to randomize table assignment:
+   `agent.assignedTable = availableFourSeaters.remove(uniform_discr(0, availableFourSeaters.size() - 1));`
+   *(Note: The user had actually independently patched this in a recent commit, but the seating issue remained due to the obstacle definition).*
+2. **Attractors:** Removed `accessRestricted=true`, `capacity=0`, and `avoidedIfClosed=true` from all **58** `table4seater` nodes in the `.alp` file using a Python patch script. The nodes are now fully walkable, meaning customers can pathfind instantly to their attractor seats.
+3. *Note:* To stop people walking through the physical table centers, `RectangularWall` shapes must be manually drawn in the AnyLogic editor (as originally recommended).
+
+**Doc Reference:** 
+- [PedWait](https://anylogic.help/library-reference-guides/pedestrian-library/pedwait.html)
+- [Attractors](https://anylogic.help/markup/attractor-ped.html)
 
 ---
 

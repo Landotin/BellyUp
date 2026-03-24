@@ -2854,9 +2854,6 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[serviceGroupBehavior]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[self.GROUP_BEHAVIOR_ALL_MEMBERS_ARE_SERVICED_INDIVIDUALLY]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[solidCancelling]]></Name>
