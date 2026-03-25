@@ -2172,6 +2172,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[20]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maximumCapacity]]></Name>
@@ -4336,7 +4339,7 @@
 						<Parameter>
 							<Name><![CDATA[locationNode]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[Buffet_island]]></Code>
+								<Code><![CDATA[seafood]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4412,7 +4415,7 @@
 						<Parameter>
 							<Name><![CDATA[locationNode]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[Buffet_island]]></Code>
+								<Code><![CDATA[seafood]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4459,6 +4462,13 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onAtExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[food_level--; 
+
+if (food_level <= 0) {
+    triggerRefill.inject(1); 
+}]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
@@ -10136,8 +10146,8 @@
 				<Control Type="Window3D">
 					<Id>1774183490701</Id>
 					<Name><![CDATA[window3d]]></Name>
-					<X>1550</X><Y>780</Y>
-					<Width>350</Width>
+					<X>880</X><Y>1000</Y>
+					<Width>920</Width>
 					<Height>680</Height>
 					<MakeDefaultViewArea>true</MakeDefaultViewArea>
 					<Label><X>0</X><Y>-10</Y></Label>
