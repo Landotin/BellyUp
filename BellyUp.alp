@@ -723,39 +723,6 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1774261538161</Id>
-					<Name><![CDATA[connector21]]></Name>
-					<X>1020</X><Y>910</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[pedGroupDisassemble1]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedGroupDisassemble]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[goBackToTable]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedGoTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-40</X><Y>-50</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1774261571151</Id>
 					<Name><![CDATA[connector6]]></Name>
 					<X>820</X><Y>860</Y>
@@ -789,72 +756,6 @@
 						<Point><X>119</X><Y>-30</Y></Point>
 						<Point><X>250</X><Y>-30</Y></Point>
 						<Point><X>310</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1774261677145</Id>
-					<Name><![CDATA[connector23]]></Name>
-					<X>1170</X><Y>940</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[goToCashier]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedGoTo]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[pedSelectOutput1]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedSelectOutput]]></ClassName>
-						<ItemName><![CDATA[out5]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-40</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1774261746044</Id>
-					<Name><![CDATA[connector24]]></Name>
-					<X>1260</X><Y>940</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[release]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Release]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[goToCashier]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedGoTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-50</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -926,7 +827,7 @@
 				<Connector>
 					<Id>1774333410702</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>1410</X><Y>940</Y>
+					<X>1450</X><Y>940</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -954,72 +855,6 @@
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>-40</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1774333410704</Id>
-					<Name><![CDATA[connector17]]></Name>
-					<X>1330</X><Y>940</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[pedGoTo]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedGoTo]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[release]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Release]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-30</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1774334234650</Id>
-					<Name><![CDATA[connector22]]></Name>
-					<X>1020</X><Y>860</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[eatingTime]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedWait]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[pedGroupDisassemble1]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedGroupDisassemble]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>40</X><Y>50</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -1383,6 +1218,138 @@
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>20</X><Y>-45</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1774494321244</Id>
+					<Name><![CDATA[connector31]]></Name>
+					<X>1280</X><Y>940</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[goToCashier1]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedGoTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedGoTo]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedGoTo]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>90</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1774494337132</Id>
+					<Name><![CDATA[connector23]]></Name>
+					<X>1240</X><Y>940</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[goToCashier1]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedGoTo]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedGroupAssemble]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedGroupAssemble]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-20</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1774494337134</Id>
+					<Name><![CDATA[connector24]]></Name>
+					<X>1180</X><Y>940</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedGroupAssemble]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedGroupAssemble]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedSelectOutput1]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedSelectOutput]]></ClassName>
+						<ItemName><![CDATA[out5]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-50</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1774496355347</Id>
+					<Name><![CDATA[connector17]]></Name>
+					<X>980</X><Y>860</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[goBackToTable]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedGoTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[eatingTime]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedWait]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>40</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -3272,7 +3239,7 @@
 						<Parameter>
 							<Name><![CDATA[groupSize]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[uniform_discr(4, 5)]]></Code>
+								<Code><![CDATA[4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3364,7 +3331,7 @@
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[(ped.getGroup() == null || ped.getGroup().size() >4 ) && !availableTenSeaters.isEmpty()
+								<Code><![CDATA[ped.getGroup().size() > 4  && !availableTenSeaters.isEmpty()
 ]]></Code>
 							</Value>
 						</Parameter>
@@ -3531,604 +3498,9 @@
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1774254757734</Id>
-					<Name><![CDATA[fourSeaters]]></Name>
-					<X>420</X><Y>990</Y>
-					<Label><X>-30</X><Y>-20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[ResourcePool]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[ResourcePool]]></ClassName>
-							<ItemName><![CDATA[1412336243135]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[type]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[capacityDefinitionType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[capacity]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[availableFourSeaters.size()]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[capacityBasedOnAttractors]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[capacitySchedule]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[capacityScheduleOnOff]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[capacityOnValue]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[shiftGroupSchedules]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[shiftGroupSizes]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[shiftGroupsPlan]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destroyExcessUnits]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[newUnit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[speed]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[homeLocationType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[homeNode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[homeNodes]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[showDefaultAnimationStatic]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[downtimeSource]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maintenanceProfile]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[downtimeList]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enableMaintenance]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[initialTimeToMaintenance]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[timeBetweenMaintenances]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maintenanceTaskPriority]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maintenanceTaskMayPreemptOtherTasks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maintenanceType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maintenanceTime]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maintenanceTaskStart]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maintenanceUsageState]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enableFailuresRepairs]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[initialTimeToFailure]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[timeBetweenFailures]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[countBusyOnlyTimeToFailure]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[repairType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[repairTime]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[repairTaskStart]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[repairUsageState]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enableBreaks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[breaksSchedule]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[breakTaskPriority]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[breakTaskMayPreemptOtherTasks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[breakTaskPreemptionPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[breakUsageState]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enableCustomTasks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[customTasks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[endOfShiftTaskPriority]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[endOfShiftTaskMayPreemptOtherTasks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[endOfShiftTaskPreemptionPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[customizeRequestChoice]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[requestChoiceCondition]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[addToCustomPopulation]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[population]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[forceStatisticsCollection]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onNewUnit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onDestroyUnit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onSeize]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onRelease]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onWrapUp]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onUnitStateChange]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onMaintenanceStart]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onMaintenanceEnd]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onFailure]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onRepair]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onBreakStart]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onBreakEnd]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onBreakTerminated]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>XYZ</InitialLocationType>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<Id>1774254757732</Id>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
-					<Id>1774254773954</Id>
-					<Name><![CDATA[tenSeaters]]></Name>
-					<X>415</X><Y>1035</Y>
-					<Label><X>-30</X><Y>-20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[ResourcePool]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[ResourcePool]]></ClassName>
-							<ItemName><![CDATA[1412336243135]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[type]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[capacityDefinitionType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[capacity]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[999]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[capacityBasedOnAttractors]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[capacitySchedule]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[capacityScheduleOnOff]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[capacityOnValue]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[shiftGroupSchedules]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[shiftGroupSizes]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[shiftGroupsPlan]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destroyExcessUnits]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[newUnit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[speed]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[homeLocationType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[homeNode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[homeNodes]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[showDefaultAnimationStatic]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[downtimeSource]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maintenanceProfile]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[downtimeList]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enableMaintenance]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[initialTimeToMaintenance]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[timeBetweenMaintenances]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maintenanceTaskPriority]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maintenanceTaskMayPreemptOtherTasks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maintenanceType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maintenanceTime]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maintenanceTaskStart]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maintenanceUsageState]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enableFailuresRepairs]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[initialTimeToFailure]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[timeBetweenFailures]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[countBusyOnlyTimeToFailure]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[repairType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[repairTime]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[repairTaskStart]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[repairUsageState]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enableBreaks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[breaksSchedule]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[breakTaskPriority]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[breakTaskMayPreemptOtherTasks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[breakTaskPreemptionPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[breakUsageState]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enableCustomTasks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[customTasks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[endOfShiftTaskPriority]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[endOfShiftTaskMayPreemptOtherTasks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[endOfShiftTaskPreemptionPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[customizeRequestChoice]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[requestChoiceCondition]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[addToCustomPopulation]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[population]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[forceStatisticsCollection]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onNewUnit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onDestroyUnit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onSeize]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onRelease]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onWrapUp]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onUnitStateChange]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onMaintenanceStart]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onMaintenanceEnd]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onFailure]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onRepair]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onBreakStart]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onBreakEnd]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onBreakTerminated]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>XYZ</InitialLocationType>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<Id>1774254773952</Id>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
-					<Id>1774258297706</Id>
-					<Name><![CDATA[release]]></Name>
-					<X>1260</X><Y>920</Y>
-					<Label><X>-10</X><Y>-15</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Release]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[Release]]></ClassName>
-							<ItemName><![CDATA[1412336243154]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[releaseMode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourcePool]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[quantity]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resources]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizeBlocks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[movingGoHome]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpTaskPolicyType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpTaskPriority]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpTaskMayPreemptOtherTasks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpTaskPreemptionPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpUsageState]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onReleaseUnit]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[if (agent.assignedTable != null) {
-    if (!availableFourSeaters.contains(agent.assignedTable)) {
-        availableFourSeaters.add((RectangularNode) agent.assignedTable);
-    }
-    agent.assignedTable = null;
-}
-waitForTable.setBlocked(availableFourSeaters.isEmpty());
-]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onWrapUpTerminated]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>XYZ</InitialLocationType>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<Id>1774258297704</Id>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
 					<Id>1774259006893</Id>
 					<Name><![CDATA[pedSink1]]></Name>
-					<X>1410</X><Y>940</Y>
+					<X>1450</X><Y>940</Y>
 					<Label><X>-25</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4147,6 +3519,21 @@ waitForTable.setBlocked(availableFourSeaters.isEmpty());
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[if (ped.assignedTable != null) {
+    if (((Customer)ped).groupSize > 4) {
+        if (!availableTenSeaters.contains(ped.assignedTable)) {
+            availableTenSeaters.add(ped.assignedTable);
+        }
+    } else {
+        if (!availableFourSeaters.contains(ped.assignedTable)) {
+            availableFourSeaters.add(ped.assignedTable);
+        }
+    }
+    ped.assignedTable = null;
+}
+]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -4228,7 +3615,7 @@ waitForTable.setBlocked(availableFourSeaters.isEmpty());
 							<Name><![CDATA[delayTimeout]]></Name>
 							<Value Class="CodeUnitValue">
 								<Code><![CDATA[triangular(30, 45, 60)]]></Code>
-								<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4825,97 +4212,6 @@ if(food_level <= 0){
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1774261676095</Id>
-					<Name><![CDATA[goToCashier]]></Name>
-					<X>1170</X><Y>930</Y>
-					<Label><X>-20</X><Y>-25</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedGoTo]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-							<ClassName><![CDATA[PedGoTo]]></ClassName>
-							<ItemName><![CDATA[1412464601103]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[mode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationType]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[self.LOCATION_NODE]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationLine]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationX]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationY]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationNode]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[Cashier]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[route]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[walkInReverseDirection]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[reachTolerance]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onCancel]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onRemove]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>XYZ</InitialLocationType>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<Id>1774261676093</Id>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
 					<Id>1774319044296</Id>
 					<Name><![CDATA[pedGroupDisassemble]]></Name>
 					<X>715</X><Y>850</Y>
@@ -4973,7 +4269,7 @@ if(food_level <= 0){
 				<EmbeddedObject>
 					<Id>1774333409668</Id>
 					<Name><![CDATA[pedGoTo]]></Name>
-					<X>1330</X><Y>930</Y>
+					<X>1370</X><Y>930</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5051,61 +4347,6 @@ if(food_level <= 0){
 					<InitializationType>SPECIFIED_NUMBER</InitializationType>
 					<InitializationDatabaseTableQuery>
 						<Id>1774333409666</Id>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
-					<Id>1774334186314</Id>
-					<Name><![CDATA[pedGroupDisassemble1]]></Name>
-					<X>1020</X><Y>900</Y>
-					<Label><X>-70</X><Y>-25</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedGroupDisassemble]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-							<ClassName><![CDATA[PedGroupDisassemble]]></ClassName>
-							<ItemName><![CDATA[1412464601121]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onBeforeDisassemble]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>XYZ</InitialLocationType>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<Id>1774334186312</Id>
 						<TableReference>
 						</TableReference>
 					</InitializationDatabaseTableQuery>
@@ -5490,12 +4731,18 @@ if(food_level <= 0){
     if (leader.assignedTable == null && !availableFourSeaters.isEmpty()) {
         leader.assignedTable = availableFourSeaters.remove(
             uniform_discr(0, availableFourSeaters.size() - 1));
+        // ✅ Store group size on the leader (only needed once)
+        leader.groupSize = agent.getGroup().size();
     }
     agent.assignedTable = leader.assignedTable;
+    // ✅ Every member copies the group size from the leader
+    ((Customer)agent).groupSize = leader.groupSize;
 } else {
     if (!availableFourSeaters.isEmpty()) {
         agent.assignedTable = availableFourSeaters.remove(
             uniform_discr(0, availableFourSeaters.size() - 1));
+        // ✅ Solo customer — group size is 1
+        ((Customer)agent).groupSize = 1;
     }
 }
 ]]></Code>
@@ -5657,12 +4904,15 @@ if(food_level <= 0){
     if (leader.assignedTable == null && !availableTenSeaters.isEmpty()) {
         leader.assignedTable = availableTenSeaters.remove(
             uniform_discr(0, availableTenSeaters.size() - 1));
+        leader.groupSize = agent.getGroup().size(); // ✅ ADD THIS
     }
     agent.assignedTable = leader.assignedTable;
+    ((Customer)agent).groupSize = leader.groupSize; // ✅ ADD THIS
 } else {
     if (!availableFourSeaters.isEmpty()) {
-        agent.assignedTable = availableTenSeaters.remove(
-            uniform_discr(0, availableTenSeaters.size() - 1));
+        agent.assignedTable = availableFourSeaters.remove(
+            uniform_discr(0, availableFourSeaters.size() - 1));
+        ((Customer)agent).groupSize = 1;
     }
 }
 ]]></Code>
@@ -5696,6 +4946,209 @@ if(food_level <= 0){
 					<InitializationType>SPECIFIED_NUMBER</InitializationType>
 					<InitializationDatabaseTableQuery>
 						<Id>1774492713413</Id>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1774494321230</Id>
+					<Name><![CDATA[goToCashier1]]></Name>
+					<X>1240</X><Y>930</Y>
+					<Label><X>-20</X><Y>-25</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedGoTo]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+							<ClassName><![CDATA[PedGoTo]]></ClassName>
+							<ItemName><![CDATA[1412464601103]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[mode]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[locationType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.LOCATION_NODE]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[locationLine]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[locationX]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[locationY]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[locationNode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[Cashier]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[route]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[walkInReverseDirection]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[reachTolerance]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onCancel]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>XYZ</InitialLocationType>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<Id>1774494321228</Id>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1774494335597</Id>
+					<Name><![CDATA[pedGroupAssemble]]></Name>
+					<X>1180</X><Y>930</Y>
+					<Label><X>-55</X><Y>-25</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedGroupAssemble]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+							<ClassName><![CDATA[PedGroupAssemble]]></ClassName>
+							<ItemName><![CDATA[1412464601200]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[locationNode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ped.assignedTable
+]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[assemblingMode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.ASSEMBLING_MODE_BY_MATCHING]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[groupingMode]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[groupingTimeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[groupingTimeGap]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[groupSize]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ped.groupSize]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[matchingCondition]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[((Customer)ped).assignedTable == ((Customer)group.getLeader()).assignedTable
+]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[isAssemblyFinished]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[group.size() >= ((Customer)group.getLeader()).groupSize
+]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[groupFormation]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[serviceGroupBehavior]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onBeginGrouping]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEndGrouping]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onCancel]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>XYZ</InitialLocationType>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<Id>1774494335595</Id>
 						<TableReference>
 						</TableReference>
 					</InitializationDatabaseTableQuery>
