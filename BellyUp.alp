@@ -113,7 +113,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774182825381</Id>
 					<Name><![CDATA[food_level]]></Name>
-					<X>10</X><Y>1030</Y>
+					<X>20</X><Y>770</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -128,7 +128,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477294259</Id>
 					<Name><![CDATA[nextGroupId]]></Name>
-					<X>10</X><Y>830</Y>
+					<X>20</X><Y>1080</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -143,7 +143,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477305381</Id>
 					<Name><![CDATA[seaFoodLevel]]></Name>
-					<X>10</X><Y>860</Y>
+					<X>20</X><Y>690</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -158,7 +158,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477317148</Id>
 					<Name><![CDATA[dimsumFoodLevel]]></Name>
-					<X>10</X><Y>885</Y>
+					<X>20</X><Y>710</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -173,7 +173,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477339461</Id>
 					<Name><![CDATA[buffetFoodLevel]]></Name>
-					<X>10</X><Y>910</Y>
+					<X>20</X><Y>730</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -188,7 +188,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477353600</Id>
 					<Name><![CDATA[beverageFoodLevel]]></Name>
-					<X>10</X><Y>935</Y>
+					<X>20</X><Y>750</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -203,7 +203,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477370879</Id>
 					<Name><![CDATA[seaFoodMax]]></Name>
-					<X>165</X><Y>830</Y>
+					<X>200</X><Y>690</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -218,7 +218,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477378341</Id>
 					<Name><![CDATA[dimsumFoodMax]]></Name>
-					<X>165</X><Y>855</Y>
+					<X>200</X><Y>710</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -233,7 +233,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477386494</Id>
 					<Name><![CDATA[buffetFoodMax]]></Name>
-					<X>165</X><Y>880</Y>
+					<X>200</X><Y>730</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -248,7 +248,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477387357</Id>
 					<Name><![CDATA[beverageFoodMax]]></Name>
-					<X>165</X><Y>900</Y>
+					<X>200</X><Y>750</Y>
 					<Label><X>10</X><Y>1</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -263,7 +263,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477426110</Id>
 					<Name><![CDATA[refillTargetStation]]></Name>
-					<X>10</X><Y>960</Y>
+					<X>210</X><Y>830</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -279,7 +279,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477438224</Id>
 					<Name><![CDATA[refillTargetLevel]]></Name>
-					<X>10</X><Y>980</Y>
+					<X>210</X><Y>850</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -294,7 +294,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477482151</Id>
 					<Name><![CDATA[groupAssemblyCounter]]></Name>
-					<X>10</X><Y>1005</Y>
+					<X>20</X><Y>1060</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -309,7 +309,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774490645388</Id>
 					<Name><![CDATA[fourSeatersUsed]]></Name>
-					<X>10</X><Y>790</Y>
+					<X>20</X><Y>1100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -318,6 +318,81 @@
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
 							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1774688652265</Id>
+					<Name><![CDATA[refillStationIndex]]></Name>
+					<X>210</X><Y>810</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1774688973149</Id>
+					<Name><![CDATA[seaFoodRefilling]]></Name>
+					<X>20</X><Y>810</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[boolean]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[false]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1774689019495</Id>
+					<Name><![CDATA[dimsumRefilling]]></Name>
+					<X>20</X><Y>830</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[boolean]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[false]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1774689037630</Id>
+					<Name><![CDATA[buffetRefilling]]></Name>
+					<X>20</X><Y>850</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[boolean]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[false]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1774689047335</Id>
+					<Name><![CDATA[beverageRefilling]]></Name>
+					<X>20</X><Y>870</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[boolean]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[false]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -362,7 +437,7 @@
 				<Connector>
 					<Id>1774182943398</Id>
 					<Name><![CDATA[connector7]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>300</X><Y>40</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -395,7 +470,7 @@
 				<Connector>
 					<Id>1774183063646</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>290</X><Y>1260</Y>
+					<X>590</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -428,7 +503,7 @@
 				<Connector>
 					<Id>1774183094165</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>390</X><Y>1260</Y>
+					<X>690</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -461,7 +536,7 @@
 				<Connector>
 					<Id>1774183196336</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>490</X><Y>1260</Y>
+					<X>790</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -494,7 +569,7 @@
 				<Connector>
 					<Id>1774183233838</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>590</X><Y>1260</Y>
+					<X>890</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -527,7 +602,7 @@
 				<Connector>
 					<Id>1774183287805</Id>
 					<Name><![CDATA[connector12]]></Name>
-					<X>690</X><Y>1260</Y>
+					<X>990</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -560,7 +635,7 @@
 				<Connector>
 					<Id>1774183326309</Id>
 					<Name><![CDATA[connector13]]></Name>
-					<X>770</X><Y>1260</Y>
+					<X>1070</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -593,7 +668,7 @@
 				<Connector>
 					<Id>1774183378116</Id>
 					<Name><![CDATA[connector14]]></Name>
-					<X>860</X><Y>1260</Y>
+					<X>1160</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -626,7 +701,7 @@
 				<Connector>
 					<Id>1774261471522</Id>
 					<Name><![CDATA[connector18]]></Name>
-					<X>820</X><Y>860</Y>
+					<X>860</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -659,7 +734,7 @@
 				<Connector>
 					<Id>1774261509458</Id>
 					<Name><![CDATA[connector19]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>40</X><Y>180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -692,7 +767,7 @@
 				<Connector>
 					<Id>1774261528756</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>40</X><Y>180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -725,7 +800,7 @@
 				<Connector>
 					<Id>1774261571151</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>820</X><Y>860</Y>
+					<X>860</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -761,7 +836,7 @@
 				<Connector>
 					<Id>1774319045883</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>765</X><Y>860</Y>
+					<X>805</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -794,7 +869,7 @@
 				<Connector>
 					<Id>1774319045885</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>715</X><Y>860</Y>
+					<X>755</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -827,7 +902,7 @@
 				<Connector>
 					<Id>1774333410702</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>1450</X><Y>940</Y>
+					<X>1490</X><Y>1120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -860,7 +935,7 @@
 				<Connector>
 					<Id>1774334234652</Id>
 					<Name><![CDATA[connector26]]></Name>
-					<X>1110</X><Y>860</Y>
+					<X>1150</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -893,7 +968,7 @@
 				<Connector>
 					<Id>1774490769018</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>490</X><Y>860</Y>
+					<X>530</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -926,7 +1001,7 @@
 				<Connector>
 					<Id>1774490769020</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>410</X><Y>860</Y>
+					<X>450</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -959,7 +1034,7 @@
 				<Connector>
 					<Id>1774491604778</Id>
 					<Name><![CDATA[connector5]]></Name>
-					<X>560</X><Y>990</Y>
+					<X>600</X><Y>1170</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -992,7 +1067,7 @@
 				<Connector>
 					<Id>1774491649812</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>650</X><Y>990</Y>
+					<X>690</X><Y>1170</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1025,7 +1100,7 @@
 				<Connector>
 					<Id>1774492085606</Id>
 					<Name><![CDATA[connector3]]></Name>
-					<X>665</X><Y>860</Y>
+					<X>705</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1058,7 +1133,7 @@
 				<Connector>
 					<Id>1774492085608</Id>
 					<Name><![CDATA[connector27]]></Name>
-					<X>600</X><Y>830</Y>
+					<X>640</X><Y>1010</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1091,7 +1166,7 @@
 				<Connector>
 					<Id>1774492650520</Id>
 					<Name><![CDATA[connector4]]></Name>
-					<X>550</X><Y>900</Y>
+					<X>590</X><Y>1080</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1124,7 +1199,7 @@
 				<Connector>
 					<Id>1774492363727</Id>
 					<Name><![CDATA[connector28]]></Name>
-					<X>550</X><Y>860</Y>
+					<X>590</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1157,7 +1232,7 @@
 				<Connector>
 					<Id>1774492713428</Id>
 					<Name><![CDATA[connector29]]></Name>
-					<X>605</X><Y>905</Y>
+					<X>645</X><Y>1085</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1190,7 +1265,7 @@
 				<Connector>
 					<Id>1774492810806</Id>
 					<Name><![CDATA[connector30]]></Name>
-					<X>645</X><Y>905</Y>
+					<X>685</X><Y>1085</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1223,7 +1298,7 @@
 				<Connector>
 					<Id>1774494321244</Id>
 					<Name><![CDATA[connector31]]></Name>
-					<X>1310</X><Y>940</Y>
+					<X>1350</X><Y>1120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1256,7 +1331,7 @@
 				<Connector>
 					<Id>1774494337132</Id>
 					<Name><![CDATA[connector23]]></Name>
-					<X>1270</X><Y>940</Y>
+					<X>1310</X><Y>1120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1289,7 +1364,7 @@
 				<Connector>
 					<Id>1774494337134</Id>
 					<Name><![CDATA[connector24]]></Name>
-					<X>1180</X><Y>940</Y>
+					<X>1220</X><Y>1120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1322,7 +1397,7 @@
 				<Connector>
 					<Id>1774496355347</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>980</X><Y>860</Y>
+					<X>1020</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1519,7 +1594,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774182524915</Id>
 					<Name><![CDATA[chefs]]></Name>
-					<X>110</X><Y>1080</Y>
+					<X>800</X><Y>1170</Y>
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1814,7 +1889,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774182725312</Id>
 					<Name><![CDATA[waiters]]></Name>
-					<X>120</X><Y>1160</Y>
+					<X>870</X><Y>1170</Y>
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2110,7 +2185,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774182896990</Id>
 					<Name><![CDATA[triggerRefill]]></Name>
-					<X>110</X><Y>1250</Y>
+					<X>410</X><Y>1290</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2291,7 +2366,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774182941861</Id>
 					<Name><![CDATA[grabChef]]></Name>
-					<X>190</X><Y>1240</Y>
+					<X>490</X><Y>1280</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2492,7 +2567,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183062277</Id>
 					<Name><![CDATA[cookingTime]]></Name>
-					<X>290</X><Y>1240</Y>
+					<X>590</X><Y>1280</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2578,7 +2653,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183093046</Id>
 					<Name><![CDATA[freeChef]]></Name>
-					<X>390</X><Y>1240</Y>
+					<X>690</X><Y>1280</Y>
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2678,7 +2753,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183194540</Id>
 					<Name><![CDATA[grabWaiter]]></Name>
-					<X>490</X><Y>1240</Y>
+					<X>790</X><Y>1280</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2879,7 +2954,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183232998</Id>
 					<Name><![CDATA[walkToBuffet]]></Name>
-					<X>590</X><Y>1240</Y>
+					<X>890</X><Y>1280</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3021,7 +3096,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183286158</Id>
 					<Name><![CDATA[refillTray]]></Name>
-					<X>690</X><Y>1240</Y>
+					<X>990</X><Y>1280</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3073,6 +3148,13 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[if (refillStationIndex == 0) { seaFoodLevel = seaFoodMax; seaFoodRefilling = false; }
+else if (refillStationIndex == 1) { dimsumFoodLevel = dimsumFoodMax; dimsumRefilling = false; }
+else if (refillStationIndex == 2) { buffetFoodLevel = buffetFoodMax; buffetRefilling = false; }
+else if (refillStationIndex == 3) { beverageFoodLevel = beverageFoodMax; beverageRefilling = false; }
+]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
@@ -3106,7 +3188,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183324222</Id>
 					<Name><![CDATA[freeWaiter]]></Name>
-					<X>770</X><Y>1240</Y>
+					<X>1070</X><Y>1280</Y>
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3200,7 +3282,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183376958</Id>
 					<Name><![CDATA[sink]]></Name>
-					<X>860</X><Y>1250</Y>
+					<X>1160</X><Y>1290</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3252,7 +3334,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774254548125</Id>
 					<Name><![CDATA[pedSource1]]></Name>
-					<X>355</X><Y>860</Y>
+					<X>395</X><Y>1040</Y>
 					<Label><X>-25</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3325,7 +3407,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 						<Parameter>
 							<Name><![CDATA[maxArrivals]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[4
+								<Code><![CDATA[40
 ]]></Code>
 							</Value>
 						</Parameter>
@@ -3452,7 +3534,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774254578605</Id>
 					<Name><![CDATA[pedSelectOutput]]></Name>
-					<X>480</X><Y>860</Y>
+					<X>520</X><Y>1040</Y>
 					<Label><X>-45</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3563,7 +3645,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774254614464</Id>
 					<Name><![CDATA[goToAssignedTable]]></Name>
-					<X>665</X><Y>850</Y>
+					<X>705</X><Y>1030</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3654,7 +3736,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774259006893</Id>
 					<Name><![CDATA[pedSink1]]></Name>
-					<X>1450</X><Y>940</Y>
+					<X>1490</X><Y>1120</Y>
 					<Label><X>-25</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3718,7 +3800,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774259253473</Id>
 					<Name><![CDATA[secureAssignedTable]]></Name>
-					<X>765</X><Y>850</Y>
+					<X>805</X><Y>1030</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3838,7 +3920,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774261469786</Id>
 					<Name><![CDATA[goToServingStation]]></Name>
-					<X>820</X><Y>850</Y>
+					<X>860</X><Y>1030</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3929,7 +4011,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774261508189</Id>
 					<Name><![CDATA[foodSelectionWaiting]]></Name>
-					<X>880</X><Y>850</Y>
+					<X>920</X><Y>1030</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4000,20 +4082,43 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 						<Parameter>
 							<Name><![CDATA[onAtExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[food_level--;
-
-if(food_level <= 0){
-	triggerRefill.inject(1);
-}]]></Code>
+								<Code><![CDATA[double r = uniform(0, 1);
+if (r < 0.40)      ped.foodChoice = 0;  // Seafood: 40%
+else if (r < 0.65) ped.foodChoice = 1;  // Dimsum: 25%
+else if (r < 0.85) ped.foodChoice = 2;  // Buffet: 20%
+else               ped.foodChoice = 3;  // Beverage: 15%
+]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[seaFoodLevel = Math.max(0, seaFoodLevel - 1);
-dimsumFoodLevel = Math.max(0, dimsumFoodLevel - 1);
-buffetFoodLevel = Math.max(0, buffetFoodLevel - 1);
-beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
+								<Code><![CDATA[if (ped.foodChoice == 0) seaFoodLevel = Math.max(0, seaFoodLevel - 1);
+else if (ped.foodChoice == 1) dimsumFoodLevel = Math.max(0, dimsumFoodLevel - 1);
+else if (ped.foodChoice == 2) buffetFoodLevel = Math.max(0, buffetFoodLevel - 1);
+else if (ped.foodChoice == 3) beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
+
+if (seaFoodLevel <= 30 && !seaFoodRefilling) {
+    seaFoodRefilling = true;
+    refillStationIndex = 0;
+    triggerRefill.inject(1);
+}
+else if (dimsumFoodLevel <= 30 && !dimsumRefilling) {
+    dimsumRefilling = true;
+    refillStationIndex = 1;
+    triggerRefill.inject(1);
+}
+else if (buffetFoodLevel <= 30 && !buffetRefilling) {
+    buffetRefilling = true;
+    refillStationIndex = 2;
+    triggerRefill.inject(1);
+}
+else if (beverageFoodLevel <= 30 && !beverageRefilling) {
+    beverageRefilling = true;
+    refillStationIndex = 3;
+    triggerRefill.inject(1);
+}
+
 ]]></Code>
 							</Value>
 						</Parameter>
@@ -4052,7 +4157,7 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 				<EmbeddedObject>
 					<Id>1774261527562</Id>
 					<Name><![CDATA[goBackToTable]]></Name>
-					<X>940</X><Y>850</Y>
+					<X>980</X><Y>1030</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4143,7 +4248,7 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 				<EmbeddedObject>
 					<Id>1774261536946</Id>
 					<Name><![CDATA[eatingTime]]></Name>
-					<X>1020</X><Y>850</Y>
+					<X>1060</X><Y>1030</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4256,7 +4361,7 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 				<EmbeddedObject>
 					<Id>1774261567936</Id>
 					<Name><![CDATA[pedSelectOutput1]]></Name>
-					<X>1100</X><Y>860</Y>
+					<X>1140</X><Y>1040</Y>
 					<Label><X>-45</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4374,7 +4479,7 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 				<EmbeddedObject>
 					<Id>1774319044296</Id>
 					<Name><![CDATA[pedGroupDisassemble]]></Name>
-					<X>715</X><Y>850</Y>
+					<X>755</X><Y>1030</Y>
 					<Label><X>-70</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4429,7 +4534,7 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 				<EmbeddedObject>
 					<Id>1774333409668</Id>
 					<Name><![CDATA[goToExit]]></Name>
-					<X>1370</X><Y>930</Y>
+					<X>1410</X><Y>1110</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4517,7 +4622,7 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 				<EmbeddedObject>
 					<Id>1774490766152</Id>
 					<Name><![CDATA[goToReception]]></Name>
-					<X>410</X><Y>850</Y>
+					<X>450</X><Y>1030</Y>
 					<Label><X>-25</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4608,7 +4713,7 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 				<EmbeddedObject>
 					<Id>1774491436939</Id>
 					<Name><![CDATA[hold]]></Name>
-					<X>550</X><Y>850</Y>
+					<X>590</X><Y>1030</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4673,7 +4778,7 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 				<EmbeddedObject>
 					<Id>1774491602594</Id>
 					<Name><![CDATA[pedWait]]></Name>
-					<X>560</X><Y>980</Y>
+					<X>600</X><Y>1160</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4789,7 +4894,7 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 				<EmbeddedObject>
 					<Id>1774491648679</Id>
 					<Name><![CDATA[SInk]]></Name>
-					<X>650</X><Y>990</Y>
+					<X>690</X><Y>1170</Y>
 					<Label><X>-25</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4838,7 +4943,7 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 				<EmbeddedObject>
 					<Id>1774492083569</Id>
 					<Name><![CDATA[delay]]></Name>
-					<X>600</X><Y>810</Y>
+					<X>640</X><Y>990</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4946,7 +5051,7 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 				<EmbeddedObject>
 					<Id>1774492650514</Id>
 					<Name><![CDATA[hold1]]></Name>
-					<X>550</X><Y>890</Y>
+					<X>590</X><Y>1070</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5011,7 +5116,7 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 				<EmbeddedObject>
 					<Id>1774492713415</Id>
 					<Name><![CDATA[delay1]]></Name>
-					<X>605</X><Y>885</Y>
+					<X>645</X><Y>1065</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5116,7 +5221,7 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 				<EmbeddedObject>
 					<Id>1774494321230</Id>
 					<Name><![CDATA[goToCashier1]]></Name>
-					<X>1270</X><Y>930</Y>
+					<X>1310</X><Y>1110</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5207,7 +5312,7 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 				<EmbeddedObject>
 					<Id>1774494335597</Id>
 					<Name><![CDATA[pedGroupAssemble]]></Name>
-					<X>1180</X><Y>930</Y>
+					<X>1220</X><Y>1110</Y>
 					<Label><X>-55</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10612,7 +10717,7 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 				<TargetLine>
 					<Id>1774254460458</Id>
 					<Name><![CDATA[spawnLine]]></Name>
-					<X>690</X><Y>825</Y>
+					<X>730</X><Y>1005</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25957,6 +26062,22 @@ beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 						<Type><![CDATA[boolean]]></Type>        
 						<InitialValue Class="CodeValue">
 							<Code><![CDATA[false
+]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1774688010468</Id>
+					<Name><![CDATA[foodChoice]]></Name>
+					<X>870</X><Y>-20</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0
 ]]></Code>
 						</InitialValue>
 					</Properties>
