@@ -3786,7 +3786,10 @@ else if (beverageRefilling) { beverageFoodLevel = beverageFoodMax; beverageRefil
 						<Parameter>
 							<Name><![CDATA[groupSize]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[6]]></Code>
+								<Code><![CDATA[bernoulli(0.10) ? 10 : (
+bernoulli(0.22) ? (int)uniform(5, 9) : (
+bernoulli(0.71) ? 4 : 2
+))]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4408,7 +4411,7 @@ else if (r < 0.85) firstChoice = 2;  // Buffet: 20%
 else               firstChoice = 3;  // Beverage: 15%
 
 // Skip empty stations — cascade to next available
-int[] levels = { seaFoodLevel, dimsumFoodLevel, buffetFoodLevel, beverageFoodLevel };
+double[] levels = { seaFoodLevel, dimsumFoodLevel, buffetFoodLevel, beverageFoodLevel };
 if (levels[firstChoice] > 0) {
     ped.foodChoice = firstChoice;
 } else {
