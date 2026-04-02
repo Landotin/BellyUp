@@ -26963,7 +26963,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
     			<TimePlot>
 					<Id>1774625723559</Id>
 					<Name><![CDATA[plot]]></Name>
-					<X>1960</X><Y>140</Y>
+					<X>1960</X><Y>160</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27084,15 +27084,15 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						</RecurrenceCode>
 					</RecurrenceProperties>
 					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>260</Width>
-					<Height>220</Height>
+					<Width>340</Width>
+					<Height>330</Height>
 					<BackgroundColor/>
 					<BorderColor/>
 					<ChartArea>
 						<XOffset>50</XOffset>
 						<YOffset>30</YOffset>
-						<Width>180</Width>
-						<Height>110</Height>
+						<Width>260</Width>
+						<Height>220</Height>
 						<BackgroundColor>-1</BackgroundColor>
 						<BorderColor>-16777216</BorderColor>
 						<GridColor>-12566464</GridColor>
@@ -27121,6 +27121,13 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 ]]></Expression>
 					<Color>-9404272</Color>
 						<Title><![CDATA[Waiter Utilization	]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1775312345678</Id>
+					<Expression><![CDATA[busboys.utilization()
+]]></Expression>
+					<Color>-32944</Color>
+						<Title><![CDATA[Busboy Utilization	]]></Title>
 					</DataItem>
 					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
 					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
@@ -27203,7 +27210,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[text]]></Text>
-					<TextCode><![CDATA["Groups Waiting: " + (int)lobby10.getPeds().stream()
+					<TextCode><![CDATA["Groups Waiting: " + (int)lobby10 .getPeds().stream()
     .filter(p -> ((Customer)p).getGroup() == null || ((Customer)p).getGroup().getLeader() == p)
     .count()
 ]]></TextCode>
@@ -27211,6 +27218,116 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<Name>SansSerif</Name>
 						<Size>10</Size>
 						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1775312345679</Id>
+					<Name><![CDATA[textTableUtil]]></Name>
+					<X>2000</X><Y>80</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Table Usage: ]]></Text>
+					<TextCode><![CDATA["Table Usage: " + Math.round((double)(75 - availableFourSeaters.size() - availableTenSeaters.size()) / 75 * 100) + "%"]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1775312345680</Id>
+					<Name><![CDATA[textBalks]]></Name>
+					<X>2000</X><Y>100</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Customers Lost: ]]></Text>
+					<TextCode><![CDATA["Customers Lost: " + balkCount]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1775312345681</Id>
+					<Name><![CDATA[textDirtyTables]]></Name>
+					<X>2000</X><Y>120</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Dirty Tables Pending: ]]></Text>
+					<TextCode><![CDATA["Dirty Tables Pending: " + dirtyTables.size()]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1775312345683</Id>
+					<Name><![CDATA[textQueue4Total]]></Name>
+					<X>2000</X><Y>140</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Four Seater Queue: ]]></Text>
+					<TextCode><![CDATA["Four Seater Queue: " + ((int)lobby4.getPeds().stream().filter(p -> ((Customer)p).getGroup() == null || ((Customer)p).getGroup().getLeader() == p).count()) + " groups, " + lobby4.getPeds().size() + " heads"]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1775312345684</Id>
+					<Name><![CDATA[textQueue10Total]]></Name>
+					<X>2000</X><Y>160</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Ten Seater Queue: ]]></Text>
+					<TextCode><![CDATA["Ten Seater Queue: " + ((int)lobby10.getPeds().stream().filter(p -> ((Customer)p).getGroup() == null || ((Customer)p).getGroup().getLeader() == p).count()) + " groups, " + lobby10.getPeds().size() + " heads"]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
+						<Style>1</Style>
 					</Font>
 					<Alignment>LEFT</Alignment>
 				</Text>
