@@ -185,21 +185,21 @@
 						</InitialValue>
 					</Properties>
 				</Variable>
-<Variable Class="PlainVariable">
-<Id>1775312345999</Id>
-<Name><![CDATA[totalStationSkips]]></Name>
-<X>20</X><Y>770</Y>
-<Label><X>10</X><Y>0</Y></Label>
-<PublicFlag>false</PublicFlag>
-<PresentationFlag>true</PresentationFlag>
-<ShowLabel>true</ShowLabel>
-<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
-<Type><![CDATA[int]]></Type>        
-<InitialValue Class="CodeValue">
-<Code><![CDATA[0]]></Code>
-</InitialValue>
-</Properties>
-</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1775312345999</Id>
+					<Name><![CDATA[totalStationSkips]]></Name>
+					<X>15</X><Y>670</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
 				<Variable Class="PlainVariable">
 					<Id>1774477370879</Id>
 					<Name><![CDATA[seaFoodMax]]></Name>
@@ -27094,7 +27094,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
     			<BarChart>
 					<Id>1774628132603</Id>
 					<Name><![CDATA[chart]]></Name>
-					<X>2240</X><Y>150</Y>
+					<X>2240</X><Y>170</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27255,7 +27255,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Text>
 					<Id>1775312345679</Id>
 					<Name><![CDATA[textTableUtil]]></Name>
-					<X>2000</X><Y>80</Y>
+					<X>2000</X><Y>100</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27277,7 +27277,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Text>
 					<Id>1775312345680</Id>
 					<Name><![CDATA[textBalks]]></Name>
-					<X>2000</X><Y>100</Y>
+					<X>2260</X><Y>100</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27288,7 +27288,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Customers Lost: ]]></Text>
-					<TextCode><![CDATA["Customers Lost: " + balkCount + "\nInternal Skips: " + totalStationSkips + "\nEst. Dining Wait Added: " + (totalStationSkips * 5) + " mins"]]></TextCode>
+					<TextCode><![CDATA["Customers Lost: " + balkCount ]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
@@ -27355,6 +27355,50 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 					<Color>-16777216</Color>
 					<Text><![CDATA[Ten Seater Queue: ]]></Text>
 					<TextCode><![CDATA["Ten Seater Queue: " + ((int)lobby10.getPeds().stream().filter(p -> ((Customer)p).getGroup() == null || ((Customer)p).getGroup().getLeader() == p).count()) + " groups, " + lobby10.getPeds().size() + " heads"]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1775172818868</Id>
+					<Name><![CDATA[textBalks1]]></Name>
+					<X>2260</X><Y>120</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Internal Skips:]]></Text>
+					<TextCode><![CDATA["Internal Skips: " + totalStationSkips ]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1775172820502</Id>
+					<Name><![CDATA[textBalks2]]></Name>
+					<X>2260</X><Y>140</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Estimated Dining Wait Added:]]></Text>
+					<TextCode><![CDATA["Estimated Dining Wait Added: " + (totalStationSkips * 5) + " mins"]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
@@ -28290,4 +28334,3 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 	<Uuid>2216cdd0-177c-5678-9e88-dd8b95313334</Uuid>
 </ConvertersApplied>
 </AnyLogicWorkspace>
-
