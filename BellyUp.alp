@@ -3459,17 +3459,14 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onAtExit]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[food_level = 100;]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[if (refillStationIndex == 0) { seaFoodLevel = seaFoodMax; seaFoodRefilling = false; }
-else if (refillStationIndex == 1) { dimsumFoodLevel = dimsumFoodMax; dimsumRefilling = false; }
-else if (refillStationIndex == 2) { buffetFoodLevel = buffetFoodMax; buffetRefilling = false; }
-else if (refillStationIndex == 3) { beverageFoodLevel = beverageFoodMax; beverageRefilling = false; }
+								<Code><![CDATA[if (seaFoodRefilling) { seaFoodLevel = seaFoodMax; seaFoodRefilling = false; }
+else if (dimsumRefilling) { dimsumFoodLevel = dimsumFoodMax; dimsumRefilling = false; }
+else if (buffetRefilling) { buffetFoodLevel = buffetFoodMax; buffetRefilling = false; }
+else if (beverageRefilling) { beverageFoodLevel = beverageFoodMax; beverageRefilling = false; }
 ]]></Code>
 							</Value>
 						</Parameter>
@@ -3695,7 +3692,7 @@ else if (refillStationIndex == 3) { beverageFoodLevel = beverageFoodMax; beverag
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[3
+								<Code><![CDATA[time() < 20 * 60 ? 0.5 : (time() < 80 * 60 ? 3.0 : 0.3)
 ]]></Code>
 								<Unit Class="RateUnits"><![CDATA[PER_MINUTE]]></Unit>
 							</Value>
@@ -4404,10 +4401,27 @@ else if (refillStationIndex == 3) { beverageFoodLevel = beverageFoodMax; beverag
 							<Name><![CDATA[onAtExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[double r = uniform(0, 1);
-if (r < 0.40)      ped.foodChoice = 0;  // Seafood: 40%
-else if (r < 0.65) ped.foodChoice = 1;  // Dimsum: 25%
-else if (r < 0.85) ped.foodChoice = 2;  // Buffet: 20%
-else               ped.foodChoice = 3;  // Beverage: 15%
+int firstChoice;
+if (r < 0.40)      firstChoice = 0;  // Seafood: 40%
+else if (r < 0.65) firstChoice = 1;  // Dimsum: 25%
+else if (r < 0.85) firstChoice = 2;  // Buffet: 20%
+else               firstChoice = 3;  // Beverage: 15%
+
+// Skip empty stations — cascade to next available
+int[] levels = { seaFoodLevel, dimsumFoodLevel, buffetFoodLevel, beverageFoodLevel };
+if (levels[firstChoice] > 0) {
+    ped.foodChoice = firstChoice;
+} else {
+    boolean found = false;
+    for (int i = 0; i < 4; i++) {
+        if (i != firstChoice && levels[i] > 0) {
+            ped.foodChoice = i;
+            found = true;
+            break;
+        }
+    }
+    if (!found) ped.foodChoice = firstChoice; // all empty, take original
+}
 ]]></Code>
 							</Value>
 						</Parameter>
