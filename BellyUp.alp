@@ -4390,7 +4390,7 @@ randomTrue(0.71) ? 4 : 2
 						<Parameter>
 							<Name><![CDATA[delayTimeout]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[triangular(0.5, 1.5, 3.0)]]></Code>
+								<Code><![CDATA[triangular(0.5, 1.0, 1.5) + (totalStationSkips * 0.0125) ]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 							</Value>
 						</Parameter>
@@ -27375,8 +27375,9 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
-					<Text><![CDATA[Internal Skips:]]></Text>
-					<TextCode><![CDATA["Internal Skips: " + totalStationSkips ]]></TextCode>
+					<Text><![CDATA[Buffet Service Level: ]]></Text>
+					<TextCode><![CDATA["Buffet Service Level: " + String.format("%.1f%%", Math.max(0, (1.0 - (double)totalStationSkips/Math.max(1, pedSource1.out.count()*3)) * 100))
+]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
@@ -27397,8 +27398,9 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
-					<Text><![CDATA[Estimated Dining Wait Added:]]></Text>
-					<TextCode><![CDATA["Estimated Dining Wait Added: " + (totalStationSkips * 5) + " mins"]]></TextCode>
+					<Text><![CDATA[Avg. Service Latency: ]]></Text>
+					<TextCode><![CDATA["Avg. Service Latency: " + String.format("%.2f mins", (totalStationSkips * 0.75) / Math.max(1, pedSource1.out.count()))
+]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
