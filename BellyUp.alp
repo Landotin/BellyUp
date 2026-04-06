@@ -113,7 +113,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774182825381</Id>
 					<Name><![CDATA[food_level]]></Name>
-					<X>20</X><Y>770</Y>
+					<X>260</X><Y>1120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -126,9 +126,27 @@
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
+<<<<<<< HEAD
+=======
+					<Id>1774477294259</Id>
+					<Name><![CDATA[nextGroupId]]></Name>
+					<X>10</X><Y>830</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[1]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+>>>>>>> 403e1e0 (your message)
 					<Id>1774477305381</Id>
 					<Name><![CDATA[seaFoodLevel]]></Name>
-					<X>20</X><Y>690</Y>
+					<X>10</X><Y>860</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -143,7 +161,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477317148</Id>
 					<Name><![CDATA[dimsumFoodLevel]]></Name>
-					<X>20</X><Y>710</Y>
+					<X>10</X><Y>885</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -158,7 +176,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477339461</Id>
 					<Name><![CDATA[buffetFoodLevel]]></Name>
-					<X>20</X><Y>730</Y>
+					<X>10</X><Y>910</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -173,7 +191,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477353600</Id>
 					<Name><![CDATA[beverageFoodLevel]]></Name>
-					<X>20</X><Y>750</Y>
+					<X>10</X><Y>935</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -203,7 +221,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477370879</Id>
 					<Name><![CDATA[seaFoodMax]]></Name>
-					<X>210</X><Y>690</Y>
+					<X>165</X><Y>830</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -218,7 +236,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477378341</Id>
 					<Name><![CDATA[dimsumFoodMax]]></Name>
-					<X>210</X><Y>710</Y>
+					<X>165</X><Y>855</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -233,7 +251,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477386494</Id>
 					<Name><![CDATA[buffetFoodMax]]></Name>
-					<X>210</X><Y>730</Y>
+					<X>165</X><Y>880</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -248,7 +266,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477387357</Id>
 					<Name><![CDATA[beverageFoodMax]]></Name>
-					<X>210</X><Y>750</Y>
+					<X>165</X><Y>900</Y>
 					<Label><X>10</X><Y>1</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -263,7 +281,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477426110</Id>
 					<Name><![CDATA[refillTargetStation]]></Name>
-					<X>210</X><Y>830</Y>
+					<X>10</X><Y>960</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -279,7 +297,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477438224</Id>
 					<Name><![CDATA[refillTargetLevel]]></Name>
-					<X>210</X><Y>850</Y>
+					<X>10</X><Y>980</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -292,6 +310,7 @@
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
+<<<<<<< HEAD
 					<Id>1774688652265</Id>
 					<Name><![CDATA[refillStationIndex]]></Name>
 					<X>210</X><Y>810</Y>
@@ -370,6 +389,26 @@
 					<Id>1774917012594</Id>
 					<Name><![CDATA[balkCount]]></Name>
 					<X>365</X><Y>1205</Y>
+=======
+					<Id>1774477482151</Id>
+					<Name><![CDATA[groupAssemblyCounter]]></Name>
+					<X>10</X><Y>1005</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[HashMap<Integer,Integer>]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[new HashMap<>()]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1774490645388</Id>
+					<Name><![CDATA[fourSeatersUsed]]></Name>
+					<X>10</X><Y>790</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -437,7 +476,11 @@
 				<Connector>
 					<Id>1774182943398</Id>
 					<Name><![CDATA[connector7]]></Name>
+<<<<<<< HEAD
 					<X>320</X><Y>120</Y>
+=======
+					<X>0</X><Y>0</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -470,7 +513,11 @@
 				<Connector>
 					<Id>1774183063646</Id>
 					<Name><![CDATA[connector8]]></Name>
+<<<<<<< HEAD
 					<X>610</X><Y>1380</Y>
+=======
+					<X>290</X><Y>1260</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -503,7 +550,11 @@
 				<Connector>
 					<Id>1774183094165</Id>
 					<Name><![CDATA[connector9]]></Name>
+<<<<<<< HEAD
 					<X>710</X><Y>1380</Y>
+=======
+					<X>390</X><Y>1260</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -536,7 +587,11 @@
 				<Connector>
 					<Id>1774183196336</Id>
 					<Name><![CDATA[connector10]]></Name>
+<<<<<<< HEAD
 					<X>810</X><Y>1380</Y>
+=======
+					<X>490</X><Y>1260</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -569,7 +624,11 @@
 				<Connector>
 					<Id>1774183233838</Id>
 					<Name><![CDATA[connector11]]></Name>
+<<<<<<< HEAD
 					<X>910</X><Y>1380</Y>
+=======
+					<X>590</X><Y>1260</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -602,7 +661,11 @@
 				<Connector>
 					<Id>1774183287805</Id>
 					<Name><![CDATA[connector12]]></Name>
+<<<<<<< HEAD
 					<X>1010</X><Y>1380</Y>
+=======
+					<X>690</X><Y>1260</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -635,7 +698,11 @@
 				<Connector>
 					<Id>1774183326309</Id>
 					<Name><![CDATA[connector13]]></Name>
+<<<<<<< HEAD
 					<X>1090</X><Y>1380</Y>
+=======
+					<X>770</X><Y>1260</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -668,7 +735,11 @@
 				<Connector>
 					<Id>1774183378116</Id>
 					<Name><![CDATA[connector14]]></Name>
+<<<<<<< HEAD
 					<X>1180</X><Y>1380</Y>
+=======
+					<X>860</X><Y>1260</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -701,7 +772,7 @@
 				<Connector>
 					<Id>1774261471522</Id>
 					<Name><![CDATA[connector18]]></Name>
-					<X>860</X><Y>1040</Y>
+					<X>820</X><Y>860</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -734,7 +805,7 @@
 				<Connector>
 					<Id>1774261509458</Id>
 					<Name><![CDATA[connector19]]></Name>
-					<X>40</X><Y>180</Y>
+					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -767,7 +838,7 @@
 				<Connector>
 					<Id>1774261528756</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>40</X><Y>180</Y>
+					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -800,7 +871,7 @@
 				<Connector>
 					<Id>1774261571151</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>860</X><Y>1040</Y>
+					<X>820</X><Y>860</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -836,7 +907,7 @@
 				<Connector>
 					<Id>1774319045883</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>805</X><Y>1040</Y>
+					<X>765</X><Y>860</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -869,7 +940,7 @@
 				<Connector>
 					<Id>1774319045885</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>755</X><Y>1040</Y>
+					<X>715</X><Y>860</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -902,7 +973,7 @@
 				<Connector>
 					<Id>1774333410702</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>1490</X><Y>1120</Y>
+					<X>1450</X><Y>940</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -935,7 +1006,7 @@
 				<Connector>
 					<Id>1774334234652</Id>
 					<Name><![CDATA[connector26]]></Name>
-					<X>1150</X><Y>1040</Y>
+					<X>1110</X><Y>860</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -966,9 +1037,144 @@
 					</Points>
 				</Connector>
 				<Connector>
+<<<<<<< HEAD
+=======
+					<Id>1774490769018</Id>
+					<Name><![CDATA[connector]]></Name>
+					<X>490</X><Y>860</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedSelectOutput]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedSelectOutput]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[goToReception]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedService]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-40</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1774490769020</Id>
+					<Name><![CDATA[connector2]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[goToReception]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedService]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedSource1]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedSource]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>410</X><Y>860</Y></Point>
+						<Point><X>380</X><Y>860</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1774491604778</Id>
+					<Name><![CDATA[connector5]]></Name>
+					<X>560</X><Y>990</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedWait]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedWait]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedSelectOutput]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedSelectOutput]]></ClassName>
+						<ItemName><![CDATA[out5]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-50</X><Y>-50</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1774491649812</Id>
+					<Name><![CDATA[connector16]]></Name>
+					<X>650</X><Y>990</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[SInk]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedSink]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedWait]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedWait]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-50</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+>>>>>>> 403e1e0 (your message)
 					<Id>1774492085606</Id>
 					<Name><![CDATA[connector3]]></Name>
-					<X>705</X><Y>1040</Y>
+					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -994,14 +1200,14 @@
 						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-25</X><Y>-30</Y></Point>
+						<Point><X>665</X><Y>860</Y></Point>
+						<Point><X>640</X><Y>860</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774492085608</Id>
 					<Name><![CDATA[connector27]]></Name>
-					<X>640</X><Y>1010</Y>
+					<X>600</X><Y>860</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1034,7 +1240,7 @@
 				<Connector>
 					<Id>1774492650520</Id>
 					<Name><![CDATA[connector4]]></Name>
-					<X>590</X><Y>1080</Y>
+					<X>550</X><Y>900</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1067,7 +1273,7 @@
 				<Connector>
 					<Id>1774492363727</Id>
 					<Name><![CDATA[connector28]]></Name>
-					<X>590</X><Y>1010</Y>
+					<X>550</X><Y>860</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1094,13 +1300,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-40</X><Y>30</Y></Point>
+						<Point><X>-40</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774492713428</Id>
 					<Name><![CDATA[connector29]]></Name>
-					<X>640</X><Y>1080</Y>
+					<X>605</X><Y>905</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1127,13 +1333,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-30</X><Y>0</Y></Point>
+						<Point><X>-35</X><Y>-5</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774492810806</Id>
 					<Name><![CDATA[connector30]]></Name>
-					<X>680</X><Y>1080</Y>
+					<X>645</X><Y>905</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1160,13 +1366,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>25</X><Y>-40</Y></Point>
+						<Point><X>20</X><Y>-45</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774494321244</Id>
 					<Name><![CDATA[connector31]]></Name>
-					<X>1350</X><Y>1120</Y>
+					<X>1310</X><Y>940</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1199,7 +1405,7 @@
 				<Connector>
 					<Id>1774494337132</Id>
 					<Name><![CDATA[connector23]]></Name>
-					<X>1310</X><Y>1120</Y>
+					<X>1270</X><Y>940</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1232,7 +1438,7 @@
 				<Connector>
 					<Id>1774494337134</Id>
 					<Name><![CDATA[connector24]]></Name>
-					<X>1220</X><Y>1120</Y>
+					<X>1180</X><Y>940</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1265,7 +1471,7 @@
 				<Connector>
 					<Id>1774496355347</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>1020</X><Y>1040</Y>
+					<X>980</X><Y>860</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1760,146 +1966,6 @@
 					</Points>
 				</Connector>
 			</Connectors>
-			<Events>
-				<Event>
-					<Id>1774627237943</Id>
-					<Name><![CDATA[event]]></Name>
-					<X>2320</X><Y>340</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties TriggerType="timeout" Mode="cyclic">
-						<Timeout Class="CodeUnitValue">
-							<Code><![CDATA[1]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-						</Timeout>
-						<Rate Class="CodeUnitValue">
-							<Code><![CDATA[1]]></Code>
-							<Unit Class="RateUnits"><![CDATA[PER_SECOND]]></Unit>
-						</Rate>
-						<Id>1774627237941</Id>
-						<OccurrenceAtTime>true</OccurrenceAtTime>
-						<OccurrenceDate>1774684800000</OccurrenceDate>
-						<OccurrenceTime Class="CodeUnitValue">
-							<Code><![CDATA[0]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-						</OccurrenceTime>
-						<RecurrenceCode Class="CodeUnitValue">
-							<Code><![CDATA[1]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-						</RecurrenceCode>
-						<Condition><![CDATA[false]]></Condition>
-					</Properties>
-					<Action><![CDATA[seaFoodHistory.add(time(), seaFoodLevel);
-dimsumFoodHistory.add(time(), dimsumFoodLevel);
-buffetFoodHistory.add(time(), buffetFoodLevel);
-beverageFoodHistory.add(time(), beverageFoodLevel);
-]]></Action>
-				</Event>
-			</Events>
-			<AnalysisData>
-    			<DataSet>
-					<Id>1774627009496</Id>
-					<Name><![CDATA[seaFoodHistory]]></Name>
-					<X>2320</X><Y>180</Y>
-					<Label><X>15</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<AutoUpdate>false</AutoUpdate>
-					<RecurrenceProperties>
-						<Id>1774627009494</Id>
-						<OccurrenceAtTime>true</OccurrenceAtTime>
-						<OccurrenceDate>1774684800000</OccurrenceDate>
-						<OccurrenceTime Class="CodeUnitValue">
-							<Code><![CDATA[0]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-						</OccurrenceTime>
-						<RecurrenceCode Class="CodeUnitValue">
-							<Code><![CDATA[1]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-						</RecurrenceCode>
-					</RecurrenceProperties>
-					<FreezeXAxis>true</FreezeXAxis>
-					<SamplesToKeep>100</SamplesToKeep>
-				</DataSet>
-    			<DataSet>
-					<Id>1774627066985</Id>
-					<Name><![CDATA[dimsumFoodHistory]]></Name>
-					<X>2320</X><Y>220</Y>
-					<Label><X>15</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<AutoUpdate>false</AutoUpdate>
-					<RecurrenceProperties>
-						<Id>1774627066983</Id>
-						<OccurrenceAtTime>true</OccurrenceAtTime>
-						<OccurrenceDate>1774684800000</OccurrenceDate>
-						<OccurrenceTime Class="CodeUnitValue">
-							<Code><![CDATA[0]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-						</OccurrenceTime>
-						<RecurrenceCode Class="CodeUnitValue">
-							<Code><![CDATA[1]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-						</RecurrenceCode>
-					</RecurrenceProperties>
-					<FreezeXAxis>true</FreezeXAxis>
-					<SamplesToKeep>100</SamplesToKeep>
-				</DataSet>
-    			<DataSet>
-					<Id>1774627129478</Id>
-					<Name><![CDATA[buffetFoodHistory]]></Name>
-					<X>2320</X><Y>260</Y>
-					<Label><X>15</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<AutoUpdate>false</AutoUpdate>
-					<RecurrenceProperties>
-						<Id>1774627129476</Id>
-						<OccurrenceAtTime>true</OccurrenceAtTime>
-						<OccurrenceDate>1774684800000</OccurrenceDate>
-						<OccurrenceTime Class="CodeUnitValue">
-							<Code><![CDATA[0]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-						</OccurrenceTime>
-						<RecurrenceCode Class="CodeUnitValue">
-							<Code><![CDATA[1]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-						</RecurrenceCode>
-					</RecurrenceProperties>
-					<FreezeXAxis>true</FreezeXAxis>
-					<SamplesToKeep>100</SamplesToKeep>
-				</DataSet>
-    			<DataSet>
-					<Id>1774627192375</Id>
-					<Name><![CDATA[beverageFoodHistory]]></Name>
-					<X>2320</X><Y>300</Y>
-					<Label><X>15</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<AutoUpdate>false</AutoUpdate>
-					<RecurrenceProperties>
-						<Id>1774627192373</Id>
-						<OccurrenceAtTime>true</OccurrenceAtTime>
-						<OccurrenceDate>1774684800000</OccurrenceDate>
-						<OccurrenceTime Class="CodeUnitValue">
-							<Code><![CDATA[0]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-						</OccurrenceTime>
-						<RecurrenceCode Class="CodeUnitValue">
-							<Code><![CDATA[1]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-						</RecurrenceCode>
-					</RecurrenceProperties>
-					<FreezeXAxis>true</FreezeXAxis>
-					<SamplesToKeep>100</SamplesToKeep>
-				</DataSet>
-			</AnalysisData>
 			<AgentLinks>
 				<AgentLink>
 					<Id>1774176465864</Id>
@@ -1926,7 +1992,11 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774182524915</Id>
 					<Name><![CDATA[chefs]]></Name>
+<<<<<<< HEAD
 					<X>860</X><Y>1250</Y>
+=======
+					<X>110</X><Y>1080</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2149,9 +2219,6 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[forceStatisticsCollection]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[true]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onNewUnit]]></Name>
@@ -2221,7 +2288,11 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774182725312</Id>
 					<Name><![CDATA[waiters]]></Name>
+<<<<<<< HEAD
 					<X>930</X><Y>1250</Y>
+=======
+					<X>120</X><Y>1160</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2445,9 +2516,6 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[forceStatisticsCollection]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[true]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onNewUnit]]></Name>
@@ -2517,7 +2585,11 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774182896990</Id>
 					<Name><![CDATA[triggerRefill]]></Name>
+<<<<<<< HEAD
 					<X>430</X><Y>1370</Y>
+=======
+					<X>110</X><Y>1250</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2626,49 +2698,6 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[newEntity]]></Name>
-							<Value Class="EntityCodeValue">
-								<IsAgentEntity>true</IsAgentEntity>
-								<EntityEmbeddedObject>
-									<Id>1774714885077</Id>
-									<ActiveObjectClass>
-										<PackageName><![CDATA[bellyup]]></PackageName>
-										<ClassName><![CDATA[Customer]]></ClassName>
-									</ActiveObjectClass>
-									<GenericParameterSubstitute>
-										<GenericParameterSubstituteReference>
-											<PackageName><![CDATA[bellyup]]></PackageName>
-											<ClassName><![CDATA[Customer]]></ClassName>
-											<ItemName><![CDATA[1774181328669]]></ItemName>
-										</GenericParameterSubstituteReference>
-									</GenericParameterSubstitute>
-									<Parameters>
-									</Parameters>
-									<ReplicationFlag>true</ReplicationFlag>
-									<Replication Class="CodeValue">
-										<Code><![CDATA[100]]></Code>
-									</Replication>
-									<CollectionType>ARRAY_LIST_BASED</CollectionType>
-									<InitialLocationType>XYZ</InitialLocationType>
-									<ColumnCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</ColumnCode>
-									<RowCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</RowCode>
-									<LocationNameCode Class="CodeValue">
-										<Code><![CDATA[""]]></Code>
-									</LocationNameCode>
-									<InitializationType>LOAD_FROM_DATABASE</InitializationType>
-									<InitializationDatabaseTableQuery>
-										<Id>1774714885078</Id>
-										<TableReference>
-										</TableReference>
-									</InitializationDatabaseTableQuery>
-									<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-									<QuantityColumn>
-									</QuantityColumn>
-								</EntityEmbeddedObject>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[changeDimensions]]></Name>
@@ -2708,11 +2737,6 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[// Print the ticket onto this specific agent as soon as it's born
-((Customer)agent).foodChoice = refillStationIndex;
-]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onDiscard]]></Name>
@@ -2746,7 +2770,11 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774182941861</Id>
 					<Name><![CDATA[grabChef]]></Name>
+<<<<<<< HEAD
 					<X>510</X><Y>1360</Y>
+=======
+					<X>190</X><Y>1240</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2947,7 +2975,11 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183062277</Id>
 					<Name><![CDATA[cookingTime]]></Name>
+<<<<<<< HEAD
 					<X>610</X><Y>1360</Y>
+=======
+					<X>290</X><Y>1240</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3033,7 +3065,11 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183093046</Id>
 					<Name><![CDATA[freeChef]]></Name>
+<<<<<<< HEAD
 					<X>710</X><Y>1360</Y>
+=======
+					<X>390</X><Y>1240</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3133,7 +3169,11 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183194540</Id>
 					<Name><![CDATA[grabWaiter]]></Name>
+<<<<<<< HEAD
 					<X>810</X><Y>1360</Y>
+=======
+					<X>490</X><Y>1240</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3334,7 +3374,11 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183232998</Id>
 					<Name><![CDATA[walkToBuffet]]></Name>
+<<<<<<< HEAD
 					<X>910</X><Y>1360</Y>
+=======
+					<X>590</X><Y>1240</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3476,7 +3520,11 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183286158</Id>
 					<Name><![CDATA[refillTray]]></Name>
+<<<<<<< HEAD
 					<X>1010</X><Y>1360</Y>
+=======
+					<X>690</X><Y>1240</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3525,6 +3573,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+<<<<<<< HEAD
 							<Value Class="CodeValue">
 <<<<<<< HEAD
 								<Code><![CDATA[if (seaFoodRefilling) { seaFoodLevel = seaFoodMax; seaFoodRefilling = false; }
@@ -3542,6 +3591,8 @@ else if (index == 3) { beverageFoodLevel = beverageFoodMax; beverageRefilling = 
 >>>>>>> a5a36ff (walls)
 ]]></Code>
 							</Value>
+=======
+>>>>>>> 403e1e0 (your message)
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
@@ -3575,7 +3626,11 @@ else if (index == 3) { beverageFoodLevel = beverageFoodMax; beverageRefilling = 
 				<EmbeddedObject>
 					<Id>1774183324222</Id>
 					<Name><![CDATA[freeWaiter]]></Name>
+<<<<<<< HEAD
 					<X>1090</X><Y>1360</Y>
+=======
+					<X>770</X><Y>1240</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3669,7 +3724,11 @@ else if (index == 3) { beverageFoodLevel = beverageFoodMax; beverageRefilling = 
 				<EmbeddedObject>
 					<Id>1774183376958</Id>
 					<Name><![CDATA[sink]]></Name>
+<<<<<<< HEAD
 					<X>1180</X><Y>1370</Y>
+=======
+					<X>860</X><Y>1250</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3721,11 +3780,15 @@ else if (index == 3) { beverageFoodLevel = beverageFoodMax; beverageRefilling = 
 				<EmbeddedObject>
 					<Id>1774254548125</Id>
 					<Name><![CDATA[pedSource1]]></Name>
+<<<<<<< HEAD
 					<X>220</X><Y>1040</Y>
+=======
+					<X>350</X><Y>860</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>-25</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
+					<ShowLabel>false</ShowLabel>
 					<ActiveObjectClass>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
 						<ClassName><![CDATA[PedSource]]></ClassName>
@@ -3766,12 +3829,17 @@ else if (index == 3) { beverageFoodLevel = beverageFoodMax; beverageRefilling = 
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
 <<<<<<< HEAD
+<<<<<<< HEAD
 								<Code><![CDATA[time(MINUTE) < 20 ? 1.0 : (time(MINUTE) < 80 ? 3.5 : 0.5)
 =======
 								<Code><![CDATA[5
 >>>>>>> a5a36ff (walls)
 ]]></Code>
 								<Unit Class="RateUnits"><![CDATA[PER_MINUTE]]></Unit>
+=======
+								<Code><![CDATA[1]]></Code>
+								<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
+>>>>>>> 403e1e0 (your message)
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3794,11 +3862,6 @@ else if (index == 3) { beverageFoodLevel = beverageFoodMax; beverageRefilling = 
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maxArrivals]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[30
-
-]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[newPed]]></Name>
@@ -3926,7 +3989,7 @@ randomTrue(0.71) ? 4 : 2
 				<EmbeddedObject>
 					<Id>1774254578605</Id>
 					<Name><![CDATA[pedSelectOutput]]></Name>
-					<X>520</X><Y>1040</Y>
+					<X>480</X><Y>860</Y>
 					<Label><X>-45</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3952,14 +4015,14 @@ randomTrue(0.71) ? 4 : 2
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.getGroup() == null || ped.getGroup().size() <= 4
+								<Code><![CDATA[(ped.getGroup() == null || ped.getGroup().size() <= 4) && !availableFourSeaters.isEmpty()
 ]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.getGroup() != null && ped.getGroup().size() > 4
+								<Code><![CDATA[ped.getGroup().size() > 4  && !availableTenSeaters.isEmpty()
 ]]></Code>
 							</Value>
 						</Parameter>
@@ -4040,7 +4103,7 @@ randomTrue(0.71) ? 4 : 2
 				<EmbeddedObject>
 					<Id>1774254614464</Id>
 					<Name><![CDATA[goToAssignedTable]]></Name>
-					<X>705</X><Y>1030</Y>
+					<X>665</X><Y>850</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4078,7 +4141,7 @@ randomTrue(0.71) ? 4 : 2
 						<Parameter>
 							<Name><![CDATA[locationNode]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[((Customer)ped).assignedTable != null ? ((Customer)ped).assignedTable : Buffet_island]]></Code>
+								<Code><![CDATA[ped.assignedTable]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4131,7 +4194,7 @@ randomTrue(0.71) ? 4 : 2
 				<EmbeddedObject>
 					<Id>1774259006893</Id>
 					<Name><![CDATA[pedSink1]]></Name>
-					<X>1490</X><Y>1120</Y>
+					<X>1450</X><Y>940</Y>
 					<Label><X>-25</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4151,6 +4214,7 @@ randomTrue(0.71) ? 4 : 2
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
+<<<<<<< HEAD
 <<<<<<< HEAD
 								<Code><![CDATA[if (ped.assignedTable != null) {
     // Only add it if it's NOT already in the dirty list
@@ -4173,12 +4237,24 @@ if (leader.assignedTable != null) {
     if (leader.groupSize <= 4) {
         availableFourSeaters.add(leader.assignedTable);
         hold.recalculateConditions(); // 🟢 TAPS THE BOUNCER: A 4-seater is free!
+=======
+								<Code><![CDATA[if (ped.assignedTable != null) {
+    if (((Customer)ped).groupSize > 4) {
+        if (!availableTenSeaters.contains(ped.assignedTable)) {
+            availableTenSeaters.add(ped.assignedTable);
+        }
+>>>>>>> 403e1e0 (your message)
     } else {
-        availableTenSeaters.add(leader.assignedTable);
-        hold1.recalculateConditions(); // 🟢 TAPS THE BOUNCER: A 10-seater is free!
+        if (!availableFourSeaters.contains(ped.assignedTable)) {
+            availableFourSeaters.add(ped.assignedTable);
+        }
     }
+<<<<<<< HEAD
     leader.assignedTable = null;
 >>>>>>> a5a36ff (walls)
+=======
+    ped.assignedTable = null;
+>>>>>>> 403e1e0 (your message)
 }
 ]]></Code>
 							</Value>
@@ -4212,7 +4288,7 @@ if (leader.assignedTable != null) {
 				<EmbeddedObject>
 					<Id>1774259253473</Id>
 					<Name><![CDATA[secureAssignedTable]]></Name>
-					<X>805</X><Y>1030</Y>
+					<X>765</X><Y>850</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4235,7 +4311,7 @@ if (leader.assignedTable != null) {
 						<Parameter>
 							<Name><![CDATA[locationNode]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[((Customer)ped).assignedTable != null ? ((Customer)ped).assignedTable : Buffet_island]]></Code>
+								<Code><![CDATA[ped.assignedTable]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4332,11 +4408,11 @@ if (leader.assignedTable != null) {
 				<EmbeddedObject>
 					<Id>1774261469786</Id>
 					<Name><![CDATA[goToServingStation]]></Name>
-					<X>860</X><Y>1030</Y>
+					<X>820</X><Y>850</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
+					<ShowLabel>false</ShowLabel>
 					<ActiveObjectClass>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
 						<ClassName><![CDATA[PedGoTo]]></ClassName>
@@ -4423,11 +4499,11 @@ if (leader.assignedTable != null) {
 				<EmbeddedObject>
 					<Id>1774261508189</Id>
 					<Name><![CDATA[foodSelectionWaiting]]></Name>
-					<X>920</X><Y>1030</Y>
+					<X>880</X><Y>850</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
+					<ShowLabel>false</ShowLabel>
 					<ActiveObjectClass>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
 						<ClassName><![CDATA[PedWait]]></ClassName>
@@ -4498,6 +4574,7 @@ if (leader.assignedTable != null) {
 						<Parameter>
 							<Name><![CDATA[onAtExit]]></Name>
 							<Value Class="CodeValue">
+<<<<<<< HEAD
 								<Code><![CDATA[double r = uniform(0, 1);
 int firstChoice;
 if (r < 0.40)      firstChoice = 0;  // Seafood: 40%
@@ -4518,43 +4595,18 @@ if (levels[firstChoice] > 0) {
         }
     }
     if (!found) ped.foodChoice = firstChoice; // all empty, take original
+=======
+								<Code><![CDATA[food_level--;
+
+if(food_level <= 0){
+	triggerRefill.inject(1);
+>>>>>>> 403e1e0 (your message)
 }
 ]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[if (ped.foodChoice == 0) seaFoodLevel = Math.max(0, seaFoodLevel - 1);
-else if (ped.foodChoice == 1) dimsumFoodLevel = Math.max(0, dimsumFoodLevel - 1);
-else if (ped.foodChoice == 2) buffetFoodLevel = Math.max(0, buffetFoodLevel - 1);
-else if (ped.foodChoice == 3) beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
-
-// TRIGGER REFILL SECTION
-if (seaFoodLevel <= 30 && !seaFoodRefilling) {
-    seaFoodRefilling = true;
-    refillStationIndex = 0;
-    triggerRefill.inject(1);
-}
-if (dimsumFoodLevel <= 30 && !dimsumRefilling) { // <-- took out "else"
-    dimsumRefilling = true;
-    refillStationIndex = 1;
-    triggerRefill.inject(1);
-}
-if (buffetFoodLevel <= 30 && !buffetRefilling) { // <-- took out "else"
-    buffetRefilling = true;
-    refillStationIndex = 2;
-    triggerRefill.inject(1);
-}
-if (beverageFoodLevel <= 30 && !beverageRefilling) { // <-- took out "else"
-    beverageRefilling = true;
-    refillStationIndex = 3;
-    triggerRefill.inject(1);
-}
-
-
-]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onCancel]]></Name>
@@ -4591,11 +4643,11 @@ if (beverageFoodLevel <= 30 && !beverageRefilling) { // <-- took out "else"
 				<EmbeddedObject>
 					<Id>1774261527562</Id>
 					<Name><![CDATA[goBackToTable]]></Name>
-					<X>980</X><Y>1030</Y>
+					<X>940</X><Y>850</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
+					<ShowLabel>false</ShowLabel>
 					<ActiveObjectClass>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
 						<ClassName><![CDATA[PedGoTo]]></ClassName>
@@ -4629,8 +4681,7 @@ if (beverageFoodLevel <= 30 && !beverageRefilling) { // <-- took out "else"
 						<Parameter>
 							<Name><![CDATA[locationNode]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[((Customer)ped).assignedTable != null ? ((Customer)ped).assignedTable : Buffet_island
-]]></Code>
+								<Code><![CDATA[ped.assignedTable]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4683,7 +4734,7 @@ if (beverageFoodLevel <= 30 && !beverageRefilling) { // <-- took out "else"
 				<EmbeddedObject>
 					<Id>1774261536946</Id>
 					<Name><![CDATA[eatingTime]]></Name>
-					<X>1060</X><Y>1030</Y>
+					<X>1020</X><Y>850</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4796,7 +4847,7 @@ if (beverageFoodLevel <= 30 && !beverageRefilling) { // <-- took out "else"
 				<EmbeddedObject>
 					<Id>1774261567936</Id>
 					<Name><![CDATA[pedSelectOutput1]]></Name>
-					<X>1140</X><Y>1040</Y>
+					<X>1100</X><Y>860</Y>
 					<Label><X>-45</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4914,7 +4965,7 @@ if (beverageFoodLevel <= 30 && !beverageRefilling) { // <-- took out "else"
 				<EmbeddedObject>
 					<Id>1774319044296</Id>
 					<Name><![CDATA[pedGroupDisassemble]]></Name>
-					<X>755</X><Y>1030</Y>
+					<X>715</X><Y>850</Y>
 					<Label><X>-70</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4969,7 +5020,7 @@ if (beverageFoodLevel <= 30 && !beverageRefilling) { // <-- took out "else"
 				<EmbeddedObject>
 					<Id>1774333409668</Id>
 					<Name><![CDATA[goToExit]]></Name>
-					<X>1410</X><Y>1110</Y>
+					<X>1370</X><Y>930</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5018,25 +5069,6 @@ if (beverageFoodLevel <= 30 && !beverageRefilling) { // <-- took out "else"
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[Customer leader = (Customer)ped;
-
-// If they are part of a group, only the leader needs to return the table
-if (leader.getGroup() != null) {
-    leader = (Customer) leader.getGroup().getLeader();
-}
-
-// Return the table they were sitting at
-if (leader.assignedTable != null) {
-    if (leader.groupSize <= 4) {
-        availableFourSeaters.add(leader.assignedTable);
-    } else {
-        availableTenSeaters.add(leader.assignedTable);
-    }
-    leader.assignedTable = null; // Clear it on the way out!
-}
-]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
@@ -5076,7 +5108,11 @@ if (leader.assignedTable != null) {
 				<EmbeddedObject>
 					<Id>1774490766152</Id>
 					<Name><![CDATA[goToReception]]></Name>
+<<<<<<< HEAD
 					<X>325</X><Y>1030</Y>
+=======
+					<X>410</X><Y>850</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>-25</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5167,7 +5203,7 @@ if (leader.assignedTable != null) {
 				<EmbeddedObject>
 					<Id>1774491436939</Id>
 					<Name><![CDATA[hold]]></Name>
-					<X>590</X><Y>1000</Y>
+					<X>550</X><Y>850</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5186,20 +5222,12 @@ if (leader.assignedTable != null) {
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[self.CONDITIONAL]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[nEntitiesForSelfBlock]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[availableFourSeaters.isEmpty() && 
-(agent.getGroup() == null || ((Customer)agent.getGroup().getLeader()).assignedTable == null)
-]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[initiallyBlocked]]></Name>
@@ -5238,9 +5266,177 @@ if (leader.assignedTable != null) {
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
+<<<<<<< HEAD
+=======
+					<Id>1774491602594</Id>
+					<Name><![CDATA[pedWait]]></Name>
+					<X>560</X><Y>980</Y>
+					<Label><X>-15</X><Y>-25</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedWait]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+							<ClassName><![CDATA[PedWait]]></ClassName>
+							<ItemName><![CDATA[1412464601107]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[locationType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.LOCATION_LINE]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[locationNode]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[attractorChoice]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[attractor]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[locationLine]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[spawnLine]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[locationX]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[locationY]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[delayType]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[delayTimeout]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[15]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[waitForGroup]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[delayStartsWhen]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[maximumCapacity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[capacity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[targetReachTolerance]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onBeginWait]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onAtExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onCancel]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>XYZ</InitialLocationType>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<Id>1774491602592</Id>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1774491648679</Id>
+					<Name><![CDATA[SInk]]></Name>
+					<X>650</X><Y>990</Y>
+					<Label><X>-25</X><Y>-30</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedSink]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+							<ClassName><![CDATA[PedSink]]></ClassName>
+							<ItemName><![CDATA[1412464601104]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>XYZ</InitialLocationType>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<Id>1774491648677</Id>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+>>>>>>> 403e1e0 (your message)
 					<Id>1774492083569</Id>
 					<Name><![CDATA[delay]]></Name>
-					<X>640</X><Y>990</Y>
+					<X>600</X><Y>840</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5290,37 +5486,21 @@ if (leader.assignedTable != null) {
 							<Value Class="CodeValue">
 								<Code><![CDATA[if (agent.getGroup() != null) {
     Customer leader = (Customer)agent.getGroup().getLeader();
-    
-    // If the leader is asking for a table
     if (leader.assignedTable == null && !availableFourSeaters.isEmpty()) {
         leader.assignedTable = availableFourSeaters.remove(
             uniform_discr(0, availableFourSeaters.size() - 1));
+        // ✅ Store group size on the leader (only needed once)
         leader.groupSize = agent.getGroup().size();
-        
-        // 🟢 Assign a unique ID to this new family
-        leader.groupId = nextGroupId;
-        nextGroupId++;
-        
-        hold.recalculateConditions();
     }
-    
-    // Copy the leader's data to the rest of the family
     agent.assignedTable = leader.assignedTable;
+    // ✅ Every member copies the group size from the leader
     ((Customer)agent).groupSize = leader.groupSize;
-    ((Customer)agent).groupId = leader.groupId; 
-
 } else {
-    // For Solo Customers
     if (!availableFourSeaters.isEmpty()) {
         agent.assignedTable = availableFourSeaters.remove(
             uniform_discr(0, availableFourSeaters.size() - 1));
+        // ✅ Solo customer — group size is 1
         ((Customer)agent).groupSize = 1;
-        
-        // 🟢 Give them their own unique ID
-        ((Customer)agent).groupId = nextGroupId;
-        nextGroupId++;
-        
-        hold.recalculateConditions();
     }
 }
 ]]></Code>
@@ -5364,7 +5544,7 @@ if (leader.assignedTable != null) {
 				<EmbeddedObject>
 					<Id>1774492650514</Id>
 					<Name><![CDATA[hold1]]></Name>
-					<X>590</X><Y>1070</Y>
+					<X>550</X><Y>890</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5383,20 +5563,12 @@ if (leader.assignedTable != null) {
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[mode]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[self.CONDITIONAL]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[nEntitiesForSelfBlock]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[availableTenSeaters.isEmpty() && 
-(agent.getGroup() == null || ((Customer)agent.getGroup().getLeader()).assignedTable == null)
-]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[initiallyBlocked]]></Name>
@@ -5437,7 +5609,7 @@ if (leader.assignedTable != null) {
 				<EmbeddedObject>
 					<Id>1774492713415</Id>
 					<Name><![CDATA[delay1]]></Name>
-					<X>640</X><Y>1060</Y>
+					<X>605</X><Y>885</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5487,32 +5659,18 @@ if (leader.assignedTable != null) {
 							<Value Class="CodeValue">
 								<Code><![CDATA[if (agent.getGroup() != null) {
     Customer leader = (Customer)agent.getGroup().getLeader();
-    
     if (leader.assignedTable == null && !availableTenSeaters.isEmpty()) {
         leader.assignedTable = availableTenSeaters.remove(
             uniform_discr(0, availableTenSeaters.size() - 1));
-        leader.groupSize = agent.getGroup().size();
-        
-        leader.groupId = nextGroupId;
-        nextGroupId++;
-        
-        hold1.recalculateConditions();
+        leader.groupSize = agent.getGroup().size(); // ✅ ADD THIS
     }
-    
     agent.assignedTable = leader.assignedTable;
-    ((Customer)agent).groupSize = leader.groupSize;
-    ((Customer)agent).groupId = leader.groupId; 
-
+    ((Customer)agent).groupSize = leader.groupSize; // ✅ ADD THIS
 } else {
-    if (!availableTenSeaters.isEmpty()) {
-        agent.assignedTable = availableTenSeaters.remove(
-            uniform_discr(0, availableTenSeaters.size() - 1));
+    if (!availableFourSeaters.isEmpty()) {
+        agent.assignedTable = availableFourSeaters.remove(
+            uniform_discr(0, availableFourSeaters.size() - 1));
         ((Customer)agent).groupSize = 1;
-        
-        ((Customer)agent).groupId = nextGroupId;
-        nextGroupId++;
-        
-        hold1.recalculateConditions();
     }
 }
 ]]></Code>
@@ -5556,7 +5714,7 @@ if (leader.assignedTable != null) {
 				<EmbeddedObject>
 					<Id>1774494321230</Id>
 					<Name><![CDATA[goToCashier1]]></Name>
-					<X>1310</X><Y>1110</Y>
+					<X>1270</X><Y>930</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5647,7 +5805,7 @@ if (leader.assignedTable != null) {
 				<EmbeddedObject>
 					<Id>1774494335597</Id>
 					<Name><![CDATA[pedGroupAssemble]]></Name>
-					<X>1220</X><Y>1110</Y>
+					<X>1180</X><Y>930</Y>
 					<Label><X>-55</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5667,7 +5825,7 @@ if (leader.assignedTable != null) {
 						<Parameter>
 							<Name><![CDATA[locationNode]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[((Customer)ped).assignedTable != null ? ((Customer)ped).assignedTable : Buffet_island
+								<Code><![CDATA[ped.assignedTable
 ]]></Code>
 							</Value>
 						</Parameter>
@@ -5695,7 +5853,7 @@ if (leader.assignedTable != null) {
 						<Parameter>
 							<Name><![CDATA[matchingCondition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[((Customer)ped).groupId == ((Customer)group.getLeader()).groupId
+								<Code><![CDATA[((Customer)ped).assignedTable == ((Customer)group.getLeader()).assignedTable
 ]]></Code>
 							</Value>
 						</Parameter>
@@ -7317,7 +7475,7 @@ if (leader.assignedTable != null) {
 				<RectangleWall>
 					<Id>1774176833985</Id>
 					<Name><![CDATA[wall2]]></Name>
-					<X>430</X><Y>519</Y>
+					<X>430</X><Y>520</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7331,7 +7489,7 @@ if (leader.assignedTable != null) {
 					<ZHeight>20</ZHeight>
 					<Rotation>0.0</Rotation>
 					<Width>220</Width>
-					<Height>21</Height>
+					<Height>20</Height>
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1774176844258</Id>
@@ -7355,7 +7513,7 @@ if (leader.assignedTable != null) {
 				<Wall>
 					<Id>1774176869692</Id>
 					<Name><![CDATA[wall4]]></Name>
-					<X>449</X><Y>414</Y>
+					<X>450</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7380,7 +7538,7 @@ if (leader.assignedTable != null) {
 				<Wall>
 					<Id>1774176878181</Id>
 					<Name><![CDATA[wall5]]></Name>
-					<X>678</X><Y>414</Y>
+					<X>678</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7405,7 +7563,7 @@ if (leader.assignedTable != null) {
 				<Wall>
 					<Id>1774176886397</Id>
 					<Name><![CDATA[wall6]]></Name>
-					<X>885</X><Y>415</Y>
+					<X>886</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9618,13 +9776,13 @@ if (leader.assignedTable != null) {
 				<Figure3D>
 					<Id>1774179614665</Id>
 					<Name><![CDATA[table59]]></Name>
-					<X>943</X><Y>509</Y>
+					<X>943</X><Y>510</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>943</X><Y>509</Y><Z>0</Z>
+					<X>943</X><Y>510</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[bellyup]]></PackageName>
@@ -12542,8 +12700,12 @@ if (leader.assignedTable != null) {
 					<X>520</X><Y>680</Y>
 =======
 					<Name><![CDATA[spawnLine]]></Name>
+<<<<<<< HEAD
 					<X>690</X><Y>840</Y>
 >>>>>>> a5a36ff (walls)
+=======
+					<X>690</X><Y>825</Y>
+>>>>>>> 403e1e0 (your message)
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23081,14 +23243,14 @@ if (leader.assignedTable != null) {
 				<Attractor>
 					<Id>1774476799470</Id>
 					<Name><![CDATA[attractor5]]></Name>
-					<X>457</X><Y>426</Y>
+					<X>452.3333333333333</X><Y>425.8333333333333</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>180.0</Rotation>	
+					<Rotation>0.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1774476799473</Id>
@@ -23105,14 +23267,14 @@ if (leader.assignedTable != null) {
 				<Attractor>
 					<Id>1774476799476</Id>
 					<Name><![CDATA[attractor7]]></Name>
-					<X>457</X><Y>433</Y>
+					<X>452.3333333333333</X><Y>432.6666666666667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>180.0</Rotation>	
+					<Rotation>0.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1774476799479</Id>
@@ -23129,14 +23291,14 @@ if (leader.assignedTable != null) {
 				<Attractor>
 					<Id>1774476799482</Id>
 					<Name><![CDATA[attractor247]]></Name>
-					<X>457</X><Y>440</Y>
+					<X>452.3333333333333</X><Y>439.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>180.0</Rotation>	
+					<Rotation>0.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1774476799485</Id>
@@ -23153,14 +23315,14 @@ if (leader.assignedTable != null) {
 				<Attractor>
 					<Id>1774476799488</Id>
 					<Name><![CDATA[attractor249]]></Name>
-					<X>457</X><Y>447</Y>
+					<X>452.3333333333333</X><Y>446.3333333333333</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>180.0</Rotation>	
+					<Rotation>0.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1774476799491</Id>
@@ -23177,14 +23339,14 @@ if (leader.assignedTable != null) {
 				<Attractor>
 					<Id>1774476799494</Id>
 					<Name><![CDATA[attractor251]]></Name>
-					<X>457</X><Y>453</Y>
+					<X>452.3333333333333</X><Y>453.1666666666667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>180.0</Rotation>	
+					<Rotation>0.0</Rotation>	
 				</Attractor>
 			</Presentation>
 
@@ -27144,6 +27306,7 @@ if (leader.assignedTable != null) {
 					<Height>41</Height>
 					<Rotation>0.0</Rotation>
 				</RectangleNode>
+<<<<<<< HEAD
     			<TimePlot>
 					<Id>1774625723559</Id>
 					<Name><![CDATA[plot]]></Name>
@@ -30868,6 +31031,8 @@ if (leader.assignedTable != null) {
 					<Height>0.1</Height>
 				</RectangleWall>
 >>>>>>> a5a36ff (walls)
+=======
+>>>>>>> 403e1e0 (your message)
 			</Presentation>
 
 				</Level>
@@ -31446,22 +31611,6 @@ if (leader.assignedTable != null) {
 						</InitialValue>
 					</Properties>
 				</Variable>
-				<Variable Class="PlainVariable">
-					<Id>1774688010468</Id>
-					<Name><![CDATA[foodChoice]]></Name>
-					<X>870</X><Y>-20</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
-						<Type><![CDATA[int]]></Type>        
-						<InitialValue Class="CodeValue">
-							<Code><![CDATA[0
-]]></Code>
-						</InitialValue>
-					</Properties>
-				</Variable>
 			</Variables>
 			<AgentLinks>
 				<AgentLink>
@@ -31566,7 +31715,7 @@ if (leader.assignedTable != null) {
 	<InspectionWindowColorTheme>DEFAULT</InspectionWindowColorTheme>
 	<Frame>
 		<Id>1774176465861</Id>
-		<Width>2640</Width>
+		<Width>2020</Width>
 		<Height>1600</Height>
 	</Frame>
 	<Database>
