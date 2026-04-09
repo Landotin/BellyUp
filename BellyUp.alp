@@ -18,6 +18,7 @@
 		<ActiveObjectClass>
 			<Id>1774176465863</Id>
 			<Name><![CDATA[Main]]></Name>
+			<StartupCode><![CDATA[ ]]></StartupCode>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1774176465868</Id>
@@ -113,7 +114,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774182825381</Id>
 					<Name><![CDATA[food_level]]></Name>
-					<X>20</X><Y>770</Y>
+					<X>-115</X><Y>700</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -128,7 +129,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477305381</Id>
 					<Name><![CDATA[seaFoodLevel]]></Name>
-					<X>20</X><Y>690</Y>
+					<X>-115</X><Y>620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -143,7 +144,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477317148</Id>
 					<Name><![CDATA[dimsumFoodLevel]]></Name>
-					<X>20</X><Y>710</Y>
+					<X>-115</X><Y>640</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -158,7 +159,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477339461</Id>
 					<Name><![CDATA[buffetFoodLevel]]></Name>
-					<X>20</X><Y>730</Y>
+					<X>-115</X><Y>660</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -173,7 +174,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477353600</Id>
 					<Name><![CDATA[beverageFoodLevel]]></Name>
-					<X>20</X><Y>750</Y>
+					<X>-115</X><Y>680</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -188,7 +189,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1775312345999</Id>
 					<Name><![CDATA[totalStationSkips]]></Name>
-					<X>15</X><Y>670</Y>
+					<X>-120</X><Y>600</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -203,7 +204,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477370879</Id>
 					<Name><![CDATA[seaFoodMax]]></Name>
-					<X>200</X><Y>690</Y>
+					<X>65</X><Y>620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -218,7 +219,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477378341</Id>
 					<Name><![CDATA[dimsumFoodMax]]></Name>
-					<X>200</X><Y>710</Y>
+					<X>65</X><Y>640</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -233,7 +234,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477386494</Id>
 					<Name><![CDATA[buffetFoodMax]]></Name>
-					<X>200</X><Y>730</Y>
+					<X>65</X><Y>660</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -248,7 +249,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477387357</Id>
 					<Name><![CDATA[beverageFoodMax]]></Name>
-					<X>200</X><Y>750</Y>
+					<X>65</X><Y>680</Y>
 					<Label><X>10</X><Y>1</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -263,7 +264,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477426110</Id>
 					<Name><![CDATA[refillTargetStation]]></Name>
-					<X>210</X><Y>830</Y>
+					<X>75</X><Y>760</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -279,7 +280,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477438224</Id>
 					<Name><![CDATA[refillTargetLevel]]></Name>
-					<X>210</X><Y>850</Y>
+					<X>75</X><Y>780</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -294,7 +295,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774688652265</Id>
 					<Name><![CDATA[refillStationIndex]]></Name>
-					<X>210</X><Y>810</Y>
+					<X>75</X><Y>740</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -309,7 +310,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774688973149</Id>
 					<Name><![CDATA[seaFoodRefilling]]></Name>
-					<X>20</X><Y>810</Y>
+					<X>-115</X><Y>740</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -324,7 +325,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774689019495</Id>
 					<Name><![CDATA[dimsumRefilling]]></Name>
-					<X>20</X><Y>830</Y>
+					<X>-115</X><Y>760</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -339,7 +340,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774689037630</Id>
 					<Name><![CDATA[buffetRefilling]]></Name>
-					<X>20</X><Y>850</Y>
+					<X>-115</X><Y>780</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -354,7 +355,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774689047335</Id>
 					<Name><![CDATA[beverageRefilling]]></Name>
-					<X>20</X><Y>870</Y>
+					<X>-115</X><Y>800</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -369,7 +370,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774917012594</Id>
 					<Name><![CDATA[balkCount]]></Name>
-					<X>210</X><Y>890</Y>
+					<X>75</X><Y>820</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1959,7 +1960,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774182524915</Id>
 					<Name><![CDATA[chefs]]></Name>
-					<X>40</X><Y>940</Y>
+					<X>2090</X><Y>690</Y>
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1988,7 +1989,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[4]]></Code>
+								<Code><![CDATA[2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2254,7 +2255,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774182725312</Id>
 					<Name><![CDATA[waiters]]></Name>
-					<X>110</X><Y>940</Y>
+					<X>2160</X><Y>690</Y>
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3484,7 +3485,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[triangular(10, 15, 20) * 60]]></Code>
+								<Code><![CDATA[triangular(1, 2, 3) * 60]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -4695,7 +4696,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<Parameter>
 							<Name><![CDATA[delayTimeout]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[uniform(10, 15)]]></Code>
+								<Code><![CDATA[uniform(10,15)]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 							</Value>
 						</Parameter>
@@ -5659,7 +5660,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774913120998</Id>
 					<Name><![CDATA[busboys]]></Name>
-					<X>180</X><Y>940</Y>
+					<X>2230</X><Y>690</Y>
 					<Label><X>-30</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5685,7 +5686,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[2]]></Code>
+								<Code><![CDATA[3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6311,7 +6312,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[uniform(2*30, 3*60)]]></Code>
+								<Code><![CDATA[triangular(4, 6, 9) * 60]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -27706,63 +27707,6 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 					<ZHeight>1</ZHeight>
 					<Rotation>90.0</Rotation>
 					<Width>33</Width>
-					<Height>0.1</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1775574045791</Id>
-					<Name><![CDATA[wall269]]></Name>
-					<X>628</X><Y>483</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
-					<LineWidth>0.1</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>1</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>12</Width>
-					<Height>0.1</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1775574045794</Id>
-					<Name><![CDATA[wall270]]></Name>
-					<X>640</X><Y>483</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
-					<LineWidth>0.1</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>1</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>33</Width>
-					<Height>0.1</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1775574045797</Id>
-					<Name><![CDATA[wall271]]></Name>
-					<X>628</X><Y>516</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
-					<LineWidth>0.1</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>1</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>12</Width>
 					<Height>0.1</Height>
 				</RectangleWall>
 				<RectangleNode>

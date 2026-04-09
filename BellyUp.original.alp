@@ -18,6 +18,7 @@
 		<ActiveObjectClass>
 			<Id>1774176465863</Id>
 			<Name><![CDATA[Main]]></Name>
+			<StartupCode><![CDATA[ ]]></StartupCode>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1774176465868</Id>
@@ -113,7 +114,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774182825381</Id>
 					<Name><![CDATA[food_level]]></Name>
-					<X>20</X><Y>770</Y>
+					<X>-115</X><Y>700</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -128,7 +129,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477305381</Id>
 					<Name><![CDATA[seaFoodLevel]]></Name>
-					<X>20</X><Y>690</Y>
+					<X>-115</X><Y>620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -143,7 +144,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477317148</Id>
 					<Name><![CDATA[dimsumFoodLevel]]></Name>
-					<X>20</X><Y>710</Y>
+					<X>-115</X><Y>640</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -158,7 +159,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477339461</Id>
 					<Name><![CDATA[buffetFoodLevel]]></Name>
-					<X>20</X><Y>730</Y>
+					<X>-115</X><Y>660</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -173,7 +174,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477353600</Id>
 					<Name><![CDATA[beverageFoodLevel]]></Name>
-					<X>20</X><Y>750</Y>
+					<X>-115</X><Y>680</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -185,25 +186,25 @@
 						</InitialValue>
 					</Properties>
 				</Variable>
-<Variable Class="PlainVariable">
-<Id>1775312345999</Id>
-<Name><![CDATA[totalStationSkips]]></Name>
-<X>20</X><Y>770</Y>
-<Label><X>10</X><Y>0</Y></Label>
-<PublicFlag>false</PublicFlag>
-<PresentationFlag>true</PresentationFlag>
-<ShowLabel>true</ShowLabel>
-<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
-<Type><![CDATA[int]]></Type>        
-<InitialValue Class="CodeValue">
-<Code><![CDATA[0]]></Code>
-</InitialValue>
-</Properties>
-</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1775312345999</Id>
+					<Name><![CDATA[totalStationSkips]]></Name>
+					<X>-120</X><Y>600</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
 				<Variable Class="PlainVariable">
 					<Id>1774477370879</Id>
 					<Name><![CDATA[seaFoodMax]]></Name>
-					<X>200</X><Y>690</Y>
+					<X>65</X><Y>620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -218,7 +219,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477378341</Id>
 					<Name><![CDATA[dimsumFoodMax]]></Name>
-					<X>200</X><Y>710</Y>
+					<X>65</X><Y>640</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -233,7 +234,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477386494</Id>
 					<Name><![CDATA[buffetFoodMax]]></Name>
-					<X>200</X><Y>730</Y>
+					<X>65</X><Y>660</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -248,7 +249,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477387357</Id>
 					<Name><![CDATA[beverageFoodMax]]></Name>
-					<X>200</X><Y>750</Y>
+					<X>65</X><Y>680</Y>
 					<Label><X>10</X><Y>1</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -263,7 +264,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477426110</Id>
 					<Name><![CDATA[refillTargetStation]]></Name>
-					<X>210</X><Y>830</Y>
+					<X>75</X><Y>760</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -279,7 +280,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477438224</Id>
 					<Name><![CDATA[refillTargetLevel]]></Name>
-					<X>210</X><Y>850</Y>
+					<X>75</X><Y>780</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -294,7 +295,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774688652265</Id>
 					<Name><![CDATA[refillStationIndex]]></Name>
-					<X>210</X><Y>810</Y>
+					<X>75</X><Y>740</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -309,7 +310,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774688973149</Id>
 					<Name><![CDATA[seaFoodRefilling]]></Name>
-					<X>20</X><Y>810</Y>
+					<X>-115</X><Y>740</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -324,7 +325,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774689019495</Id>
 					<Name><![CDATA[dimsumRefilling]]></Name>
-					<X>20</X><Y>830</Y>
+					<X>-115</X><Y>760</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -339,7 +340,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774689037630</Id>
 					<Name><![CDATA[buffetRefilling]]></Name>
-					<X>20</X><Y>850</Y>
+					<X>-115</X><Y>780</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -354,7 +355,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774689047335</Id>
 					<Name><![CDATA[beverageRefilling]]></Name>
-					<X>20</X><Y>870</Y>
+					<X>-115</X><Y>800</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -369,7 +370,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774917012594</Id>
 					<Name><![CDATA[balkCount]]></Name>
-					<X>365</X><Y>1205</Y>
+					<X>75</X><Y>820</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -384,7 +385,7 @@
 				<Variable Class="CollectionVariable">
 					<Id>1774258173783</Id>
 					<Name><![CDATA[availableFourSeaters]]></Name>
-					<X>20</X><Y>510</Y>
+					<X>2225</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -402,7 +403,7 @@
 				<Variable Class="CollectionVariable">
 					<Id>1774475139000</Id>
 					<Name><![CDATA[availableTenSeaters]]></Name>
-					<X>20</X><Y>460</Y>
+					<X>2225</X><Y>555</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -420,7 +421,7 @@
 				<Variable Class="CollectionVariable">
 					<Id>1774913384408</Id>
 					<Name><![CDATA[dirtyTables]]></Name>
-					<X>200</X><Y>510</Y>
+					<X>2225</X><Y>620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -437,7 +438,7 @@
 				<Connector>
 					<Id>1774182943398</Id>
 					<Name><![CDATA[connector7]]></Name>
-					<X>320</X><Y>120</Y>
+					<X>80</X><Y>80</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -470,7 +471,7 @@
 				<Connector>
 					<Id>1774183063646</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>610</X><Y>1380</Y>
+					<X>370</X><Y>1340</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -503,7 +504,7 @@
 				<Connector>
 					<Id>1774183094165</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>710</X><Y>1380</Y>
+					<X>470</X><Y>1340</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -536,7 +537,7 @@
 				<Connector>
 					<Id>1774183196336</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>810</X><Y>1380</Y>
+					<X>570</X><Y>1340</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -569,7 +570,7 @@
 				<Connector>
 					<Id>1774183233838</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>910</X><Y>1380</Y>
+					<X>670</X><Y>1340</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -600,42 +601,9 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1774183287805</Id>
-					<Name><![CDATA[connector12]]></Name>
-					<X>1010</X><Y>1380</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[refillTray]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Delay]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[walkToBuffet]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[MoveTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-60</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1774183326309</Id>
 					<Name><![CDATA[connector13]]></Name>
-					<X>1090</X><Y>1380</Y>
+					<X>930</X><Y>1340</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -668,7 +636,7 @@
 				<Connector>
 					<Id>1774183378116</Id>
 					<Name><![CDATA[connector14]]></Name>
-					<X>1180</X><Y>1380</Y>
+					<X>1020</X><Y>1340</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -701,7 +669,7 @@
 				<Connector>
 					<Id>1774261471522</Id>
 					<Name><![CDATA[connector18]]></Name>
-					<X>860</X><Y>1040</Y>
+					<X>940</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -728,13 +696,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-15</X><Y>0</Y></Point>
+						<Point><X>-50</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774261509458</Id>
 					<Name><![CDATA[connector19]]></Name>
-					<X>40</X><Y>180</Y>
+					<X>1050</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -760,14 +728,14 @@
 						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>880</X><Y>860</Y></Point>
-						<Point><X>860</X><Y>860</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-70</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774261528756</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>40</X><Y>180</Y>
+					<X>1190</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -793,14 +761,14 @@
 						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>940</X><Y>860</Y></Point>
-						<Point><X>920</X><Y>860</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-100</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774261571151</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>860</X><Y>1040</Y>
+					<X>940</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -827,16 +795,16 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>0</X><Y>-30</Y></Point>
-						<Point><X>119</X><Y>-30</Y></Point>
-						<Point><X>250</X><Y>-30</Y></Point>
-						<Point><X>310</X><Y>0</Y></Point>
+						<Point><X>-30</X><Y>-30</Y></Point>
+						<Point><X>39</X><Y>-30</Y></Point>
+						<Point><X>170</X><Y>-30</Y></Point>
+						<Point><X>450</X><Y>-30</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774319045883</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>805</X><Y>1040</Y>
+					<X>850</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -863,13 +831,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-10</X><Y>0</Y></Point>
+						<Point><X>-30</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774319045885</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>755</X><Y>1040</Y>
+					<X>780</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -896,13 +864,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-10</X><Y>0</Y></Point>
+						<Point><X>-35</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774333410702</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>1490</X><Y>1120</Y>
+					<X>1670</X><Y>1090</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -929,13 +897,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-40</X><Y>0</Y></Point>
+						<Point><X>-30</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774334234652</Id>
 					<Name><![CDATA[connector26]]></Name>
-					<X>1150</X><Y>1040</Y>
+					<X>1370</X><Y>1010</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -962,7 +930,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-50</X><Y>0</Y></Point>
+						<Point><X>-30</X><Y>30</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -995,13 +963,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-25</X><Y>-30</Y></Point>
+						<Point><X>-20</X><Y>-30</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774492085608</Id>
 					<Name><![CDATA[connector27]]></Name>
-					<X>640</X><Y>1010</Y>
+					<X>645</X><Y>1010</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1028,13 +996,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-30</X><Y>30</Y></Point>
+						<Point><X>-30</X><Y>20</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774492650520</Id>
 					<Name><![CDATA[connector4]]></Name>
-					<X>590</X><Y>1080</Y>
+					<X>610</X><Y>1090</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1061,13 +1029,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-40</X><Y>-20</Y></Point>
+						<Point><X>-90</X><Y>50</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774492363727</Id>
 					<Name><![CDATA[connector28]]></Name>
-					<X>590</X><Y>1040</Y>
+					<X>595</X><Y>1030</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1094,13 +1062,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-40</X><Y>0</Y></Point>
+						<Point><X>-75</X><Y>90</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774492713428</Id>
 					<Name><![CDATA[connector29]]></Name>
-					<X>645</X><Y>1085</Y>
+					<X>645</X><Y>1080</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1127,13 +1095,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-35</X><Y>-5</Y></Point>
+						<Point><X>-15</X><Y>10</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774492810806</Id>
 					<Name><![CDATA[connector30]]></Name>
-					<X>685</X><Y>1085</Y>
+					<X>685</X><Y>1080</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1160,13 +1128,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>20</X><Y>-45</Y></Point>
+						<Point><X>20</X><Y>-40</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774494321244</Id>
 					<Name><![CDATA[connector31]]></Name>
-					<X>1350</X><Y>1120</Y>
+					<X>1570</X><Y>1090</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1193,13 +1161,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>0</Y></Point>
+						<Point><X>30</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774494337132</Id>
 					<Name><![CDATA[connector23]]></Name>
-					<X>1310</X><Y>1120</Y>
+					<X>1530</X><Y>1090</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1226,13 +1194,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-50</X><Y>0</Y></Point>
+						<Point><X>-40</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774494337134</Id>
 					<Name><![CDATA[connector24]]></Name>
-					<X>1220</X><Y>1120</Y>
+					<X>1450</X><Y>1090</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1259,13 +1227,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-50</X><Y>0</Y></Point>
+						<Point><X>-60</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774496355347</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>1020</X><Y>1040</Y>
+					<X>1230</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1292,13 +1260,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>40</X><Y>0</Y></Point>
+						<Point><X>70</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1774913246380</Id>
 					<Name><![CDATA[connector22]]></Name>
-					<X>690</X><Y>1490</Y>
+					<X>450</X><Y>1450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1331,7 +1299,7 @@
 				<Connector>
 					<Id>1774913268021</Id>
 					<Name><![CDATA[connector32]]></Name>
-					<X>780</X><Y>1490</Y>
+					<X>540</X><Y>1450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1364,7 +1332,7 @@
 				<Connector>
 					<Id>1774913284982</Id>
 					<Name><![CDATA[connector33]]></Name>
-					<X>900</X><Y>1490</Y>
+					<X>660</X><Y>1450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1397,7 +1365,7 @@
 				<Connector>
 					<Id>1774915026573</Id>
 					<Name><![CDATA[connector21]]></Name>
-					<X>590</X><Y>1490</Y>
+					<X>350</X><Y>1450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1430,7 +1398,7 @@
 				<Connector>
 					<Id>1774915026575</Id>
 					<Name><![CDATA[connector34]]></Name>
-					<X>520</X><Y>1490</Y>
+					<X>280</X><Y>1450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1463,7 +1431,7 @@
 				<Connector>
 					<Id>1774917047458</Id>
 					<Name><![CDATA[connector35]]></Name>
-					<X>325</X><Y>1040</Y>
+					<X>300</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1490,13 +1458,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-75</X><Y>0</Y></Point>
+						<Point><X>-80</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1775084227978</Id>
 					<Name><![CDATA[connector5]]></Name>
-					<X>590</X><Y>1040</Y>
+					<X>595</X><Y>1030</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1523,14 +1491,14 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>5</X><Y>160</Y></Point>
-						<Point><X>10</X><Y>160</Y></Point>
+						<Point><X>0</X><Y>170</Y></Point>
+						<Point><X>-5</X><Y>210</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1775084227980</Id>
 					<Name><![CDATA[connector36]]></Name>
-					<X>560</X><Y>1200</Y>
+					<X>550</X><Y>1240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1557,13 +1525,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-10</X><Y>-80</Y></Point>
+						<Point><X>-30</X><Y>-40</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1775084241270</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>590</X><Y>1080</Y>
+					<X>610</X><Y>1090</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1590,14 +1558,14 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>110</X><Y>60</Y></Point>
-						<Point><X>100</X><Y>90</Y></Point>
+						<Point><X>90</X><Y>50</Y></Point>
+						<Point><X>50</X><Y>70</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1775084241272</Id>
 					<Name><![CDATA[connector37]]></Name>
-					<X>650</X><Y>1170</Y>
+					<X>620</X><Y>1160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1624,13 +1592,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-100</X><Y>-90</Y></Point>
+						<Point><X>-100</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1775088046217</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>530</X><Y>1040</Y>
+					<X>500</X><Y>1120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1657,13 +1625,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-55</X><Y>80</Y></Point>
+						<Point><X>-50</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1775088046219</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>455</X><Y>1040</Y>
+					<X>430</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1723,7 +1691,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-15</X><Y>65</Y></Point>
+						<Point><X>-40</X><Y>65</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -1756,7 +1724,73 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>35</X><Y>-20</Y></Point>
+						<Point><X>30</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1775593668467</Id>
+					<Name><![CDATA[connector12]]></Name>
+					<X>850</X><Y>1340</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[refillTray]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Delay]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[queue1]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Queue]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-40</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1775593668469</Id>
+					<Name><![CDATA[connector40]]></Name>
+					<X>770</X><Y>1340</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[queue1]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Queue]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[walkToBuffet]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[MoveTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-60</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -1926,7 +1960,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774182524915</Id>
 					<Name><![CDATA[chefs]]></Name>
-					<X>860</X><Y>1250</Y>
+					<X>2090</X><Y>690</Y>
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1955,7 +1989,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[4]]></Code>
+								<Code><![CDATA[2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2221,7 +2255,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774182725312</Id>
 					<Name><![CDATA[waiters]]></Name>
-					<X>930</X><Y>1250</Y>
+					<X>2160</X><Y>690</Y>
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2247,7 +2281,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[3]]></Code>
+								<Code><![CDATA[2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2517,7 +2551,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774182896990</Id>
 					<Name><![CDATA[triggerRefill]]></Name>
-					<X>430</X><Y>1370</Y>
+					<X>190</X><Y>1330</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2698,7 +2732,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774182941861</Id>
 					<Name><![CDATA[grabChef]]></Name>
-					<X>510</X><Y>1360</Y>
+					<X>270</X><Y>1320</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2899,7 +2933,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183062277</Id>
 					<Name><![CDATA[cookingTime]]></Name>
-					<X>610</X><Y>1360</Y>
+					<X>370</X><Y>1320</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2922,8 +2956,8 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[triangular( 5, 10, 15 )]]></Code>
-								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+								<Code><![CDATA[triangular(5, 7, 10) * 60]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2985,7 +3019,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183093046</Id>
 					<Name><![CDATA[freeChef]]></Name>
-					<X>710</X><Y>1360</Y>
+					<X>470</X><Y>1320</Y>
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3085,7 +3119,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183194540</Id>
 					<Name><![CDATA[grabWaiter]]></Name>
-					<X>810</X><Y>1360</Y>
+					<X>570</X><Y>1320</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3286,7 +3320,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183232998</Id>
 					<Name><![CDATA[walkToBuffet]]></Name>
-					<X>910</X><Y>1360</Y>
+					<X>670</X><Y>1320</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3428,7 +3462,7 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 				<EmbeddedObject>
 					<Id>1774183286158</Id>
 					<Name><![CDATA[refillTray]]></Name>
-					<X>1010</X><Y>1360</Y>
+					<X>850</X><Y>1320</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3450,6 +3484,10 @@ beverageFoodHistory.add(time(), beverageFoodLevel);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[triangular(1, 2, 3) * 60]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
@@ -3517,7 +3555,7 @@ else if (beverageRefilling) { beverageFoodLevel = beverageFoodMax; beverageRefil
 				<EmbeddedObject>
 					<Id>1774183324222</Id>
 					<Name><![CDATA[freeWaiter]]></Name>
-					<X>1090</X><Y>1360</Y>
+					<X>930</X><Y>1320</Y>
 					<Label><X>-5</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3611,7 +3649,7 @@ else if (beverageRefilling) { beverageFoodLevel = beverageFoodMax; beverageRefil
 				<EmbeddedObject>
 					<Id>1774183376958</Id>
 					<Name><![CDATA[sink]]></Name>
-					<X>1180</X><Y>1370</Y>
+					<X>1020</X><Y>1330</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3663,7 +3701,7 @@ else if (beverageRefilling) { beverageFoodLevel = beverageFoodMax; beverageRefil
 				<EmbeddedObject>
 					<Id>1774254548125</Id>
 					<Name><![CDATA[pedSource1]]></Name>
-					<X>220</X><Y>1040</Y>
+					<X>190</X><Y>1040</Y>
 					<Label><X>-25</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3785,9 +3823,17 @@ else if (beverageRefilling) { beverageFoodLevel = beverageFoodMax; beverageRefil
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[comfortableSpeed]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[uniform(1.2, 1.5)]]></Code>
+								<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[initialSpeed]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[uniform(1.0, 1.2)]]></Code>
+								<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[diameter]]></Name>
@@ -3863,7 +3909,7 @@ randomTrue(0.71) ? 4 : 2
 				<EmbeddedObject>
 					<Id>1774254578605</Id>
 					<Name><![CDATA[pedSelectOutput]]></Name>
-					<X>520</X><Y>1040</Y>
+					<X>490</X><Y>1120</Y>
 					<Label><X>-45</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4068,7 +4114,7 @@ randomTrue(0.71) ? 4 : 2
 				<EmbeddedObject>
 					<Id>1774259006893</Id>
 					<Name><![CDATA[pedSink1]]></Name>
-					<X>1490</X><Y>1120</Y>
+					<X>1670</X><Y>1090</Y>
 					<Label><X>-25</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4132,7 +4178,7 @@ randomTrue(0.71) ? 4 : 2
 				<EmbeddedObject>
 					<Id>1774259253473</Id>
 					<Name><![CDATA[secureAssignedTable]]></Name>
-					<X>805</X><Y>1030</Y>
+					<X>850</X><Y>1030</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4252,7 +4298,7 @@ randomTrue(0.71) ? 4 : 2
 				<EmbeddedObject>
 					<Id>1774261469786</Id>
 					<Name><![CDATA[goToServingStation]]></Name>
-					<X>860</X><Y>1030</Y>
+					<X>940</X><Y>1030</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4343,7 +4389,7 @@ randomTrue(0.71) ? 4 : 2
 				<EmbeddedObject>
 					<Id>1774261508189</Id>
 					<Name><![CDATA[foodSelectionWaiting]]></Name>
-					<X>920</X><Y>1030</Y>
+					<X>1050</X><Y>1030</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4366,7 +4412,7 @@ randomTrue(0.71) ? 4 : 2
 						<Parameter>
 							<Name><![CDATA[locationNode]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[Buffet_island]]></Code>
+								<Code><![CDATA[walkStation]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4377,6 +4423,9 @@ randomTrue(0.71) ? 4 : 2
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[locationLine]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[targetLine1]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[locationX]]></Name>
@@ -4390,7 +4439,7 @@ randomTrue(0.71) ? 4 : 2
 						<Parameter>
 							<Name><![CDATA[delayTimeout]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[triangular(0.5, 1.5, 3.0)]]></Code>
+								<Code><![CDATA[triangular(0.5, 1.0, 1.5) + (totalStationSkips * 0.0125) ]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 							</Value>
 						</Parameter>
@@ -4509,7 +4558,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774261527562</Id>
 					<Name><![CDATA[goBackToTable]]></Name>
-					<X>980</X><Y>1030</Y>
+					<X>1190</X><Y>1030</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4600,7 +4649,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774261536946</Id>
 					<Name><![CDATA[eatingTime]]></Name>
-					<X>1060</X><Y>1030</Y>
+					<X>1300</X><Y>1030</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4647,8 +4696,8 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<Parameter>
 							<Name><![CDATA[delayTimeout]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[uniform(60, 120)]]></Code>
-								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+								<Code><![CDATA[uniform(10,15)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4713,7 +4762,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774261567936</Id>
 					<Name><![CDATA[pedSelectOutput1]]></Name>
-					<X>1140</X><Y>1040</Y>
+					<X>1360</X><Y>1010</Y>
 					<Label><X>-45</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4831,7 +4880,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774319044296</Id>
 					<Name><![CDATA[pedGroupDisassemble]]></Name>
-					<X>755</X><Y>1030</Y>
+					<X>780</X><Y>1030</Y>
 					<Label><X>-70</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4886,7 +4935,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774333409668</Id>
 					<Name><![CDATA[goToExit]]></Name>
-					<X>1410</X><Y>1110</Y>
+					<X>1600</X><Y>1080</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4974,7 +5023,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774490766152</Id>
 					<Name><![CDATA[goToReception]]></Name>
-					<X>325</X><Y>1030</Y>
+					<X>300</X><Y>1030</Y>
 					<Label><X>-25</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5065,7 +5114,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774491436939</Id>
 					<Name><![CDATA[hold]]></Name>
-					<X>590</X><Y>1030</Y>
+					<X>595</X><Y>1020</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5130,7 +5179,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774492083569</Id>
 					<Name><![CDATA[delay]]></Name>
-					<X>640</X><Y>990</Y>
+					<X>645</X><Y>990</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5238,7 +5287,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774492650514</Id>
 					<Name><![CDATA[hold1]]></Name>
-					<X>590</X><Y>1070</Y>
+					<X>610</X><Y>1080</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5303,7 +5352,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774492713415</Id>
 					<Name><![CDATA[delay1]]></Name>
-					<X>645</X><Y>1065</Y>
+					<X>645</X><Y>1060</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5408,7 +5457,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774494321230</Id>
 					<Name><![CDATA[goToCashier1]]></Name>
-					<X>1310</X><Y>1110</Y>
+					<X>1530</X><Y>1080</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5499,7 +5548,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774494335597</Id>
 					<Name><![CDATA[pedGroupAssemble]]></Name>
-					<X>1220</X><Y>1110</Y>
+					<X>1450</X><Y>1080</Y>
 					<Label><X>-55</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5611,7 +5660,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774913120998</Id>
 					<Name><![CDATA[busboys]]></Name>
-					<X>430</X><Y>1540</Y>
+					<X>2230</X><Y>690</Y>
 					<Label><X>-30</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5637,7 +5686,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[16]]></Code>
+								<Code><![CDATA[3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5858,7 +5907,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774913193655</Id>
 					<Name><![CDATA[busboyCleaning]]></Name>
-					<X>430</X><Y>1480</Y>
+					<X>190</X><Y>1440</Y>
 					<Label><X>-5</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6039,7 +6088,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774913232454</Id>
 					<Name><![CDATA[seizeBusboy]]></Name>
-					<X>590</X><Y>1470</Y>
+					<X>350</X><Y>1430</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6240,7 +6289,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774913244274</Id>
 					<Name><![CDATA[cleanTable]]></Name>
-					<X>690</X><Y>1470</Y>
+					<X>450</X><Y>1430</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6263,7 +6312,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[uniform(2*60, 5*60)]]></Code>
+								<Code><![CDATA[triangular(4, 6, 9) * 60]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -6326,7 +6375,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774913264849</Id>
 					<Name><![CDATA[releaseBusboy]]></Name>
-					<X>780</X><Y>1470</Y>
+					<X>540</X><Y>1430</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6417,7 +6466,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774913283672</Id>
 					<Name><![CDATA[returnTableSink]]></Name>
-					<X>900</X><Y>1480</Y>
+					<X>660</X><Y>1440</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6517,7 +6566,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1774915025437</Id>
 					<Name><![CDATA[queue]]></Name>
-					<X>520</X><Y>1470</Y>
+					<X>280</X><Y>1430</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6617,7 +6666,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1775084226381</Id>
 					<Name><![CDATA[lobby4]]></Name>
-					<X>560</X><Y>1190</Y>
+					<X>550</X><Y>1230</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6732,7 +6781,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1775084239859</Id>
 					<Name><![CDATA[lobby10]]></Name>
-					<X>650</X><Y>1160</Y>
+					<X>620</X><Y>1150</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6847,7 +6896,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1775088043549</Id>
 					<Name><![CDATA[balkingCheck]]></Name>
-					<X>445</X><Y>1040</Y>
+					<X>420</X><Y>1040</Y>
 					<Label><X>-45</X><Y>-35</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6956,7 +7005,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<EmbeddedObject>
 					<Id>1775088079197</Id>
 					<Name><![CDATA[balkSink]]></Name>
-					<X>565</X><Y>955</Y>
+					<X>560</X><Y>975</Y>
 					<Label><X>-25</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7094,6 +7143,106 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 					<QuantityColumn>
 					</QuantityColumn>
 				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1775593665455</Id>
+					<Name><![CDATA[queue1]]></Name>
+					<X>770</X><Y>1320</Y>
+					<Label><X>-5</X><Y>-15</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Queue]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+							<ClassName><![CDATA[Queue]]></ClassName>
+							<ItemName><![CDATA[1412336242932]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[capacity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[maximumCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[entityLocation]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[queuing]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[priority]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[comparison]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[enableTimeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[timeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[enablePreemption]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[forceStatisticsCollection]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onAtExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExitTimeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExitPreempted]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>XYZ</InitialLocationType>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<Id>1775593665453</Id>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
 			</EmbeddedObjects>
 
 			<Presentation>
@@ -7207,7 +7356,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Wall>
 					<Id>1774176869692</Id>
 					<Name><![CDATA[wall4]]></Name>
-					<X>450</X><Y>410</Y>
+					<X>444</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7224,9 +7373,9 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>200</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>175</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>70</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>206</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>181</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>76</X><Y>0</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<Wall>
@@ -7274,9 +7423,9 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>197</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>172</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>172</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>209</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>184</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>184</X><Y>0</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<Wall>
@@ -9404,13 +9553,13 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Figure3D>
 					<Id>1774179601345</Id>
 					<Name><![CDATA[table57]]></Name>
-					<X>1088</X><Y>440</Y>
+					<X>1088.333</X><Y>440.167</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1088</X><Y>440</Y><Z>0</Z>
+					<X>1088.333</X><Y>440.167</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[bellyup]]></PackageName>
@@ -9899,13 +10048,13 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Figure3D>
 					<Id>1774179627890</Id>
 					<Name><![CDATA[table72]]></Name>
-					<X>768</X><Y>440</Y>
+					<X>768.667</X><Y>440.167</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>768</X><Y>440</Y><Z>0</Z>
+					<X>768.667</X><Y>440.167</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[bellyup]]></PackageName>
@@ -15192,7 +15341,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<RectangleNode>
 					<Id>1774256652013</Id>
 					<Name><![CDATA[table4seater16]]></Name>
-					<X>628</X><Y>484</Y>
+					<X>624</X><Y>481</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15296,7 +15445,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774256652016</Id>
 					<Name><![CDATA[attractor74]]></Name>
-					<X>629</X><Y>490</Y>
+					<X>626</X><Y>490</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15308,7 +15457,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774256652019</Id>
 					<Name><![CDATA[attractor75]]></Name>
-					<X>629</X><Y>508</Y>
+					<X>625</X><Y>508</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15320,7 +15469,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774256652022</Id>
 					<Name><![CDATA[attractor76]]></Name>
-					<X>639</X><Y>508</Y>
+					<X>642</X><Y>508</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15332,7 +15481,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774256652025</Id>
 					<Name><![CDATA[attractor77]]></Name>
-					<X>639</X><Y>490</Y>
+					<X>642</X><Y>490</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15359,8 +15508,8 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<SlopeType>angle</SlopeType>	
 					</Slope>
 
-					<Width>11</Width>
-					<Height>31</Height>
+					<Width>20</Width>
+					<Height>37</Height>
 					<Rotation>0.0</Rotation>
 				</RectangleNode>
 				<RectangleNode>
@@ -22916,7 +23065,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476799467</Id>
 					<Name><![CDATA[attractor4]]></Name>
-					<X>447.6666666666667</X><Y>425.8333333333333</Y>
+					<X>443</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22928,7 +23077,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476799470</Id>
 					<Name><![CDATA[attractor5]]></Name>
-					<X>452.3333333333333</X><Y>425.8333333333333</Y>
+					<X>457</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22940,7 +23089,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476799473</Id>
 					<Name><![CDATA[attractor6]]></Name>
-					<X>447.6666666666667</X><Y>432.6666666666667</Y>
+					<X>443</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22952,7 +23101,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476799476</Id>
 					<Name><![CDATA[attractor7]]></Name>
-					<X>452.3333333333333</X><Y>432.6666666666667</Y>
+					<X>457</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22964,7 +23113,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476799479</Id>
 					<Name><![CDATA[attractor246]]></Name>
-					<X>447.6666666666667</X><Y>439.5</Y>
+					<X>443</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22976,7 +23125,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476799482</Id>
 					<Name><![CDATA[attractor247]]></Name>
-					<X>452.3333333333333</X><Y>439.5</Y>
+					<X>457</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22988,7 +23137,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476799485</Id>
 					<Name><![CDATA[attractor248]]></Name>
-					<X>447.6666666666667</X><Y>446.3333333333333</Y>
+					<X>443</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23000,7 +23149,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476799488</Id>
 					<Name><![CDATA[attractor249]]></Name>
-					<X>452.3333333333333</X><Y>446.3333333333333</Y>
+					<X>457</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23012,7 +23161,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476799491</Id>
 					<Name><![CDATA[attractor250]]></Name>
-					<X>447.6666666666667</X><Y>453.1666666666667</Y>
+					<X>443</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23024,7 +23173,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476799494</Id>
 					<Name><![CDATA[attractor251]]></Name>
-					<X>452.3333333333333</X><Y>453.1666666666667</Y>
+					<X>457</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23162,7 +23311,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476817412</Id>
 					<Name><![CDATA[attractor252]]></Name>
-					<X>480.6666666666667</X><Y>425.8333333333333</Y>
+					<X>475.667</X><Y>425.833</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23174,7 +23323,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476817415</Id>
 					<Name><![CDATA[attractor253]]></Name>
-					<X>485.3333333333333</X><Y>425.8333333333333</Y>
+					<X>490</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23186,7 +23335,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476817418</Id>
 					<Name><![CDATA[attractor254]]></Name>
-					<X>480.6666666666667</X><Y>432.6666666666667</Y>
+					<X>475.667</X><Y>432.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23198,7 +23347,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476817421</Id>
 					<Name><![CDATA[attractor255]]></Name>
-					<X>485.3333333333333</X><Y>432.6666666666667</Y>
+					<X>490</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23210,7 +23359,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476817424</Id>
 					<Name><![CDATA[attractor256]]></Name>
-					<X>480.6666666666667</X><Y>439.5</Y>
+					<X>475.667</X><Y>439.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23222,7 +23371,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476817427</Id>
 					<Name><![CDATA[attractor257]]></Name>
-					<X>485.3333333333333</X><Y>439.5</Y>
+					<X>490</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23234,7 +23383,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476817430</Id>
 					<Name><![CDATA[attractor258]]></Name>
-					<X>480.6666666666667</X><Y>446.3333333333333</Y>
+					<X>475.667</X><Y>446.333</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23246,7 +23395,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476817433</Id>
 					<Name><![CDATA[attractor259]]></Name>
-					<X>485.3333333333333</X><Y>446.3333333333333</Y>
+					<X>490</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23258,7 +23407,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476817436</Id>
 					<Name><![CDATA[attractor260]]></Name>
-					<X>480.6666666666667</X><Y>453.1666666666667</Y>
+					<X>475.667</X><Y>453.167</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23270,7 +23419,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476817439</Id>
 					<Name><![CDATA[attractor261]]></Name>
-					<X>485.3333333333333</X><Y>453.1666666666667</Y>
+					<X>490</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23408,7 +23557,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476833666</Id>
 					<Name><![CDATA[attractor262]]></Name>
-					<X>515.6666666666666</X><Y>425.8333333333333</Y>
+					<X>510.667</X><Y>425.833</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23420,7 +23569,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476833669</Id>
 					<Name><![CDATA[attractor263]]></Name>
-					<X>520.3333333333334</X><Y>425.8333333333333</Y>
+					<X>525</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23432,7 +23581,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476833672</Id>
 					<Name><![CDATA[attractor264]]></Name>
-					<X>515.6666666666666</X><Y>432.6666666666667</Y>
+					<X>510.667</X><Y>432.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23444,7 +23593,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476833675</Id>
 					<Name><![CDATA[attractor265]]></Name>
-					<X>520.3333333333334</X><Y>432.6666666666667</Y>
+					<X>525</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23456,7 +23605,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476833678</Id>
 					<Name><![CDATA[attractor266]]></Name>
-					<X>515.6666666666666</X><Y>439.5</Y>
+					<X>510.667</X><Y>439.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23468,7 +23617,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476833681</Id>
 					<Name><![CDATA[attractor267]]></Name>
-					<X>520.3333333333334</X><Y>439.5</Y>
+					<X>525</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23480,7 +23629,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476833684</Id>
 					<Name><![CDATA[attractor268]]></Name>
-					<X>515.6666666666666</X><Y>446.3333333333333</Y>
+					<X>510.667</X><Y>446.333</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23492,7 +23641,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476833687</Id>
 					<Name><![CDATA[attractor269]]></Name>
-					<X>520.3333333333334</X><Y>446.3333333333333</Y>
+					<X>525</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23504,7 +23653,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476833690</Id>
 					<Name><![CDATA[attractor270]]></Name>
-					<X>515.6666666666666</X><Y>453.1666666666667</Y>
+					<X>510.667</X><Y>453.167</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23516,7 +23665,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476833693</Id>
 					<Name><![CDATA[attractor271]]></Name>
-					<X>520.3333333333334</X><Y>453.1666666666667</Y>
+					<X>525</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23654,7 +23803,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476841532</Id>
 					<Name><![CDATA[attractor272]]></Name>
-					<X>555.6666666666666</X><Y>425.8333333333333</Y>
+					<X>551</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23666,7 +23815,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476841535</Id>
 					<Name><![CDATA[attractor273]]></Name>
-					<X>560.3333333333334</X><Y>425.8333333333333</Y>
+					<X>565.333</X><Y>425.833</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23678,7 +23827,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476841538</Id>
 					<Name><![CDATA[attractor274]]></Name>
-					<X>555.6666666666666</X><Y>432.6666666666667</Y>
+					<X>551</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23690,7 +23839,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476841541</Id>
 					<Name><![CDATA[attractor275]]></Name>
-					<X>560.3333333333334</X><Y>432.6666666666667</Y>
+					<X>565.333</X><Y>432.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23702,7 +23851,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476841544</Id>
 					<Name><![CDATA[attractor276]]></Name>
-					<X>555.6666666666666</X><Y>439.5</Y>
+					<X>551</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23714,7 +23863,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476841547</Id>
 					<Name><![CDATA[attractor277]]></Name>
-					<X>560.3333333333334</X><Y>439.5</Y>
+					<X>565.333</X><Y>439.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23726,7 +23875,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476841550</Id>
 					<Name><![CDATA[attractor278]]></Name>
-					<X>555.6666666666666</X><Y>446.3333333333333</Y>
+					<X>551</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23738,7 +23887,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476841553</Id>
 					<Name><![CDATA[attractor279]]></Name>
-					<X>560.3333333333334</X><Y>446.3333333333333</Y>
+					<X>565.333</X><Y>446.333</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23750,7 +23899,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476841556</Id>
 					<Name><![CDATA[attractor280]]></Name>
-					<X>555.6666666666666</X><Y>453.1666666666667</Y>
+					<X>551</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23762,7 +23911,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476841559</Id>
 					<Name><![CDATA[attractor281]]></Name>
-					<X>560.3333333333334</X><Y>453.1666666666667</Y>
+					<X>565</X><Y>454</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23900,7 +24049,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476843885</Id>
 					<Name><![CDATA[attractor282]]></Name>
-					<X>595.6666666666666</X><Y>425.8333333333333</Y>
+					<X>591</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23912,7 +24061,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476843888</Id>
 					<Name><![CDATA[attractor283]]></Name>
-					<X>600.3333333333334</X><Y>425.8333333333333</Y>
+					<X>605</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23924,7 +24073,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476843891</Id>
 					<Name><![CDATA[attractor284]]></Name>
-					<X>595.6666666666666</X><Y>432.6666666666667</Y>
+					<X>591</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23936,7 +24085,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476843894</Id>
 					<Name><![CDATA[attractor285]]></Name>
-					<X>600.3333333333334</X><Y>432.6666666666667</Y>
+					<X>605</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23948,7 +24097,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476843897</Id>
 					<Name><![CDATA[attractor286]]></Name>
-					<X>595.6666666666666</X><Y>439.5</Y>
+					<X>591</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23960,7 +24109,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476843900</Id>
 					<Name><![CDATA[attractor287]]></Name>
-					<X>600.3333333333334</X><Y>439.5</Y>
+					<X>605</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23972,7 +24121,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476843903</Id>
 					<Name><![CDATA[attractor288]]></Name>
-					<X>595.6666666666666</X><Y>446.3333333333333</Y>
+					<X>591</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23984,7 +24133,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476843906</Id>
 					<Name><![CDATA[attractor289]]></Name>
-					<X>600.3333333333334</X><Y>446.3333333333333</Y>
+					<X>605</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23996,7 +24145,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476843909</Id>
 					<Name><![CDATA[attractor290]]></Name>
-					<X>595.6666666666666</X><Y>453.1666666666667</Y>
+					<X>591</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24008,7 +24157,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476843912</Id>
 					<Name><![CDATA[attractor291]]></Name>
-					<X>600.3333333333334</X><Y>453.1666666666667</Y>
+					<X>605</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24146,7 +24295,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476846737</Id>
 					<Name><![CDATA[attractor292]]></Name>
-					<X>635.6666666666666</X><Y>425.8333333333333</Y>
+					<X>631</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24158,7 +24307,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476846740</Id>
 					<Name><![CDATA[attractor293]]></Name>
-					<X>640.3333333333334</X><Y>425.8333333333333</Y>
+					<X>645.333</X><Y>425.833</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24170,7 +24319,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476846743</Id>
 					<Name><![CDATA[attractor294]]></Name>
-					<X>635.6666666666666</X><Y>432.6666666666667</Y>
+					<X>631</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24182,7 +24331,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476846746</Id>
 					<Name><![CDATA[attractor295]]></Name>
-					<X>640.3333333333334</X><Y>432.6666666666667</Y>
+					<X>645.333</X><Y>432.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24194,7 +24343,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476846749</Id>
 					<Name><![CDATA[attractor296]]></Name>
-					<X>635.6666666666666</X><Y>439.5</Y>
+					<X>631</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24206,7 +24355,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476846752</Id>
 					<Name><![CDATA[attractor297]]></Name>
-					<X>640.3333333333334</X><Y>439.5</Y>
+					<X>645.333</X><Y>439.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24218,7 +24367,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476846755</Id>
 					<Name><![CDATA[attractor298]]></Name>
-					<X>635.6666666666666</X><Y>446.3333333333333</Y>
+					<X>631</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24230,7 +24379,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476846758</Id>
 					<Name><![CDATA[attractor299]]></Name>
-					<X>640.3333333333334</X><Y>446.3333333333333</Y>
+					<X>645.333</X><Y>446.333</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24242,7 +24391,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476846761</Id>
 					<Name><![CDATA[attractor300]]></Name>
-					<X>635.6666666666666</X><Y>453.1666666666667</Y>
+					<X>631</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24254,7 +24403,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476846764</Id>
 					<Name><![CDATA[attractor301]]></Name>
-					<X>640.3333333333334</X><Y>453.1666666666667</Y>
+					<X>645.333</X><Y>453.167</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24392,7 +24541,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476850828</Id>
 					<Name><![CDATA[attractor302]]></Name>
-					<X>697.6666666666666</X><Y>425.8333333333333</Y>
+					<X>693</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24404,7 +24553,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476850831</Id>
 					<Name><![CDATA[attractor303]]></Name>
-					<X>702.3333333333334</X><Y>425.8333333333333</Y>
+					<X>707</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24416,7 +24565,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476850834</Id>
 					<Name><![CDATA[attractor304]]></Name>
-					<X>697.6666666666666</X><Y>432.6666666666667</Y>
+					<X>693</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24428,7 +24577,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476850837</Id>
 					<Name><![CDATA[attractor305]]></Name>
-					<X>702.3333333333334</X><Y>432.6666666666667</Y>
+					<X>707</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24440,7 +24589,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476850840</Id>
 					<Name><![CDATA[attractor306]]></Name>
-					<X>697.6666666666666</X><Y>439.5</Y>
+					<X>693</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24452,7 +24601,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476850843</Id>
 					<Name><![CDATA[attractor307]]></Name>
-					<X>702.3333333333334</X><Y>439.5</Y>
+					<X>707</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24464,7 +24613,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476850846</Id>
 					<Name><![CDATA[attractor308]]></Name>
-					<X>697.6666666666666</X><Y>446.3333333333333</Y>
+					<X>693</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24476,7 +24625,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476850849</Id>
 					<Name><![CDATA[attractor309]]></Name>
-					<X>702.3333333333334</X><Y>446.3333333333333</Y>
+					<X>707</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24488,7 +24637,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476850852</Id>
 					<Name><![CDATA[attractor310]]></Name>
-					<X>697.6666666666666</X><Y>453.1666666666667</Y>
+					<X>693</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24500,7 +24649,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476850855</Id>
 					<Name><![CDATA[attractor311]]></Name>
-					<X>702.3333333333334</X><Y>453.1666666666667</Y>
+					<X>707</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24638,7 +24787,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476856405</Id>
 					<Name><![CDATA[attractor312]]></Name>
-					<X>730.6666666666666</X><Y>425.8333333333333</Y>
+					<X>726</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24650,7 +24799,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476856408</Id>
 					<Name><![CDATA[attractor313]]></Name>
-					<X>735.3333333333334</X><Y>425.8333333333333</Y>
+					<X>740</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24662,7 +24811,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476856411</Id>
 					<Name><![CDATA[attractor314]]></Name>
-					<X>730.6666666666666</X><Y>432.6666666666667</Y>
+					<X>726</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24674,7 +24823,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476856414</Id>
 					<Name><![CDATA[attractor315]]></Name>
-					<X>735.3333333333334</X><Y>432.6666666666667</Y>
+					<X>740</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24686,7 +24835,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476856417</Id>
 					<Name><![CDATA[attractor316]]></Name>
-					<X>730.6666666666666</X><Y>439.5</Y>
+					<X>726</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24698,7 +24847,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476856420</Id>
 					<Name><![CDATA[attractor317]]></Name>
-					<X>735.3333333333334</X><Y>439.5</Y>
+					<X>740</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24710,7 +24859,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476856423</Id>
 					<Name><![CDATA[attractor318]]></Name>
-					<X>730.6666666666666</X><Y>446.3333333333333</Y>
+					<X>726</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24722,7 +24871,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476856426</Id>
 					<Name><![CDATA[attractor319]]></Name>
-					<X>735.3333333333334</X><Y>446.3333333333333</Y>
+					<X>740</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24734,7 +24883,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476856429</Id>
 					<Name><![CDATA[attractor320]]></Name>
-					<X>730.6666666666666</X><Y>453.1666666666667</Y>
+					<X>726</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24746,7 +24895,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476856432</Id>
 					<Name><![CDATA[attractor321]]></Name>
-					<X>735.3333333333334</X><Y>453.1666666666667</Y>
+					<X>740</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24884,7 +25033,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476858900</Id>
 					<Name><![CDATA[attractor322]]></Name>
-					<X>765.6666666666666</X><Y>425.8333333333333</Y>
+					<X>761</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24896,7 +25045,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476858903</Id>
 					<Name><![CDATA[attractor323]]></Name>
-					<X>770.3333333333334</X><Y>425.8333333333333</Y>
+					<X>775</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24908,7 +25057,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476858906</Id>
 					<Name><![CDATA[attractor324]]></Name>
-					<X>765.6666666666666</X><Y>432.6666666666667</Y>
+					<X>761</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24920,7 +25069,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476858909</Id>
 					<Name><![CDATA[attractor325]]></Name>
-					<X>770.3333333333334</X><Y>432.6666666666667</Y>
+					<X>775</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24932,7 +25081,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476858912</Id>
 					<Name><![CDATA[attractor326]]></Name>
-					<X>765.6666666666666</X><Y>439.5</Y>
+					<X>761</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24944,7 +25093,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476858915</Id>
 					<Name><![CDATA[attractor327]]></Name>
-					<X>770.3333333333334</X><Y>439.5</Y>
+					<X>775</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24956,7 +25105,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476858918</Id>
 					<Name><![CDATA[attractor328]]></Name>
-					<X>765.6666666666666</X><Y>446.3333333333333</Y>
+					<X>761</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24968,7 +25117,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476858921</Id>
 					<Name><![CDATA[attractor329]]></Name>
-					<X>770.3333333333334</X><Y>446.3333333333333</Y>
+					<X>775</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24980,7 +25129,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476858924</Id>
 					<Name><![CDATA[attractor330]]></Name>
-					<X>765.6666666666666</X><Y>453.1666666666667</Y>
+					<X>761</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24992,7 +25141,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476858927</Id>
 					<Name><![CDATA[attractor331]]></Name>
-					<X>770.3333333333334</X><Y>453.1666666666667</Y>
+					<X>775</X><Y>453</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25130,7 +25279,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476861419</Id>
 					<Name><![CDATA[attractor332]]></Name>
-					<X>805.6666666666666</X><Y>425.8333333333333</Y>
+					<X>801</X><Y>425.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25142,7 +25291,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476861422</Id>
 					<Name><![CDATA[attractor333]]></Name>
-					<X>810.3333333333334</X><Y>425.8333333333333</Y>
+					<X>815</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25154,7 +25303,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476861425</Id>
 					<Name><![CDATA[attractor334]]></Name>
-					<X>805.6666666666666</X><Y>432.6666666666667</Y>
+					<X>801</X><Y>432.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25166,7 +25315,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476861428</Id>
 					<Name><![CDATA[attractor335]]></Name>
-					<X>810.3333333333334</X><Y>432.6666666666667</Y>
+					<X>815</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25178,7 +25327,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476861431</Id>
 					<Name><![CDATA[attractor336]]></Name>
-					<X>805.6666666666666</X><Y>439.5</Y>
+					<X>801</X><Y>439.167</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25190,7 +25339,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476861434</Id>
 					<Name><![CDATA[attractor337]]></Name>
-					<X>810.3333333333334</X><Y>439.5</Y>
+					<X>815</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25202,7 +25351,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476861437</Id>
 					<Name><![CDATA[attractor338]]></Name>
-					<X>805.6666666666666</X><Y>446.3333333333333</Y>
+					<X>801</X><Y>446</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25214,7 +25363,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476861440</Id>
 					<Name><![CDATA[attractor339]]></Name>
-					<X>810.3333333333334</X><Y>446.3333333333333</Y>
+					<X>815</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25226,7 +25375,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476861443</Id>
 					<Name><![CDATA[attractor340]]></Name>
-					<X>805.6666666666666</X><Y>453.1666666666667</Y>
+					<X>801</X><Y>453</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25238,7 +25387,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476861446</Id>
 					<Name><![CDATA[attractor341]]></Name>
-					<X>810.3333333333334</X><Y>453.1666666666667</Y>
+					<X>815</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25376,19 +25525,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476863751</Id>
 					<Name><![CDATA[attractor342]]></Name>
-					<X>837.6666666666666</X><Y>425.8333333333333</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
-				</Attractor>
-				<Attractor>
-					<Id>1774476863754</Id>
-					<Name><![CDATA[attractor343]]></Name>
-					<X>842.3333333333334</X><Y>425.8333333333333</Y>
+					<X>833</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25400,19 +25537,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476863757</Id>
 					<Name><![CDATA[attractor344]]></Name>
-					<X>837.6666666666666</X><Y>432.6666666666667</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
-				</Attractor>
-				<Attractor>
-					<Id>1774476863760</Id>
-					<Name><![CDATA[attractor345]]></Name>
-					<X>842.3333333333334</X><Y>432.6666666666667</Y>
+					<X>833</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25424,19 +25549,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476863763</Id>
 					<Name><![CDATA[attractor346]]></Name>
-					<X>837.6666666666666</X><Y>439.5</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
-				</Attractor>
-				<Attractor>
-					<Id>1774476863766</Id>
-					<Name><![CDATA[attractor347]]></Name>
-					<X>842.3333333333334</X><Y>439.5</Y>
+					<X>833</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25448,19 +25561,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476863769</Id>
 					<Name><![CDATA[attractor348]]></Name>
-					<X>837.6666666666666</X><Y>446.3333333333333</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
-				</Attractor>
-				<Attractor>
-					<Id>1774476863772</Id>
-					<Name><![CDATA[attractor349]]></Name>
-					<X>842.3333333333334</X><Y>446.3333333333333</Y>
+					<X>833</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25472,7 +25573,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476863775</Id>
 					<Name><![CDATA[attractor350]]></Name>
-					<X>837.6666666666666</X><Y>453.1666666666667</Y>
+					<X>833</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25482,9 +25583,57 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 					<Rotation>0.0</Rotation>	
 				</Attractor>
 				<Attractor>
-					<Id>1774476863778</Id>
-					<Name><![CDATA[attractor351]]></Name>
-					<X>842.3333333333334</X><Y>453.1666666666667</Y>
+					<Id>1775594275006</Id>
+					<Name><![CDATA[attractor412]]></Name>
+					<X>847</X><Y>426</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>	
+				</Attractor>
+				<Attractor>
+					<Id>1775594275009</Id>
+					<Name><![CDATA[attractor413]]></Name>
+					<X>847</X><Y>432.834</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>	
+				</Attractor>
+				<Attractor>
+					<Id>1775594275012</Id>
+					<Name><![CDATA[attractor414]]></Name>
+					<X>847</X><Y>446.5</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>	
+				</Attractor>
+				<Attractor>
+					<Id>1775594275015</Id>
+					<Name><![CDATA[attractor415]]></Name>
+					<X>847</X><Y>439.667</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>	
+				</Attractor>
+				<Attractor>
+					<Id>1775594275018</Id>
+					<Name><![CDATA[attractor416]]></Name>
+					<X>847</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25622,7 +25771,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476873097</Id>
 					<Name><![CDATA[attractor352]]></Name>
-					<X>897.6666666666666</X><Y>425.8333333333333</Y>
+					<X>893</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25634,7 +25783,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476873100</Id>
 					<Name><![CDATA[attractor353]]></Name>
-					<X>902.3333333333334</X><Y>425.8333333333333</Y>
+					<X>907</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25646,7 +25795,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476873103</Id>
 					<Name><![CDATA[attractor354]]></Name>
-					<X>897.6666666666666</X><Y>432.6666666666667</Y>
+					<X>893</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25658,7 +25807,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476873106</Id>
 					<Name><![CDATA[attractor355]]></Name>
-					<X>902.3333333333334</X><Y>432.6666666666667</Y>
+					<X>907</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25670,7 +25819,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476873109</Id>
 					<Name><![CDATA[attractor356]]></Name>
-					<X>897.6666666666666</X><Y>439.5</Y>
+					<X>893</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25682,7 +25831,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476873112</Id>
 					<Name><![CDATA[attractor357]]></Name>
-					<X>902.3333333333334</X><Y>439.5</Y>
+					<X>907</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25694,7 +25843,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476873115</Id>
 					<Name><![CDATA[attractor358]]></Name>
-					<X>897.6666666666666</X><Y>446.3333333333333</Y>
+					<X>893</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25706,7 +25855,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476873118</Id>
 					<Name><![CDATA[attractor359]]></Name>
-					<X>902.3333333333334</X><Y>446.3333333333333</Y>
+					<X>907</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25718,7 +25867,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476873121</Id>
 					<Name><![CDATA[attractor360]]></Name>
-					<X>897.6666666666666</X><Y>453.1666666666667</Y>
+					<X>893</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25730,7 +25879,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476873124</Id>
 					<Name><![CDATA[attractor361]]></Name>
-					<X>902.3333333333334</X><Y>453.1666666666667</Y>
+					<X>907</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25868,7 +26017,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476876631</Id>
 					<Name><![CDATA[attractor362]]></Name>
-					<X>930.6666666666666</X><Y>425.8333333333333</Y>
+					<X>926</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25880,7 +26029,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476876634</Id>
 					<Name><![CDATA[attractor363]]></Name>
-					<X>935.3333333333334</X><Y>425.8333333333333</Y>
+					<X>940</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25892,7 +26041,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476876637</Id>
 					<Name><![CDATA[attractor364]]></Name>
-					<X>930.6666666666666</X><Y>432.6666666666667</Y>
+					<X>926</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25904,7 +26053,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476876640</Id>
 					<Name><![CDATA[attractor365]]></Name>
-					<X>935.3333333333334</X><Y>432.6666666666667</Y>
+					<X>940</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25916,7 +26065,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476876643</Id>
 					<Name><![CDATA[attractor366]]></Name>
-					<X>930.6666666666666</X><Y>439.5</Y>
+					<X>926</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25928,7 +26077,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476876646</Id>
 					<Name><![CDATA[attractor367]]></Name>
-					<X>935.3333333333334</X><Y>439.5</Y>
+					<X>940</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25940,7 +26089,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476876649</Id>
 					<Name><![CDATA[attractor368]]></Name>
-					<X>930.6666666666666</X><Y>446.3333333333333</Y>
+					<X>926</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25952,7 +26101,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476876652</Id>
 					<Name><![CDATA[attractor369]]></Name>
-					<X>935.3333333333334</X><Y>446.3333333333333</Y>
+					<X>940</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25964,7 +26113,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476876655</Id>
 					<Name><![CDATA[attractor370]]></Name>
-					<X>930.6666666666666</X><Y>453.1666666666667</Y>
+					<X>926</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25976,7 +26125,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476876658</Id>
 					<Name><![CDATA[attractor371]]></Name>
-					<X>935.3333333333334</X><Y>453.1666666666667</Y>
+					<X>940</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26114,7 +26263,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476879581</Id>
 					<Name><![CDATA[attractor372]]></Name>
-					<X>965.6666666666666</X><Y>425.8333333333333</Y>
+					<X>961</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26126,7 +26275,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476879584</Id>
 					<Name><![CDATA[attractor373]]></Name>
-					<X>970.3333333333334</X><Y>425.8333333333333</Y>
+					<X>975</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26138,7 +26287,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476879587</Id>
 					<Name><![CDATA[attractor374]]></Name>
-					<X>965.6666666666666</X><Y>432.6666666666667</Y>
+					<X>961</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26150,7 +26299,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476879590</Id>
 					<Name><![CDATA[attractor375]]></Name>
-					<X>970.3333333333334</X><Y>432.6666666666667</Y>
+					<X>975</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26162,7 +26311,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476879593</Id>
 					<Name><![CDATA[attractor376]]></Name>
-					<X>965.6666666666666</X><Y>439.5</Y>
+					<X>961</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26174,7 +26323,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476879596</Id>
 					<Name><![CDATA[attractor377]]></Name>
-					<X>970.3333333333334</X><Y>439.5</Y>
+					<X>975</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26186,7 +26335,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476879599</Id>
 					<Name><![CDATA[attractor378]]></Name>
-					<X>965.6666666666666</X><Y>446.3333333333333</Y>
+					<X>961</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26198,7 +26347,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476879602</Id>
 					<Name><![CDATA[attractor379]]></Name>
-					<X>970.3333333333334</X><Y>446.3333333333333</Y>
+					<X>975</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26210,7 +26359,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476879605</Id>
 					<Name><![CDATA[attractor380]]></Name>
-					<X>965.6666666666666</X><Y>453.1666666666667</Y>
+					<X>961</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26222,7 +26371,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476879608</Id>
 					<Name><![CDATA[attractor381]]></Name>
-					<X>970.3333333333334</X><Y>453.1666666666667</Y>
+					<X>975</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26360,7 +26509,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476882137</Id>
 					<Name><![CDATA[attractor382]]></Name>
-					<X>1005.6666666666666</X><Y>425.8333333333333</Y>
+					<X>1001</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26372,7 +26521,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476882140</Id>
 					<Name><![CDATA[attractor383]]></Name>
-					<X>1010.3333333333334</X><Y>425.8333333333333</Y>
+					<X>1015</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26384,7 +26533,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476882143</Id>
 					<Name><![CDATA[attractor384]]></Name>
-					<X>1005.6666666666666</X><Y>432.6666666666667</Y>
+					<X>1001</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26396,7 +26545,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476882146</Id>
 					<Name><![CDATA[attractor385]]></Name>
-					<X>1010.3333333333334</X><Y>432.6666666666667</Y>
+					<X>1015</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26408,7 +26557,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476882149</Id>
 					<Name><![CDATA[attractor386]]></Name>
-					<X>1005.6666666666666</X><Y>439.5</Y>
+					<X>1001</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26420,7 +26569,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476882152</Id>
 					<Name><![CDATA[attractor387]]></Name>
-					<X>1010.3333333333334</X><Y>439.5</Y>
+					<X>1015</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26432,7 +26581,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476882155</Id>
 					<Name><![CDATA[attractor388]]></Name>
-					<X>1005.6666666666666</X><Y>446.3333333333333</Y>
+					<X>1001</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26444,7 +26593,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476882158</Id>
 					<Name><![CDATA[attractor389]]></Name>
-					<X>1010.3333333333334</X><Y>446.3333333333333</Y>
+					<X>1015</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26456,7 +26605,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476882161</Id>
 					<Name><![CDATA[attractor390]]></Name>
-					<X>1005.6666666666666</X><Y>453.1666666666667</Y>
+					<X>1001</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26468,7 +26617,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476882164</Id>
 					<Name><![CDATA[attractor391]]></Name>
-					<X>1010.3333333333334</X><Y>453.1666666666667</Y>
+					<X>1015</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26606,7 +26755,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476893173</Id>
 					<Name><![CDATA[attractor402]]></Name>
-					<X>1045.6666666666667</X><Y>425.8333333333333</Y>
+					<X>1041</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26618,7 +26767,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476893176</Id>
 					<Name><![CDATA[attractor403]]></Name>
-					<X>1050.3333333333333</X><Y>425.8333333333333</Y>
+					<X>1055</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26630,7 +26779,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476893179</Id>
 					<Name><![CDATA[attractor404]]></Name>
-					<X>1045.6666666666667</X><Y>432.6666666666667</Y>
+					<X>1041</X><Y>432.833</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26642,7 +26791,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476893182</Id>
 					<Name><![CDATA[attractor405]]></Name>
-					<X>1050.3333333333333</X><Y>432.6666666666667</Y>
+					<X>1055</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26654,7 +26803,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476893185</Id>
 					<Name><![CDATA[attractor406]]></Name>
-					<X>1045.6666666666667</X><Y>439.5</Y>
+					<X>1041</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26666,7 +26815,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476893188</Id>
 					<Name><![CDATA[attractor407]]></Name>
-					<X>1050.3333333333333</X><Y>439.5</Y>
+					<X>1055</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26678,7 +26827,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476893191</Id>
 					<Name><![CDATA[attractor408]]></Name>
-					<X>1045.6666666666667</X><Y>446.3333333333333</Y>
+					<X>1041</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26690,7 +26839,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476893194</Id>
 					<Name><![CDATA[attractor409]]></Name>
-					<X>1050.3333333333333</X><Y>446.3333333333333</Y>
+					<X>1055</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26702,7 +26851,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476893197</Id>
 					<Name><![CDATA[attractor410]]></Name>
-					<X>1045.6666666666667</X><Y>453.1666666666667</Y>
+					<X>1041</X><Y>453.333</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26714,7 +26863,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476893200</Id>
 					<Name><![CDATA[attractor411]]></Name>
-					<X>1050.3333333333333</X><Y>453.1666666666667</Y>
+					<X>1055</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26852,7 +27001,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476889477</Id>
 					<Name><![CDATA[attractor392]]></Name>
-					<X>1085.6666666666667</X><Y>425.8333333333333</Y>
+					<X>1081</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26864,7 +27013,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476889480</Id>
 					<Name><![CDATA[attractor393]]></Name>
-					<X>1090.3333333333333</X><Y>425.8333333333333</Y>
+					<X>1095</X><Y>426</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26876,7 +27025,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476889483</Id>
 					<Name><![CDATA[attractor394]]></Name>
-					<X>1085.6666666666667</X><Y>432.6666666666667</Y>
+					<X>1081</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26888,7 +27037,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476889486</Id>
 					<Name><![CDATA[attractor395]]></Name>
-					<X>1090.3333333333333</X><Y>432.6666666666667</Y>
+					<X>1095</X><Y>432.834</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26900,7 +27049,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476889489</Id>
 					<Name><![CDATA[attractor396]]></Name>
-					<X>1085.6666666666667</X><Y>439.5</Y>
+					<X>1081</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26912,7 +27061,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476889492</Id>
 					<Name><![CDATA[attractor397]]></Name>
-					<X>1090.3333333333333</X><Y>439.5</Y>
+					<X>1095</X><Y>439.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26924,7 +27073,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476889495</Id>
 					<Name><![CDATA[attractor398]]></Name>
-					<X>1085.6666666666667</X><Y>446.3333333333333</Y>
+					<X>1081</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26936,7 +27085,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476889498</Id>
 					<Name><![CDATA[attractor399]]></Name>
-					<X>1090.3333333333333</X><Y>446.3333333333333</Y>
+					<X>1095</X><Y>446.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26948,7 +27097,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476889501</Id>
 					<Name><![CDATA[attractor400]]></Name>
-					<X>1085.6666666666667</X><Y>453.1666666666667</Y>
+					<X>1081</X><Y>453</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26960,7 +27109,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Attractor>
 					<Id>1774476889504</Id>
 					<Name><![CDATA[attractor401]]></Name>
-					<X>1090.3333333333333</X><Y>453.1666666666667</Y>
+					<X>1095</X><Y>453.334</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27094,7 +27243,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
     			<BarChart>
 					<Id>1774628132603</Id>
 					<Name><![CDATA[chart]]></Name>
-					<X>2240</X><Y>150</Y>
+					<X>2240</X><Y>170</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27255,7 +27404,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Text>
 					<Id>1775312345679</Id>
 					<Name><![CDATA[textTableUtil]]></Name>
-					<X>2000</X><Y>80</Y>
+					<X>2000</X><Y>100</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27277,7 +27426,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Text>
 					<Id>1775312345680</Id>
 					<Name><![CDATA[textBalks]]></Name>
-					<X>2000</X><Y>100</Y>
+					<X>2260</X><Y>100</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27288,55 +27437,18 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Customers Lost: ]]></Text>
-					<TextCode>
-</Text>
-<Text>
-<Id>1775312345690</Id>
-<Name><![CDATA[textInternalSkips]]></Name>
-<X>2000</X><Y>120</Y>
-<Label><X>0</X><Y>-10</Y></Label>
-<PublicFlag>true</PublicFlag>
-<PresentationFlag>true</PresentationFlag>
-<ShowLabel>false</ShowLabel>
-<DrawMode>SHAPE_DRAW_2D</DrawMode>
-<EmbeddedIcon>false</EmbeddedIcon>
-<Z>0</Z>
-<Rotation>0.0</Rotation>
-<Color>-16744448</Color>
-<Text><![CDATA[Internal Skips: ]]></Text>
-<TextCode><![CDATA["Internal Skips: " + totalStationSkips]]></TextCode>
-<Font>
-<Name>SansSerif</Name>
-<Size>14</Size>
-<Style>1</Style>
-</Font>
-<Alignment>LEFT</Alignment>
-</Text>
-<Text>
-<Id>1775312345691</Id>
-<Name><![CDATA[textEstWait]]></Name>
-<X>2000</X><Y>140</Y>
-<Label><X>0</X><Y>-10</Y></Label>
-<PublicFlag>true</PublicFlag>
-<PresentationFlag>true</PresentationFlag>
-<ShowLabel>false</ShowLabel>
-<DrawMode>SHAPE_DRAW_2D</DrawMode>
-<EmbeddedIcon>false</EmbeddedIcon>
-<Z>0</Z>
-<Rotation>0.0</Rotation>
-<Color>-4194305</Color>
-<Text><![CDATA[Est. Wait Added: ]]></Text>
-<TextCode><![CDATA["Est. Wait Added: " + (totalStationSkips * 5) + " mins"]]></TextCode>
-<Font>
-<Name>SansSerif</Name>
-<Size>14</Size>
-<Style>1</Style>
-</Font>
-<Alignment>LEFT</Alignment>
+					<TextCode><![CDATA["Customers Lost: " + balkCount ]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
 				<Text>
 					<Id>1775312345681</Id>
 					<Name><![CDATA[textDirtyTables]]></Name>
-					<X>2000</X><Y>160</Y>
+					<X>2000</X><Y>120</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27358,7 +27470,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Text>
 					<Id>1775312345683</Id>
 					<Name><![CDATA[textQueue4Total]]></Name>
-					<X>2000</X><Y>200</Y>
+					<X>2000</X><Y>140</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27380,7 +27492,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 				<Text>
 					<Id>1775312345684</Id>
 					<Name><![CDATA[textQueue10Total]]></Name>
-					<X>2000</X><Y>220</Y>
+					<X>2000</X><Y>160</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27399,6 +27511,326 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 					</Font>
 					<Alignment>LEFT</Alignment>
 				</Text>
+				<Text>
+					<Id>1775172818868</Id>
+					<Name><![CDATA[textBalks1]]></Name>
+					<X>2260</X><Y>120</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Buffet Service Level: ]]></Text>
+					<TextCode><![CDATA["Buffet Service Level: " + String.format("%.1f%%", Math.max(0, (1.0 - (double)totalStationSkips/Math.max(1, pedSource1.out.count()*3)) * 100))
+]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1775172820502</Id>
+					<Name><![CDATA[textBalks2]]></Name>
+					<X>2260</X><Y>140</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Avg. Service Latency: ]]></Text>
+					<TextCode><![CDATA["Avg. Service Latency: " + String.format("%.2f mins", (totalStationSkips * 0.75) / Math.max(1, pedSource1.out.count()))
+]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<RectangleWall>
+					<Id>1775573482603</Id>
+					<Name><![CDATA[wall97]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>0.1</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>1</ZHeight>
+					<Rotation>0.0</Rotation>
+					<Width>12</Width>
+					<Height>0.1</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1775573482606</Id>
+					<Name><![CDATA[wall98]]></Name>
+					<X>12</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>0.1</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>1</ZHeight>
+					<Rotation>90.0</Rotation>
+					<Width>33</Width>
+					<Height>0.1</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1775573482609</Id>
+					<Name><![CDATA[wall99]]></Name>
+					<X>0</X><Y>33</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>0.1</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>1</ZHeight>
+					<Rotation>0.0</Rotation>
+					<Width>12</Width>
+					<Height>0.1</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1775573498142</Id>
+					<Name><![CDATA[wall109]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>0.1</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>1</ZHeight>
+					<Rotation>0.0</Rotation>
+					<Width>12</Width>
+					<Height>0.1</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1775573498145</Id>
+					<Name><![CDATA[wall110]]></Name>
+					<X>12</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>0.1</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>1</ZHeight>
+					<Rotation>90.0</Rotation>
+					<Width>33</Width>
+					<Height>0.1</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1775573498148</Id>
+					<Name><![CDATA[wall111]]></Name>
+					<X>0</X><Y>33</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>0.1</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>1</ZHeight>
+					<Rotation>0.0</Rotation>
+					<Width>12</Width>
+					<Height>0.1</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1775573519872</Id>
+					<Name><![CDATA[wall121]]></Name>
+					<X>1013</X><Y>553</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>0.1</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>1</ZHeight>
+					<Rotation>0.0</Rotation>
+					<Width>12</Width>
+					<Height>0.1</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1775573519875</Id>
+					<Name><![CDATA[wall122]]></Name>
+					<X>1025</X><Y>553</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>0.1</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>1</ZHeight>
+					<Rotation>90.0</Rotation>
+					<Width>33</Width>
+					<Height>0.1</Height>
+				</RectangleWall>
+				<RectangleNode>
+					<Id>1775580311244</Id>
+					<Name><![CDATA[walkStation]]></Name>
+					<X>650</X><Y>260</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<EmbeddedObject>
+						<Id>1775580311248</Id>
+						<ActiveObjectClass>
+							<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
+							<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
+						</ActiveObjectClass>
+						<GenericParameterSubstitute>
+							<GenericParameterSubstituteReference>
+								<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
+								<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
+								<ItemName><![CDATA[1574694148121]]></ItemName>
+							</GenericParameterSubstituteReference>
+						</GenericParameterSubstitute>
+						<Parameters>
+							<Parameter>
+								<Name><![CDATA[appliedClass]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[speedRestricted]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[maxSpeed]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[accessRestricted]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[accessRestrictionType]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[accessRestrictionCondition]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[capacity]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[throughput]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[schedule]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[avoidedIfClosed]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onEnter]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onEnterDenied]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onExit]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onOpen]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onClose]]></Name>
+							</Parameter>
+						</Parameters>
+						<ReplicationFlag>false</ReplicationFlag>
+						<Replication Class="CodeValue">
+							<Code><![CDATA[100]]></Code>
+						</Replication>
+						<CollectionType>ARRAY_LIST_BASED</CollectionType>
+						<InitialLocationType>XYZ</InitialLocationType>
+						<ColumnCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</ColumnCode>
+						<RowCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</RowCode>
+						<LocationNameCode Class="CodeValue">
+							<Code><![CDATA[""]]></Code>
+						</LocationNameCode>
+						<InitializationType>SPECIFIED_NUMBER</InitializationType>
+						<InitializationDatabaseTableQuery>
+							<Id>1775580311247</Id>
+							<TableReference>
+							</TableReference>
+						</InitializationDatabaseTableQuery>
+						<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+						<QuantityColumn>
+						</QuantityColumn>
+					</EmbeddedObject>
+					<LineColor>-14774017</LineColor>
+					<FillColor/>
+					<LineWidth>1</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillMaterial>null</FillMaterial>
+					<LineStyle>DASHED</LineStyle>
+					<AttractorsLayout>random</AttractorsLayout>
+					<Sloped>false</Sloped>
+					<Slope>
+						<Id>1775580311242</Id>
+						<Name><![CDATA[walkStation]]></Name>
+						<X>0</X><Y>10</Y>
+						<PublicFlag>false</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>true</ShowLabel>
+						<Dx>20</Dx>
+						<Dy>0</Dy>
+						<Dz>0</Dz>
+						<AngleX>30</AngleX>
+						<AngleZ>0</AngleZ>
+						<SlopeType>angle</SlopeType>	
+					</Slope>
+
+					<Width>250</Width>
+					<Height>140</Height>
+					<Rotation>0.0</Rotation>
+				</RectangleNode>
 			</Presentation>
 
 				</Level>
@@ -28327,6 +28759,3 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 	<Uuid>2216cdd0-177c-5678-9e88-dd8b95313334</Uuid>
 </ConvertersApplied>
 </AnyLogicWorkspace>
-
-
-
