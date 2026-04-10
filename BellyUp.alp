@@ -4035,6 +4035,14 @@ randomTrue(0.71) ? 4 : 2
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[Customer c = (Customer) ped;
+if (c.entryTime < 0) {
+    c.entryTime = time(MINUTE);
+    c.balkingThreshold = triangular(15, 20, 30);
+    c.remainingTrips = uniform_discr(3, 5);
+}]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onBeginGrouping]]></Name>
@@ -4855,7 +4863,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<Parameter>
 							<Name><![CDATA[delayTimeout]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[uniform(10,15)]]></Code>
+								<Code><![CDATA[uniform(15, 20)]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 							</Value>
 						</Parameter>
