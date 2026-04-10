@@ -1527,6 +1527,39 @@
 					</Points>
 				</Connector>
 				<Connector>
+					<Id>1775754306546</Id>
+					<Name><![CDATA[connector41]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[balkSink1]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedSink]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[bellyup]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[lobby10]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedWait]]></ClassName>
+						<ItemName><![CDATA[ccl]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>710</X><Y>1215</Y></Point>
+						<Point><X>650</X><Y>1170</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
 					<Id>1775754323598</Id>
 					<Name><![CDATA[connector42]]></Name>
 					<X>580</X><Y>1250</Y>
@@ -1547,16 +1580,16 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[bellyup]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[GoHome]]></ItemName>
+						<ItemName><![CDATA[balkSink1]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedGoTo]]></ClassName>
+						<ClassName><![CDATA[PedSink]]></ClassName>
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>170</X><Y>-50</Y></Point>
+						<Point><X>130</X><Y>-35</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -1691,72 +1724,6 @@
 						<Point><X>115</X><Y>-200</Y></Point>
 					</Points>
 				</Connector>
-				<Connector>
-					<Id>1775802270428</Id>
-					<Name><![CDATA[connector27]]></Name>
-					<X>865</X><Y>1210</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[balkSink1]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedSink]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[GoHome]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedGoTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-75</X><Y>-10</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1775802270430</Id>
-					<Name><![CDATA[connector28]]></Name>
-					<X>750</X><Y>1200</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[GoHome]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedGoTo]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[bellyup]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[lobby10]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedWait]]></ClassName>
-						<ItemName><![CDATA[ccl]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-100</X><Y>-30</Y></Point>
-					</Points>
-				</Connector>
 			</Connectors>
 			<Events>
 				<Event>
@@ -1793,88 +1760,6 @@
 dimsumFoodHistory.add(time(), dimsumFoodLevel);
 buffetFoodHistory.add(time(), buffetFoodLevel);
 beverageFoodHistory.add(time(), beverageFoodLevel);
-]]></Action>
-				</Event>
-				<Event>
-					<Id>1775900100001</Id>
-					<Name><![CDATA[balkingTimer]]></Name>
-					<X>2010</X><Y>650</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties TriggerType="timeout" Mode="cyclic">
-						<Timeout Class="CodeUnitValue">
-							<Code><![CDATA[1]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-						</Timeout>
-						<Rate Class="CodeUnitValue">
-							<Code><![CDATA[1]]></Code>
-							<Unit Class="RateUnits"><![CDATA[PER_SECOND]]></Unit>
-						</Rate>
-						<Id>1775900100000</Id>
-						<OccurrenceAtTime>true</OccurrenceAtTime>
-						<OccurrenceDate>1774684800000</OccurrenceDate>
-						<OccurrenceTime Class="CodeUnitValue">
-							<Code><![CDATA[0]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-						</OccurrenceTime>
-						<RecurrenceCode Class="CodeUnitValue">
-							<Code><![CDATA[1]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-						</RecurrenceCode>
-						<Condition><![CDATA[false]]></Condition>
-					</Properties>
-					<Action><![CDATA[// --- Group Balking Timer: every 1 minute ---
-// Check lobby4 (groups of 1-4) for overdue leaders
-for (Object obj : new java.util.ArrayList<>(lobby4.getPeds())) {
-    Customer c = (Customer) obj;
-    // Only process group leaders and solo customers (not group members)
-    if (c.getGroup() == null || c.getGroup().getLeader() == c) {
-        if (c.entryTime >= 0 && (time(MINUTE) - c.entryTime) > c.balkingThreshold) {
-            balkCount++;
-            // Cancel entire group - routes through ccl port -> balkSink1
-            if (c.getGroup() != null) {
-                java.util.ArrayList<Agent> members = new java.util.ArrayList<>();
-                for (Agent a : c.getGroup()) members.add(a);
-                for (Agent a : members) {
-                    Customer member = (Customer) a;
-                    if (lobby4.contains(member)) {
-                        lobby4.cancel(member);
-                    }
-                }
-            } else {
-                if (lobby4.contains(c)) {
-                    lobby4.cancel(c);
-                }
-            }
-        }
-    }
-}
-// Check lobby10 (groups of 5+) for overdue leaders
-for (Object obj : new java.util.ArrayList<>(lobby10.getPeds())) {
-    Customer c = (Customer) obj;
-    if (c.getGroup() == null || c.getGroup().getLeader() == c) {
-        if (c.entryTime >= 0 && (time(MINUTE) - c.entryTime) > c.balkingThreshold) {
-            balkCount++;
-            // Cancel entire group - routes through ccl port -> balkSink1
-            if (c.getGroup() != null) {
-                java.util.ArrayList<Agent> members = new java.util.ArrayList<>();
-                for (Agent a : c.getGroup()) members.add(a);
-                for (Agent a : members) {
-                    Customer member = (Customer) a;
-                    if (lobby10.contains(member)) {
-                        lobby10.cancel(member);
-                    }
-                }
-            } else {
-                if (lobby10.contains(c)) {
-                    lobby10.cancel(c);
-                }
-            }
-        }
-    }
-}
 ]]></Action>
 				</Event>
 			</Events>
@@ -2151,7 +2036,7 @@ return false;]]></Body>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[6]]></Code>
+								<Code><![CDATA[2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2443,7 +2328,7 @@ return false;]]></Body>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[4]]></Code>
+								<Code><![CDATA[2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3118,7 +3003,7 @@ return false;]]></Body>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[triangular(10, 15, 20) * 60]]></Code>
+								<Code><![CDATA[triangular(5, 7, 10) * 60]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -4633,7 +4518,7 @@ else if (r < 0.65) firstChoice = 1;  // Dimsum: 25%
 else if (r < 0.85) firstChoice = 2;  // Buffet: 20%
 else               firstChoice = 3;  // Beverage: 15%
 
-// Skip empty stations ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â cascade to next available
+// Skip empty stations — cascade to next available
 double[] levels = { seaFoodLevel, dimsumFoodLevel, buffetFoodLevel, beverageFoodLevel };
 if (levels[firstChoice] > 0) {
     ped.foodChoice = firstChoice;
@@ -4941,14 +4826,11 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<Parameter>
 							<Name><![CDATA[type]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[self.TYPE_CONDITIONS]]></Code>
+								<Code><![CDATA[self.TYPE_PROBABILITIES]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[((Customer)ped).remainingTrips > 0]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
@@ -4962,7 +4844,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[0]]></Code>
+								<Code><![CDATA[0.60]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4986,7 +4868,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<Parameter>
 							<Name><![CDATA[probability5]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[0]]></Code>
+								<Code><![CDATA[0.40]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5000,9 +4882,6 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[((Customer)ped).remainingTrips--;]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
@@ -5508,7 +5387,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[6]]></Code>
+								<Code><![CDATA[3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6134,7 +6013,7 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[triangular(3, 5, 8) * 60]]></Code>
+								<Code><![CDATA[triangular(4, 6, 9) * 60]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -6539,15 +6418,6 @@ else if (beverageFoodLevel <= 30 && !beverageRefilling) {
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[Customer c = (Customer) ped;
-if (c.entryTime < 0) {
-    c.entryTime = time(MINUTE);
-    c.balkingThreshold = triangular(15, 20, 30);
-    c.remainingTrips = uniform_discr(3, 5);
-}
-]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onBeginWait]]></Name>
@@ -6664,15 +6534,6 @@ if (c.entryTime < 0) {
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[Customer c = (Customer) ped;
-if (c.entryTime < 0) {
-    c.entryTime = time(MINUTE);
-    c.balkingThreshold = triangular(15, 20, 30);
-    c.remainingTrips = uniform_discr(3, 5);
-}
-]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onBeginWait]]></Name>
@@ -6744,7 +6605,10 @@ if (c.entryTime < 0) {
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[false]]></Code>
+								<Code><![CDATA[(ped.getGroup() != null && ped.getGroup().size() > 4) ? 
+    (availableTenSeaters.isEmpty() && lobby10.getPeds().stream().filter(p -> ((Customer)p).getGroup() == null || ((Customer)p).getGroup().getLeader() == p).count() >= 30) : 
+    (availableFourSeaters.isEmpty() && lobby4.getPeds().stream().filter(p -> ((Customer)p).getGroup() == null || ((Customer)p).getGroup().getLeader() == p).count() >= 30)
+]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -7065,7 +6929,7 @@ if (c.entryTime < 0) {
 				<EmbeddedObject>
 					<Id>1775754304455</Id>
 					<Name><![CDATA[balkSink1]]></Name>
-					<X>865</X><Y>1210</Y>
+					<X>710</X><Y>1215</Y>
 					<Label><X>-25</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7108,94 +6972,6 @@ if (c.entryTime < 0) {
 					<InitializationType>SPECIFIED_NUMBER</InitializationType>
 					<InitializationDatabaseTableQuery>
 						<Id>1775754304453</Id>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
-					<Id>1775802269033</Id>
-					<Name><![CDATA[GoHome]]></Name>
-					<X>750</X><Y>1190</Y>
-					<Label><X>-20</X><Y>-25</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedGoTo]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-							<ClassName><![CDATA[PedGoTo]]></ClassName>
-							<ItemName><![CDATA[1412464601103]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[mode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationLine]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[spawnLine2]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationX]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationY]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationNode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[route]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[walkInReverseDirection]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[reachTolerance]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onCancel]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onRemove]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>XYZ</InitialLocationType>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<Id>1775802269031</Id>
 						<TableReference>
 						</TableReference>
 					</InitializationDatabaseTableQuery>
@@ -15405,7 +15181,7 @@ if (c.entryTime < 0) {
 				<Attractor>
 					<Id>1774256652016</Id>
 					<Name><![CDATA[attractor74]]></Name>
-					<X>624</X><Y>490</Y>
+					<X>626</X><Y>490</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15417,7 +15193,7 @@ if (c.entryTime < 0) {
 				<Attractor>
 					<Id>1774256652019</Id>
 					<Name><![CDATA[attractor75]]></Name>
-					<X>624</X><Y>510</Y>
+					<X>625</X><Y>508</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15429,7 +15205,7 @@ if (c.entryTime < 0) {
 				<Attractor>
 					<Id>1774256652022</Id>
 					<Name><![CDATA[attractor76]]></Name>
-					<X>644</X><Y>510</Y>
+					<X>642</X><Y>508</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15441,7 +15217,7 @@ if (c.entryTime < 0) {
 				<Attractor>
 					<Id>1774256652025</Id>
 					<Name><![CDATA[attractor77]]></Name>
-					<X>644</X><Y>490</Y>
+					<X>642</X><Y>490</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28382,51 +28158,6 @@ if (c.entryTime < 0) {
 						<InitialValue Class="CodeValue">
 							<Code><![CDATA[0
 ]]></Code>
-						</InitialValue>
-					</Properties>
-				</Variable>
-				<Variable Class="PlainVariable">
-					<Id>1775900000001</Id>
-					<Name><![CDATA[entryTime]]></Name>
-					<X>1020</X><Y>-20</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
-						<Type><![CDATA[double]]></Type>        
-						<InitialValue Class="CodeValue">
-							<Code><![CDATA[-1]]></Code>
-						</InitialValue>
-					</Properties>
-				</Variable>
-				<Variable Class="PlainVariable">
-					<Id>1775900000002</Id>
-					<Name><![CDATA[balkingThreshold]]></Name>
-					<X>1180</X><Y>-20</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
-						<Type><![CDATA[double]]></Type>        
-						<InitialValue Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</InitialValue>
-					</Properties>
-				</Variable>
-				<Variable Class="PlainVariable">
-					<Id>1775900000003</Id>
-					<Name><![CDATA[remainingTrips]]></Name>
-					<X>1340</X><Y>-20</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
-						<Type><![CDATA[int]]></Type>        
-						<InitialValue Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>

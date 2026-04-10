@@ -52,3 +52,7 @@ All answers about AnyLogic must be **grounded in the official AnyLogic documenta
 - **`accessRestricted = true` alone does NOT make pedestrians avoid the node** — `avoidedIfClosed` must also be `true`.
 - Nodes with access restrictions **change color to red** in the AnyLogic editor as a visual indicator.
 - `PedGoTo` and `PedWait` that explicitly target a node will still send pedestrians into it even when access is restricted.
+- **`PedWait` Routing:** `free(ped)` sends the pedestrian to the normal `out` port. `cancel(ped)` sends the pedestrian to the `ccl` (cancel) port. **If balking or cancelling a wait state group, always use `cancel(ped)` to bypass normal downstream flow (like table assignment).**
+- **PedSelectOutput Condition Safety:** AnyLogic `PedSelectOutput` evaluates condition definitions multiple times. **Never mutate state (e.g. `trips--`) inside `condition` fields**, as it will cause dynamic choice changes resulting in runtime crashes (`choice changed before the agent transmission`). Always put mutating actions inside `onExit` actions instead.
+- **Group Iteration:** `aGroup.iterator()` produces generic `Agent` references in AnyLogic. In order to process specific pedestrians logic, you must explicitly cast: `Customer c = (Customer) agent`.
+- **XML Modification Safety:** AnyLogic autosaves frequently. Whenever manually modifying the `.alp` project XML file, the active project **must be completely closed** inside the AnyLogic IDE to prevent auto-save overwriting changes.
