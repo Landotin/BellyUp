@@ -2122,7 +2122,7 @@
 				<Event>
 					<Id>1774627237943</Id>
 					<Name><![CDATA[event]]></Name>
-					<X>2010</X><Y>580</Y>
+					<X>2000</X><Y>720</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2153,12 +2153,16 @@
 dimsumFoodHistory.add(time(), dimsumFoodLevel);
 buffetFoodHistory.add(time(), buffetFoodLevel);
 beverageFoodHistory.add(time(), beverageFoodLevel);
+meatFoodHistory.add(time(), meatFoodLevel);
+sushiFoodHistory.add(time(), sushiFoodLevel);
+candiesFoodHistory.add(time(), candiesFoodLevel);
+iceCreamFoodHistory.add(time(), iceCreamFoodLevel);
 ]]></Action>
 				</Event>
 				<Event>
 					<Id>1775900100001</Id>
 					<Name><![CDATA[balkingTimer]]></Name>
-					<X>2010</X><Y>650</Y>
+					<X>2000</X><Y>750</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2316,6 +2320,8 @@ if (leader.getGroup() != null) {
 } else {
     leader.groupSize = 1;
 }
+
+occupiedSeats += leader.groupSize;
 ]]></Body>
 				</Function>
 				<Function AccessType="default" StaticFunction="false">
@@ -2453,6 +2459,106 @@ return false;]]></Body>
 					<FreezeXAxis>true</FreezeXAxis>
 					<SamplesToKeep>100</SamplesToKeep>
 				</DataSet>
+    			<DataSet>
+					<Id>877462719201</Id>
+					<Name><![CDATA[meatFoodHistory]]></Name>
+					<X>2000</X><Y>560</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<AutoUpdate>false</AutoUpdate>
+					<RecurrenceProperties>
+						<Id>877462719202</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1774684800000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</RecurrenceCode>
+					</RecurrenceProperties>
+					<FreezeXAxis>true</FreezeXAxis>
+					<SamplesToKeep>100</SamplesToKeep>
+				</DataSet>
+    			<DataSet>
+					<Id>877462719211</Id>
+					<Name><![CDATA[sushiFoodHistory]]></Name>
+					<X>2000</X><Y>590</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<AutoUpdate>false</AutoUpdate>
+					<RecurrenceProperties>
+						<Id>877462719212</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1774684800000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</RecurrenceCode>
+					</RecurrenceProperties>
+					<FreezeXAxis>true</FreezeXAxis>
+					<SamplesToKeep>100</SamplesToKeep>
+				</DataSet>
+    			<DataSet>
+					<Id>877462719221</Id>
+					<Name><![CDATA[candiesFoodHistory]]></Name>
+					<X>2000</X><Y>620</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<AutoUpdate>false</AutoUpdate>
+					<RecurrenceProperties>
+						<Id>877462719222</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1774684800000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</RecurrenceCode>
+					</RecurrenceProperties>
+					<FreezeXAxis>true</FreezeXAxis>
+					<SamplesToKeep>100</SamplesToKeep>
+				</DataSet>
+    			<DataSet>
+					<Id>877462719231</Id>
+					<Name><![CDATA[iceCreamFoodHistory]]></Name>
+					<X>2000</X><Y>650</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<AutoUpdate>false</AutoUpdate>
+					<RecurrenceProperties>
+						<Id>877462719232</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1774684800000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</RecurrenceCode>
+					</RecurrenceProperties>
+					<FreezeXAxis>true</FreezeXAxis>
+					<SamplesToKeep>100</SamplesToKeep>
+				</DataSet>
 			</AnalysisData>
 			<AgentLinks>
 				<AgentLink>
@@ -2480,7 +2586,7 @@ return false;]]></Body>
 				<EmbeddedObject>
 					<Id>1774182524915</Id>
 					<Name><![CDATA[chefs]]></Name>
-					<X>2090</X><Y>690</Y>
+					<X>2230</X><Y>730</Y>
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2775,7 +2881,7 @@ return false;]]></Body>
 				<EmbeddedObject>
 					<Id>1774182725312</Id>
 					<Name><![CDATA[waiters]]></Name>
-					<X>2160</X><Y>690</Y>
+					<X>2300</X><Y>730</Y>
 					<Label><X>-25</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4671,6 +4777,7 @@ if (c.entryTime < 0) {
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[if (ped.assignedTable != null) {
+    occupiedSeats -= 1;
     // Only add it if it's NOT already in the dirty list
     if (!dirtyTables.contains(ped.assignedTable)) {
         dirtyTables.add(ped.assignedTable);
@@ -5880,7 +5987,7 @@ if (iceCreamFoodLevel <= (iceCreamFoodMax * 0.30) && !iceCreamRefilling) { iceCr
 				<EmbeddedObject>
 					<Id>1774913120998</Id>
 					<Name><![CDATA[busboys]]></Name>
-					<X>2230</X><Y>690</Y>
+					<X>2370</X><Y>730</Y>
 					<Label><X>-30</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27589,6 +27696,46 @@ if (c.entryTime < 0) {
 					<Expression><![CDATA[dataset3]]></Expression>
 					<Color>-32944</Color>
 					<Expression2><![CDATA[beverageFoodLevel]]></Expression2>
+					<Expression2Flag>true</Expression2Flag>
+						<PointStyle>NONE</PointStyle>
+						<LineWidth>1.0</LineWidth>
+					</DatasetExpression>
+					<DatasetExpression>  
+						<Title><![CDATA[Meat]]></Title>
+					<Id>1775895577055</Id>
+					<Expression><![CDATA[dataset4]]></Expression>
+					<Color>-13447886</Color>
+					<Expression2><![CDATA[meatFoodLevel]]></Expression2>
+					<Expression2Flag>true</Expression2Flag>
+						<PointStyle>NONE</PointStyle>
+						<LineWidth>1.0</LineWidth>
+					</DatasetExpression>
+					<DatasetExpression>  
+						<Title><![CDATA[Sushii]]></Title>
+					<Id>1775895584878</Id>
+					<Expression><![CDATA[dataset5]]></Expression>
+					<Color>-9404272</Color>
+					<Expression2><![CDATA[sushiFoodLevel]]></Expression2>
+					<Expression2Flag>true</Expression2Flag>
+						<PointStyle>NONE</PointStyle>
+						<LineWidth>1.0</LineWidth>
+					</DatasetExpression>
+					<DatasetExpression>  
+						<Title><![CDATA[Candies]]></Title>
+					<Id>1775895605474</Id>
+					<Expression><![CDATA[dataset6]]></Expression>
+					<Color>-7667573</Color>
+					<Expression2><![CDATA[candiesFoodLevel]]></Expression2>
+					<Expression2Flag>true</Expression2Flag>
+						<PointStyle>NONE</PointStyle>
+						<LineWidth>1.0</LineWidth>
+					</DatasetExpression>
+					<DatasetExpression>  
+						<Title><![CDATA[Ice Cream]]></Title>
+					<Id>1775895618726</Id>
+					<Expression><![CDATA[dataset7]]></Expression>
+					<Color>-23296</Color>
+					<Expression2><![CDATA[iceCreamFoodLevel]]></Expression2>
 					<Expression2Flag>true</Expression2Flag>
 						<PointStyle>NONE</PointStyle>
 						<LineWidth>1.0</LineWidth>
