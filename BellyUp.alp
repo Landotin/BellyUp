@@ -381,6 +381,82 @@
 						</InitialValue>
 					</Properties>
 				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1775887794418</Id>
+					<Name><![CDATA[seaFoodDepletionCount]]></Name>
+					<X>2420</X><Y>550</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1775887794420</Id>
+					<Name><![CDATA[dimsumDepletionCount]]></Name>
+					<X>2420</X><Y>580</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1775887794422</Id>
+					<Name><![CDATA[buffetDepletionCount]]></Name>
+					<X>2420</X><Y>610</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1775887794424</Id>
+					<Name><![CDATA[beverageDepletionCount]]></Name>
+					<X>2420</X><Y>640</Y>
+					<Label><X>10</X><Y>1</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1775888058992</Id>
+					<Name><![CDATA[occupiedSeats]]></Name>
+					<X>2420</X><Y>670</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[((58 - availableFourSeaters.size()) * 4) 
+                  + ((17 - availableTenSeaters.size()) * 10);]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
 				<Variable Class="CollectionVariable">
 					<Id>1774258173783</Id>
 					<Name><![CDATA[availableFourSeaters]]></Name>
@@ -2151,7 +2227,7 @@ return false;]]></Body>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[6]]></Code>
+								<Code><![CDATA[4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3118,7 +3194,7 @@ return false;]]></Body>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[triangular(10, 15, 20) * 60]]></Code>
+								<Code><![CDATA[triangular(8, 12, 15) * 60]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -4310,6 +4386,7 @@ if (c.entryTime < 0) {
         // Only inject a cleaning task once per table!
         busboyCleaning.inject(1);
     }
+    ped.assignedTable = null; // Critical — clear after check
     
 
 }
@@ -4641,33 +4718,53 @@ else if (r < 0.65) firstChoice = 1;  // Dimsum: 25%
 else if (r < 0.85) firstChoice = 2;  // Buffet: 20%
 else               firstChoice = 3;  // Beverage: 15%
 
-// Skip empty stations ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â cascade to next available
-double[] levels = { seaFoodLevel, dimsumFoodLevel, buffetFoodLevel, beverageFoodLevel };
+double[] levels = { seaFoodLevel, dimsumFoodLevel, 
+                    buffetFoodLevel, beverageFoodLevel };
+
 if (levels[firstChoice] > 0) {
     ped.foodChoice = firstChoice;
 } else {
-    boolean found = false;
+    // Build shuffled list of alternatives
+    java.util.ArrayList<Integer> alternatives = new java.util.ArrayList<>();
     for (int i = 0; i < 4; i++) {
-        if (i != firstChoice && levels[i] > 0) {
-            ped.foodChoice = i; totalStationSkips++; found = true;
+        if (i != firstChoice) alternatives.add(i);
+    }
+    java.util.Collections.shuffle(alternatives, 
+        new java.util.Random((long)(time() * 1000)));
+    
+    boolean found = false;
+    for (int alt : alternatives) {
+        if (levels[alt] > 0) {
+            ped.foodChoice = alt;
+            totalStationSkips++;
+            found = true;
             break;
         }
     }
-    if (!found) ped.foodChoice = firstChoice; // all empty, take original
-}
-]]></Code>
+    if (!found) ped.foodChoice = firstChoice; // all empty
+}]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[if (ped.foodChoice == 0) seaFoodLevel = Math.max(0, (int)seaFoodLevel - 1);
-else if (ped.foodChoice == 1) dimsumFoodLevel = Math.max(0, dimsumFoodLevel - 1);
-else if (ped.foodChoice == 2) buffetFoodLevel = Math.max(0, buffetFoodLevel - 1);
-else if (ped.foodChoice == 3) beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
+								<Code><![CDATA[// Deduct food from chosen station
+if (ped.foodChoice == 0) 
+    seaFoodLevel = Math.max(0, (int)seaFoodLevel - 1);
+else if (ped.foodChoice == 1) 
+    dimsumFoodLevel = Math.max(0, dimsumFoodLevel - 1);
+else if (ped.foodChoice == 2) 
+    buffetFoodLevel = Math.max(0, buffetFoodLevel - 1);
+else if (ped.foodChoice == 3) 
+    beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 
-// Independent checks — not else-if chains
-// Threshold is 30% of max for each station
+// Count depletion only at the moment of transition to zero
+if (ped.foodChoice == 0 && seaFoodLevel == 0) seaFoodDepletionCount++;
+if (ped.foodChoice == 1 && dimsumFoodLevel == 0) dimsumDepletionCount++;
+if (ped.foodChoice == 2 && buffetFoodLevel == 0) buffetDepletionCount++;
+if (ped.foodChoice == 3 && beverageFoodLevel == 0) beverageDepletionCount++;
+
+// Independent refill triggers at 30% threshold
 if (seaFoodLevel <= (seaFoodMax * 0.30) && !seaFoodRefilling) {
     seaFoodRefilling = true;
     refillStationIndex = 0;
@@ -5516,7 +5613,7 @@ if (beverageFoodLevel <= (beverageFoodMax * 0.30) && !beverageRefilling) {
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[6]]></Code>
+								<Code><![CDATA[8]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6142,7 +6239,7 @@ if (beverageFoodLevel <= (beverageFoodMax * 0.30) && !beverageRefilling) {
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[triangular(3, 5, 8) * 60]]></Code>
+								<Code><![CDATA[triangular(2, 3, 5) * 60]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -7204,6 +7301,92 @@ if (c.entryTime < 0) {
 					<InitializationType>SPECIFIED_NUMBER</InitializationType>
 					<InitializationDatabaseTableQuery>
 						<Id>1775802269031</Id>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1775887794430</Id>
+					<Name><![CDATA[cookingTime1]]></Name>
+					<X>15</X><Y>1310</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Delay]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+							<ClassName><![CDATA[Delay]]></ClassName>
+							<ItemName><![CDATA[1412336242930]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[type]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[triangular(8, 12, 15) * 60]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[capacity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[maximumCapacity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[entityLocation]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[pushProtocol]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[forceStatisticsCollection]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onAtExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>XYZ</InitialLocationType>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<Id>1775887794428</Id>
 						<TableReference>
 						</TableReference>
 					</InitializationDatabaseTableQuery>
@@ -27383,7 +27566,7 @@ if (c.entryTime < 0) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Table Usage: ]]></Text>
-					<TextCode><![CDATA["Table Usage: " + Math.round((double)(75 - availableFourSeaters.size() - availableTenSeaters.size()) / 75 * 100) + "%"]]></TextCode>
+					<TextCode><![CDATA["Seat Usage: " + Math.round((double)occupiedSeats / 402 * 100) + "%"]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
