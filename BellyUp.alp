@@ -113,7 +113,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774182825381</Id>
 					<Name><![CDATA[food_level]]></Name>
-					<X>-130</X><Y>700</Y>
+					<X>-270</X><Y>720</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -128,7 +128,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477305381</Id>
 					<Name><![CDATA[seaFoodLevel]]></Name>
-					<X>-115</X><Y>620</Y>
+					<X>-110</X><Y>600</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -143,7 +143,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477317148</Id>
 					<Name><![CDATA[dimsumFoodLevel]]></Name>
-					<X>-115</X><Y>640</Y>
+					<X>-110</X><Y>620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -158,7 +158,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477339461</Id>
 					<Name><![CDATA[buffetFoodLevel]]></Name>
-					<X>-115</X><Y>660</Y>
+					<X>-110</X><Y>640</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -173,7 +173,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477353600</Id>
 					<Name><![CDATA[beverageFoodLevel]]></Name>
-					<X>-130</X><Y>680</Y>
+					<X>-110</X><Y>660</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -188,7 +188,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1775312345999</Id>
 					<Name><![CDATA[totalStationSkips]]></Name>
-					<X>-110</X><Y>600</Y>
+					<X>20</X><Y>950</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -203,7 +203,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477370879</Id>
 					<Name><![CDATA[seaFoodMax]]></Name>
-					<X>65</X><Y>620</Y>
+					<X>60</X><Y>660</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -218,7 +218,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477378341</Id>
 					<Name><![CDATA[dimsumFoodMax]]></Name>
-					<X>65</X><Y>640</Y>
+					<X>60</X><Y>680</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -233,7 +233,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477386494</Id>
 					<Name><![CDATA[buffetFoodMax]]></Name>
-					<X>65</X><Y>660</Y>
+					<X>60</X><Y>700</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -248,7 +248,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477387357</Id>
 					<Name><![CDATA[beverageFoodMax]]></Name>
-					<X>65</X><Y>680</Y>
+					<X>60</X><Y>720</Y>
 					<Label><X>10</X><Y>1</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -384,7 +384,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1775887794418</Id>
 					<Name><![CDATA[seaFoodDepletionCount]]></Name>
-					<X>2420</X><Y>550</Y>
+					<X>-380</X><Y>850</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -399,7 +399,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1775887794420</Id>
 					<Name><![CDATA[dimsumDepletionCount]]></Name>
-					<X>2420</X><Y>580</Y>
+					<X>-380</X><Y>870</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -414,7 +414,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1775887794422</Id>
 					<Name><![CDATA[buffetDepletionCount]]></Name>
-					<X>2420</X><Y>610</Y>
+					<X>-380</X><Y>890</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -429,7 +429,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1775887794424</Id>
 					<Name><![CDATA[beverageDepletionCount]]></Name>
-					<X>2420</X><Y>640</Y>
+					<X>-380</X><Y>910</Y>
 					<Label><X>10</X><Y>1</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -459,7 +459,7 @@
 				<Variable Class="PlainVariable">
 					<Id>2304969899816</Id>
 					<Name><![CDATA[meatFoodMax]]></Name>
-					<X>200</X><Y>640</Y>
+					<X>60</X><Y>620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -474,7 +474,7 @@
 				<Variable Class="PlainVariable">
 					<Id>2784552038627</Id>
 					<Name><![CDATA[sushiFoodMax]]></Name>
-					<X>200</X><Y>590</Y>
+					<X>60</X><Y>640</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -489,7 +489,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1376198993065</Id>
 					<Name><![CDATA[candiesFoodMax]]></Name>
-					<X>70</X><Y>600</Y>
+					<X>60</X><Y>740</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -504,7 +504,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1295357922929</Id>
 					<Name><![CDATA[iceCreamFoodMax]]></Name>
-					<X>90</X><Y>570</Y>
+					<X>60</X><Y>600</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -519,7 +519,7 @@
 				<Variable Class="PlainVariable">
 					<Id>2149760678316</Id>
 					<Name><![CDATA[meatFoodLevel]]></Name>
-					<X>80</X><Y>550</Y>
+					<X>-110</X><Y>720</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -534,7 +534,7 @@
 				<Variable Class="PlainVariable">
 					<Id>8591025630778</Id>
 					<Name><![CDATA[sushiFoodLevel]]></Name>
-					<X>70</X><Y>540</Y>
+					<X>-110</X><Y>740</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -549,7 +549,7 @@
 				<Variable Class="PlainVariable">
 					<Id>3277826928387</Id>
 					<Name><![CDATA[candiesFoodLevel]]></Name>
-					<X>70</X><Y>580</Y>
+					<X>-110</X><Y>700</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -564,7 +564,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1280390201473</Id>
 					<Name><![CDATA[iceCreamFoodLevel]]></Name>
-					<X>-120</X><Y>720</Y>
+					<X>-110</X><Y>680</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -579,7 +579,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1034530013457</Id>
 					<Name><![CDATA[meatRefilling]]></Name>
-					<X>-310</X><Y>660</Y>
+					<X>-170</X><Y>990</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -594,7 +594,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1917311917222</Id>
 					<Name><![CDATA[sushiRefilling]]></Name>
-					<X>-165</X><Y>930</Y>
+					<X>-170</X><Y>930</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -609,7 +609,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1224599376604</Id>
 					<Name><![CDATA[candiesRefilling]]></Name>
-					<X>-165</X><Y>960</Y>
+					<X>-170</X><Y>950</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -624,7 +624,7 @@
 				<Variable Class="PlainVariable">
 					<Id>3356183958942</Id>
 					<Name><![CDATA[iceCreamRefilling]]></Name>
-					<X>-165</X><Y>990</Y>
+					<X>-170</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -639,7 +639,7 @@
 				<Variable Class="PlainVariable">
 					<Id>2751778567137</Id>
 					<Name><![CDATA[meatDepletionCount]]></Name>
-					<X>90</X><Y>500</Y>
+					<X>-380</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -654,7 +654,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1287909825436</Id>
 					<Name><![CDATA[sushiDepletionCount]]></Name>
-					<X>90</X><Y>480</Y>
+					<X>-380</X><Y>950</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -669,7 +669,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1761613532959</Id>
 					<Name><![CDATA[candiesDepletionCount]]></Name>
-					<X>80</X><Y>460</Y>
+					<X>-380</X><Y>930</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -684,7 +684,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1469389578819</Id>
 					<Name><![CDATA[iceCreamDepletionCount]]></Name>
-					<X>-300</X><Y>570</Y>
+					<X>-380</X><Y>990</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -699,7 +699,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1426537935785</Id>
 					<Name><![CDATA[totalFoodSelectionAttempts]]></Name>
-					<X>-150</X><Y>460</Y>
+					<X>20</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -714,7 +714,7 @@
 				<Variable Class="PlainVariable">
 					<Id>3229293059268</Id>
 					<Name><![CDATA[pendingRefillStations]]></Name>
-					<X>-130</X><Y>550</Y>
+					<X>-170</X><Y>1010</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -729,7 +729,7 @@
 				<Variable Class="PlainVariable">
 					<Id>2919978525660</Id>
 					<Name><![CDATA[activeRefills]]></Name>
-					<X>-140</X><Y>520</Y>
+					<X>-170</X><Y>1030</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2365,7 +2365,7 @@ return false;]]></Body>
 					<X>2000</X><Y>410</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<AutoUpdate>false</AutoUpdate>
 					<RecurrenceProperties>
@@ -2390,7 +2390,7 @@ return false;]]></Body>
 					<X>2000</X><Y>450</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<AutoUpdate>false</AutoUpdate>
 					<RecurrenceProperties>
@@ -2415,7 +2415,7 @@ return false;]]></Body>
 					<X>2000</X><Y>490</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<AutoUpdate>false</AutoUpdate>
 					<RecurrenceProperties>
@@ -2440,7 +2440,7 @@ return false;]]></Body>
 					<X>2000</X><Y>530</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<AutoUpdate>false</AutoUpdate>
 					<RecurrenceProperties>
@@ -2465,7 +2465,7 @@ return false;]]></Body>
 					<X>2000</X><Y>560</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<AutoUpdate>false</AutoUpdate>
 					<RecurrenceProperties>
@@ -2490,7 +2490,7 @@ return false;]]></Body>
 					<X>2000</X><Y>590</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<AutoUpdate>false</AutoUpdate>
 					<RecurrenceProperties>
@@ -2515,7 +2515,7 @@ return false;]]></Body>
 					<X>2000</X><Y>620</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<AutoUpdate>false</AutoUpdate>
 					<RecurrenceProperties>
@@ -2540,7 +2540,7 @@ return false;]]></Body>
 					<X>2000</X><Y>650</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<AutoUpdate>false</AutoUpdate>
 					<RecurrenceProperties>
@@ -6013,7 +6013,7 @@ if (iceCreamFoodLevel <= (iceCreamFoodMax * 0.30) && !iceCreamRefilling) { iceCr
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[8]]></Code>
+								<Code><![CDATA[20]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6639,8 +6639,8 @@ if (iceCreamFoodLevel <= (iceCreamFoodMax * 0.30) && !iceCreamRefilling) { iceCr
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[triangular(3, 5, 8) * 60]]></Code>
-								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+								<Code><![CDATA[uniform(2,3)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -15806,7 +15806,7 @@ if (c.entryTime < 0) {
 				<RectangleNode>
 					<Id>1774256652013</Id>
 					<Name><![CDATA[table4seater16]]></Name>
-					<X>624</X><Y>481</Y>
+					<X>624</X><Y>485</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -15974,7 +15974,7 @@ if (c.entryTime < 0) {
 					</Slope>
 
 					<Width>20</Width>
-					<Height>37</Height>
+					<Height>30</Height>
 					<Rotation>0.0</Rotation>
 				</RectangleNode>
 				<RectangleNode>
@@ -27608,7 +27608,7 @@ if (c.entryTime < 0) {
     			<TimePlot>
 					<Id>1774625723559</Id>
 					<Name><![CDATA[plot]]></Name>
-					<X>1960</X><Y>160</Y>
+					<X>1950</X><Y>170</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27629,14 +27629,14 @@ if (c.entryTime < 0) {
 						</RecurrenceCode>
 					</RecurrenceProperties>
 					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>260</Width>
+					<Width>590</Width>
 					<Height>230</Height>
 					<BackgroundColor/>
 					<BorderColor/>
 					<ChartArea>
 						<XOffset>50</XOffset>
 						<YOffset>30</YOffset>
-						<Width>180</Width>
+						<Width>510</Width>
 						<Height>130</Height>
 						<BackgroundColor>-1</BackgroundColor>
 						<BorderColor>-16777216</BorderColor>
@@ -27748,7 +27748,7 @@ if (c.entryTime < 0) {
     			<BarChart>
 					<Id>1774628132603</Id>
 					<Name><![CDATA[chart]]></Name>
-					<X>2240</X><Y>170</Y>
+					<X>2520</X><Y>120</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
