@@ -113,7 +113,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774182825381</Id>
 					<Name><![CDATA[food_level]]></Name>
-					<X>-115</X><Y>700</Y>
+					<X>-130</X><Y>700</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -151,7 +151,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[180]]></Code>
+							<Code><![CDATA[150]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -166,14 +166,14 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[180]]></Code>
+							<Code><![CDATA[200]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
 					<Id>1774477353600</Id>
 					<Name><![CDATA[beverageFoodLevel]]></Name>
-					<X>-115</X><Y>680</Y>
+					<X>-130</X><Y>680</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -188,7 +188,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1775312345999</Id>
 					<Name><![CDATA[totalStationSkips]]></Name>
-					<X>-120</X><Y>600</Y>
+					<X>-110</X><Y>600</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -256,14 +256,14 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[220]]></Code>
+							<Code><![CDATA[150]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
 					<Id>1774477426110</Id>
 					<Name><![CDATA[refillTargetStation]]></Name>
-					<X>75</X><Y>760</Y>
+					<X>20</X><Y>870</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -279,7 +279,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774477438224</Id>
 					<Name><![CDATA[refillTargetLevel]]></Name>
-					<X>75</X><Y>780</Y>
+					<X>20</X><Y>890</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -294,7 +294,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774688652265</Id>
 					<Name><![CDATA[refillStationIndex]]></Name>
-					<X>75</X><Y>740</Y>
+					<X>20</X><Y>850</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -309,7 +309,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774688973149</Id>
 					<Name><![CDATA[seaFoodRefilling]]></Name>
-					<X>-115</X><Y>740</Y>
+					<X>-170</X><Y>850</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -324,7 +324,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774689019495</Id>
 					<Name><![CDATA[dimsumRefilling]]></Name>
-					<X>-115</X><Y>760</Y>
+					<X>-170</X><Y>870</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -339,7 +339,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774689037630</Id>
 					<Name><![CDATA[buffetRefilling]]></Name>
-					<X>-115</X><Y>780</Y>
+					<X>-170</X><Y>890</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -354,7 +354,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774689047335</Id>
 					<Name><![CDATA[beverageRefilling]]></Name>
-					<X>-115</X><Y>800</Y>
+					<X>-170</X><Y>910</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -369,7 +369,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1774917012594</Id>
 					<Name><![CDATA[balkCount]]></Name>
-					<X>75</X><Y>820</Y>
+					<X>20</X><Y>930</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -452,8 +452,292 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[((58 - availableFourSeaters.size()) * 4) 
-                  + ((17 - availableTenSeaters.size()) * 10);]]></Code>
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>2304969899816</Id>
+					<Name><![CDATA[meatFoodMax]]></Name>
+					<X>200</X><Y>640</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[150]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>2784552038627</Id>
+					<Name><![CDATA[sushiFoodMax]]></Name>
+					<X>200</X><Y>590</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[120]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1376198993065</Id>
+					<Name><![CDATA[candiesFoodMax]]></Name>
+					<X>70</X><Y>600</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[100]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1295357922929</Id>
+					<Name><![CDATA[iceCreamFoodMax]]></Name>
+					<X>90</X><Y>570</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[100]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>2149760678316</Id>
+					<Name><![CDATA[meatFoodLevel]]></Name>
+					<X>80</X><Y>550</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[150]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>8591025630778</Id>
+					<Name><![CDATA[sushiFoodLevel]]></Name>
+					<X>70</X><Y>540</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[120]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>3277826928387</Id>
+					<Name><![CDATA[candiesFoodLevel]]></Name>
+					<X>70</X><Y>580</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[100]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1280390201473</Id>
+					<Name><![CDATA[iceCreamFoodLevel]]></Name>
+					<X>-120</X><Y>720</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[100]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1034530013457</Id>
+					<Name><![CDATA[meatRefilling]]></Name>
+					<X>-310</X><Y>660</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[boolean]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[false]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1917311917222</Id>
+					<Name><![CDATA[sushiRefilling]]></Name>
+					<X>-165</X><Y>930</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[boolean]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[false]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1224599376604</Id>
+					<Name><![CDATA[candiesRefilling]]></Name>
+					<X>-165</X><Y>960</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[boolean]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[false]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>3356183958942</Id>
+					<Name><![CDATA[iceCreamRefilling]]></Name>
+					<X>-165</X><Y>990</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[boolean]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[false]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>2751778567137</Id>
+					<Name><![CDATA[meatDepletionCount]]></Name>
+					<X>90</X><Y>500</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1287909825436</Id>
+					<Name><![CDATA[sushiDepletionCount]]></Name>
+					<X>90</X><Y>480</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1761613532959</Id>
+					<Name><![CDATA[candiesDepletionCount]]></Name>
+					<X>80</X><Y>460</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1469389578819</Id>
+					<Name><![CDATA[iceCreamDepletionCount]]></Name>
+					<X>-300</X><Y>570</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1426537935785</Id>
+					<Name><![CDATA[totalFoodSelectionAttempts]]></Name>
+					<X>-150</X><Y>460</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>3229293059268</Id>
+					<Name><![CDATA[pendingRefillStations]]></Name>
+					<X>-130</X><Y>550</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[java.util.ArrayDeque<Integer>]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[new java.util.ArrayDeque<Integer>()]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>2919978525660</Id>
+					<Name><![CDATA[activeRefills]]></Name>
+					<X>-140</X><Y>520</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[java.util.Map<Agent, Integer>]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[new java.util.HashMap<Agent, Integer>()]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -1908,7 +2192,6 @@ for (Object obj : new java.util.ArrayList<>(lobby4.getPeds())) {
     // Only process group leaders and solo customers (not group members)
     if (c.getGroup() == null || c.getGroup().getLeader() == c) {
         if (c.entryTime >= 0 && (time(MINUTE) - c.entryTime) > c.balkingThreshold) {
-            balkCount++;
             // Cancel entire group - routes through ccl port -> balkSink1
             if (c.getGroup() != null) {
                 java.util.ArrayList<Agent> members = new java.util.ArrayList<>();
@@ -1932,7 +2215,6 @@ for (Object obj : new java.util.ArrayList<>(lobby10.getPeds())) {
     Customer c = (Customer) obj;
     if (c.getGroup() == null || c.getGroup().getLeader() == c) {
         if (c.entryTime >= 0 && (time(MINUTE) - c.entryTime) > c.balkingThreshold) {
-            balkCount++;
             // Cancel entire group - routes through ccl port -> balkSink1
             if (c.getGroup() != null) {
                 java.util.ArrayList<Agent> members = new java.util.ArrayList<>();
@@ -2227,7 +2509,7 @@ return false;]]></Body>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[4]]></Code>
+								<Code><![CDATA[6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2519,7 +2801,7 @@ return false;]]></Body>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[4]]></Code>
+								<Code><![CDATA[6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2937,6 +3219,9 @@ return false;]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[activeRefills.put(agent, pendingRefillStations.poll());]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onDiscard]]></Name>
@@ -3194,7 +3479,7 @@ return false;]]></Body>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[triangular(8, 12, 15) * 60]]></Code>
+								<Code><![CDATA[triangular(10, 15, 20) * 60]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -3584,7 +3869,7 @@ return false;]]></Body>
 						<Parameter>
 							<Name><![CDATA[destinationNode]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[seafood]]></Code>
+								<Code><![CDATA[new com.anylogic.engine.markup.INode[]{seafood, dimsum, all_kitchen, beverage, meat_kitchen, plate, candies, candies}[activeRefills.containsKey(agent) ? activeRefills.get(agent) : 0]]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3754,11 +4039,18 @@ return false;]]></Body>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[if (seaFoodRefilling) { seaFoodLevel = seaFoodMax; seaFoodRefilling = false; }
-else if (dimsumRefilling) { dimsumFoodLevel = dimsumFoodMax; dimsumRefilling = false; }
-else if (buffetRefilling) { buffetFoodLevel = buffetFoodMax; buffetRefilling = false; }
-else if (beverageRefilling) { beverageFoodLevel = beverageFoodMax; beverageRefilling = false; }
-]]></Code>
+								<Code><![CDATA[int idx = activeRefills.getOrDefault(agent, 0);
+activeRefills.remove(agent);
+switch(idx) {
+    case 0: seaFoodLevel = seaFoodMax; seaFoodRefilling = false; break;
+    case 1: dimsumFoodLevel = dimsumFoodMax; dimsumRefilling = false; break;
+    case 2: buffetFoodLevel = buffetFoodMax; buffetRefilling = false; break;
+    case 3: beverageFoodLevel = beverageFoodMax; beverageRefilling = false; break;
+    case 4: meatFoodLevel = meatFoodMax; meatRefilling = false; break;
+    case 5: sushiFoodLevel = sushiFoodMax; sushiRefilling = false; break;
+    case 6: candiesFoodLevel = candiesFoodMax; candiesRefilling = false; break;
+    case 7: iceCreamFoodLevel = iceCreamFoodMax; iceCreamRefilling = false; break;
+}]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4711,22 +5003,30 @@ if (c.entryTime < 0) {
 						<Parameter>
 							<Name><![CDATA[onAtExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[double r = uniform(0, 1);
+								<Code><![CDATA[totalFoodSelectionAttempts++;
+
+double r = uniform(0, 1);
 int firstChoice;
-if (r < 0.40)      firstChoice = 0;  // Seafood: 40%
-else if (r < 0.65) firstChoice = 1;  // Dimsum: 25%
-else if (r < 0.85) firstChoice = 2;  // Buffet: 20%
-else               firstChoice = 3;  // Beverage: 15%
+if      (r < 0.20) firstChoice = 0;  // Seafood: 20%
+else if (r < 0.40) firstChoice = 1;  // Dimsum: 20%
+else if (r < 0.55) firstChoice = 2;  // Buffet: 15%
+else if (r < 0.67) firstChoice = 3;  // Beverage: 12%
+else if (r < 0.82) firstChoice = 4;  // Meat: 15%
+else if (r < 0.90) firstChoice = 5;  // Sushi: 8%
+else if (r < 0.95) firstChoice = 6;  // Candies: 5%
+else               firstChoice = 7;  // Ice Cream: 5%
 
 double[] levels = { seaFoodLevel, dimsumFoodLevel, 
-                    buffetFoodLevel, beverageFoodLevel };
+                    buffetFoodLevel, beverageFoodLevel,
+                    meatFoodLevel, sushiFoodLevel, 
+                    candiesFoodLevel, iceCreamFoodLevel };
 
 if (levels[firstChoice] > 0) {
     ped.foodChoice = firstChoice;
 } else {
     // Build shuffled list of alternatives
     java.util.ArrayList<Integer> alternatives = new java.util.ArrayList<>();
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < 8; i++) {
         if (i != firstChoice) alternatives.add(i);
     }
     java.util.Collections.shuffle(alternatives, 
@@ -4749,42 +5049,35 @@ if (levels[firstChoice] > 0) {
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[// Deduct food from chosen station
-if (ped.foodChoice == 0) 
-    seaFoodLevel = Math.max(0, (int)seaFoodLevel - 1);
-else if (ped.foodChoice == 1) 
-    dimsumFoodLevel = Math.max(0, dimsumFoodLevel - 1);
-else if (ped.foodChoice == 2) 
-    buffetFoodLevel = Math.max(0, buffetFoodLevel - 1);
-else if (ped.foodChoice == 3) 
-    beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
+if (ped.foodChoice == 0) seaFoodLevel = Math.max(0, (int)seaFoodLevel - 1);
+else if (ped.foodChoice == 1) dimsumFoodLevel = Math.max(0, dimsumFoodLevel - 1);
+else if (ped.foodChoice == 2) buffetFoodLevel = Math.max(0, buffetFoodLevel - 1);
+else if (ped.foodChoice == 3) beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
+else if (ped.foodChoice == 4) meatFoodLevel = Math.max(0, meatFoodLevel - 1);
+else if (ped.foodChoice == 5) sushiFoodLevel = Math.max(0, sushiFoodLevel - 1);
+else if (ped.foodChoice == 6) candiesFoodLevel = Math.max(0, candiesFoodLevel - 1);
+else if (ped.foodChoice == 7) iceCreamFoodLevel = Math.max(0, iceCreamFoodLevel - 1);
 
 // Count depletion only at the moment of transition to zero
 if (ped.foodChoice == 0 && seaFoodLevel == 0) seaFoodDepletionCount++;
 if (ped.foodChoice == 1 && dimsumFoodLevel == 0) dimsumDepletionCount++;
 if (ped.foodChoice == 2 && buffetFoodLevel == 0) buffetDepletionCount++;
 if (ped.foodChoice == 3 && beverageFoodLevel == 0) beverageDepletionCount++;
+if (ped.foodChoice == 4 && meatFoodLevel == 0) meatDepletionCount++;
+if (ped.foodChoice == 5 && sushiFoodLevel == 0) sushiDepletionCount++;
+if (ped.foodChoice == 6 && candiesFoodLevel == 0) candiesDepletionCount++;
+if (ped.foodChoice == 7 && iceCreamFoodLevel == 0) iceCreamDepletionCount++;
 
 // Independent refill triggers at 30% threshold
-if (seaFoodLevel <= (seaFoodMax * 0.30) && !seaFoodRefilling) {
-    seaFoodRefilling = true;
-    refillStationIndex = 0;
-    triggerRefill.inject(1);
-}
-if (dimsumFoodLevel <= (dimsumFoodMax * 0.30) && !dimsumRefilling) {
-    dimsumRefilling = true;
-    refillStationIndex = 1;
-    triggerRefill.inject(1);
-}
-if (buffetFoodLevel <= (buffetFoodMax * 0.30) && !buffetRefilling) {
-    buffetRefilling = true;
-    refillStationIndex = 2;
-    triggerRefill.inject(1);
-}
-if (beverageFoodLevel <= (beverageFoodMax * 0.30) && !beverageRefilling) {
-    beverageRefilling = true;
-    refillStationIndex = 3;
-    triggerRefill.inject(1);
-}]]></Code>
+if (seaFoodLevel <= (seaFoodMax * 0.30) && !seaFoodRefilling) { seaFoodRefilling = true; pendingRefillStations.add(0); triggerRefill.inject(1); }
+if (dimsumFoodLevel <= (dimsumFoodMax * 0.30) && !dimsumRefilling) { dimsumRefilling = true; pendingRefillStations.add(1); triggerRefill.inject(1); }
+if (buffetFoodLevel <= (buffetFoodMax * 0.30) && !buffetRefilling) { buffetRefilling = true; pendingRefillStations.add(2); triggerRefill.inject(1); }
+if (beverageFoodLevel <= (beverageFoodMax * 0.30) && !beverageRefilling) { beverageRefilling = true; pendingRefillStations.add(3); triggerRefill.inject(1); }
+if (meatFoodLevel <= (meatFoodMax * 0.30) && !meatRefilling) { meatRefilling = true; pendingRefillStations.add(4); triggerRefill.inject(1); }
+if (sushiFoodLevel <= (sushiFoodMax * 0.30) && !sushiRefilling) { sushiRefilling = true; pendingRefillStations.add(5); triggerRefill.inject(1); }
+if (candiesFoodLevel <= (candiesFoodMax * 0.30) && !candiesRefilling) { candiesRefilling = true; pendingRefillStations.add(6); triggerRefill.inject(1); }
+if (iceCreamFoodLevel <= (iceCreamFoodMax * 0.30) && !iceCreamRefilling) { iceCreamRefilling = true; pendingRefillStations.add(7); triggerRefill.inject(1); }
+]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6239,7 +6532,7 @@ if (beverageFoodLevel <= (beverageFoodMax * 0.30) && !beverageRefilling) {
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[triangular(2, 3, 5) * 60]]></Code>
+								<Code><![CDATA[triangular(3, 5, 8) * 60]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -7301,92 +7594,6 @@ if (c.entryTime < 0) {
 					<InitializationType>SPECIFIED_NUMBER</InitializationType>
 					<InitializationDatabaseTableQuery>
 						<Id>1775802269031</Id>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
-					<Id>1775887794430</Id>
-					<Name><![CDATA[cookingTime1]]></Name>
-					<X>15</X><Y>1310</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Delay]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[Delay]]></ClassName>
-							<ItemName><![CDATA[1412336242930]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[type]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[delayTime]]></Name>
-							<Value Class="CodeUnitValue">
-								<Code><![CDATA[triangular(8, 12, 15) * 60]]></Code>
-								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[capacity]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maximumCapacity]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[entityLocation]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[pushProtocol]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[forceStatisticsCollection]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onAtExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onRemove]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>XYZ</InitialLocationType>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<Id>1775887794428</Id>
 						<TableReference>
 						</TableReference>
 					</InitializationDatabaseTableQuery>
