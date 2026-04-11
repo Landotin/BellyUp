@@ -136,7 +136,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[double]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[100]]></Code>
+							<Code><![CDATA[200]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -151,7 +151,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[100]]></Code>
+							<Code><![CDATA[180]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -166,7 +166,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[100]]></Code>
+							<Code><![CDATA[180]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -181,7 +181,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[100]]></Code>
+							<Code><![CDATA[200]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -211,7 +211,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[100]]></Code>
+							<Code><![CDATA[200	]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -226,7 +226,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[100]]></Code>
+							<Code><![CDATA[180]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -241,7 +241,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[100]]></Code>
+							<Code><![CDATA[180]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -256,7 +256,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[100]]></Code>
+							<Code><![CDATA[220]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -4661,33 +4661,33 @@ if (levels[firstChoice] > 0) {
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[if (ped.foodChoice == 0) seaFoodLevel = Math.max(0, seaFoodLevel - 1);
+								<Code><![CDATA[if (ped.foodChoice == 0) seaFoodLevel = Math.max(0, (int)seaFoodLevel - 1);
 else if (ped.foodChoice == 1) dimsumFoodLevel = Math.max(0, dimsumFoodLevel - 1);
 else if (ped.foodChoice == 2) buffetFoodLevel = Math.max(0, buffetFoodLevel - 1);
 else if (ped.foodChoice == 3) beverageFoodLevel = Math.max(0, beverageFoodLevel - 1);
 
-if (seaFoodLevel <= 30 && !seaFoodRefilling) {
+// Independent checks — not else-if chains
+// Threshold is 30% of max for each station
+if (seaFoodLevel <= (seaFoodMax * 0.30) && !seaFoodRefilling) {
     seaFoodRefilling = true;
     refillStationIndex = 0;
     triggerRefill.inject(1);
 }
-else if (dimsumFoodLevel <= 30 && !dimsumRefilling) {
+if (dimsumFoodLevel <= (dimsumFoodMax * 0.30) && !dimsumRefilling) {
     dimsumRefilling = true;
     refillStationIndex = 1;
     triggerRefill.inject(1);
 }
-else if (buffetFoodLevel <= 30 && !buffetRefilling) {
+if (buffetFoodLevel <= (buffetFoodMax * 0.30) && !buffetRefilling) {
     buffetRefilling = true;
     refillStationIndex = 2;
     triggerRefill.inject(1);
 }
-else if (beverageFoodLevel <= 30 && !beverageRefilling) {
+if (beverageFoodLevel <= (beverageFoodMax * 0.30) && !beverageRefilling) {
     beverageRefilling = true;
     refillStationIndex = 3;
     triggerRefill.inject(1);
-}
-
-]]></Code>
+}]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -27493,8 +27493,8 @@ if (c.entryTime < 0) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Buffet Service Level: ]]></Text>
-					<TextCode><![CDATA["Buffet Service Level: " + String.format("%.1f%%", Math.max(0, (1.0 - (double)totalStationSkips/Math.max(1, pedSource1.out.count()*3)) * 100))
-]]></TextCode>
+					<TextCode><![CDATA["Buffet Service Level: " + String.format("%.1f%%",Math.max(0, (1.0 - (double)totalStationSkips /
+    Math.max(1, pedSource1.out.count() * 4)) * 100))]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
@@ -27516,7 +27516,7 @@ if (c.entryTime < 0) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Avg. Service Latency: ]]></Text>
-					<TextCode><![CDATA["Avg. Service Latency: " + String.format("%.2f mins", (totalStationSkips * 0.75) / Math.max(1, pedSource1.out.count()))
+					<TextCode><![CDATA["Avg. Service Latency: " + String.format("%.2f mins", (totalStationSkips * 1.5) / Math.max(1, pedSource1.out.count()))
 ]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
