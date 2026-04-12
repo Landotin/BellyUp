@@ -108,72 +108,24 @@
 				<InheritedFromParentAgentType>true</InheritedFromParentAgentType>
 			</ScaleRuler>
 			<CurrentLevel>1774176465869</CurrentLevel>
+			<ConnectionsId>1774176465864</ConnectionsId>
 			<Variables>
 				<Variable Class="PlainVariable">
-					<Id>1775986000000</Id>
-					<Name><![CDATA[totalEntered]]></Name>
-					<X>240</X><Y>1150</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" Static="false">
-						<Type><![CDATA[int]]></Type>
-						<InitialValue Class="CodeValue"><Code><![CDATA[0]]></Code></InitialValue>
-					</Properties>
-				</Variable>
-			</Variables>
-			<Events>
-				<Event>
-					<Id>1775986000001</Id>
-					<Name><![CDATA[refillCheckEvent]]></Name>
-					<X>2690</X><Y>270</Y>
+					<Id>1775981000001</Id>
+					<Name><![CDATA[refillThreshold]]></Name>
+					<X>2690</X><Y>230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
-					<Properties TriggerType="timeout" Mode="cyclic">
-						<Timeout Class="CodeUnitValue">
-							<Code><![CDATA[5]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-						</Timeout>
-						<Rate Class="CodeUnitValue">
-							<Code><![CDATA[1]]></Code>
-							<Unit Class="RateUnits"><![CDATA[PER_MINUTE]]></Unit>
-						</Rate>
-						<OccurrenceAtTime>true</OccurrenceAtTime>
-						<OccurrenceDate>1775000000000</OccurrenceDate>
-						<OccurrenceTime Class="CodeUnitValue">
-							<Code><![CDATA[0]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-						</OccurrenceTime>
-						<RecurrenceCode Class="CodeUnitValue">
-							<Code><![CDATA[5]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-						</RecurrenceCode>
-						<Condition><![CDATA[false]]></Condition>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0.30]]></Code>
+						</InitialValue>
 					</Properties>
-					<Action><![CDATA[
-// Periodic health check for refills (Ensures stations don't stay empty during low-traffic closing)
-if (seaFoodLevel <= (seaFoodMax * refillThreshold) && !seaFoodRefilling) { seaFoodRefilling = true; pendingRefillStations.add(0); triggerRefill.inject(1); }
-if (dimsumFoodLevel <= (dimsumFoodMax * refillThreshold) && !dimsumRefilling) { dimsumRefilling = true; pendingRefillStations.add(1); triggerRefill.inject(1); }
-if (buffetFoodLevel <= (buffetFoodMax * refillThreshold) && !buffetRefilling) { buffetRefilling = true; pendingRefillStations.add(2); triggerRefill.inject(1); }
-if (beverageFoodLevel <= (beverageFoodMax * refillThreshold) && !beverageRefilling) { beverageRefilling = true; pendingRefillStations.add(3); triggerRefill.inject(1); }
-if (meatFoodLevel <= (meatFoodMax * refillThreshold) && !meatRefilling) { meatRefilling = true; pendingRefillStations.add(4); triggerRefill.inject(1); }
-if (sushiFoodLevel <= (sushiFoodMax * refillThreshold) && !sushiRefilling) { sushiRefilling = true; pendingRefillStations.add(5); triggerRefill.inject(1); }
-if (candiesFoodLevel <= (candiesFoodMax * refillThreshold) && !candiesRefilling) { candiesRefilling = true; pendingRefillStations.add(6); triggerRefill.inject(1); }
-if (iceCreamFoodLevel <= (iceCreamFoodMax * refillThreshold) && !iceCreamRefilling) { iceCreamRefilling = true; pendingRefillStations.add(7); triggerRefill.inject(1); }
-
-// Starve Start triggers
-if (seaFoodLevel == 0 && seaFoodZeroStart < 0) seaFoodZeroStart = time(MINUTE);
-if (dimsumFoodLevel == 0 && dimsumZeroStart < 0) dimsumZeroStart = time(MINUTE);
-if (buffetFoodLevel == 0 && buffetZeroStart < 0) buffetZeroStart = time(MINUTE);
-if (beverageFoodLevel == 0 && beverageZeroStart < 0) beverageZeroStart = time(MINUTE);
-if (meatFoodLevel == 0 && meatZeroStart < 0) meatZeroStart = time(MINUTE);
-if (sushiFoodLevel == 0 && sushiZeroStart < 0) sushiZeroStart = time(MINUTE);
-if (candiesFoodLevel == 0 && candiesZeroStart < 0) candiesZeroStart = time(MINUTE);
-if (iceCreamFoodLevel == 0 && iceCreamZeroStart < 0) iceCreamZeroStart = time(MINUTE);
-]]></Action>
-				</Event>
-			</Events>
-	<Variable Class="PlainVariable">
+				</Variable>
+				<Variable Class="PlainVariable">
 					<Id>1775981000002</Id>
 					<Name><![CDATA[cleaningMap]]></Name>
 					<X>-350</X><Y>660</Y>
@@ -206,7 +158,7 @@ if (iceCreamFoodLevel == 0 && iceCreamZeroStart < 0) iceCreamZeroStart = time(MI
 				<Variable Class="PlainVariable">
 					<Id>1774182825381</Id>
 					<Name><![CDATA[food_level]]></Name>
-					<X>-270</X><Y>720</Y>
+					<X>-350</X><Y>680</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2575,7 +2527,7 @@ if (iceCreamFoodLevel == 0 && iceCreamZeroStart < 0) iceCreamZeroStart = time(MI
 				<Event>
 					<Id>1774627237943</Id>
 					<Name><![CDATA[event]]></Name>
-					<X>2000</X><Y>920</Y>
+					<X>1930</X><Y>1020</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2615,7 +2567,7 @@ iceCreamFoodHistory.add(time(), iceCreamFoodLevel);
 				<Event>
 					<Id>1775900100001</Id>
 					<Name><![CDATA[balkingTimer]]></Name>
-					<X>2000</X><Y>950</Y>
+					<X>1970</X><Y>1060</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2820,6 +2772,7 @@ if (leader.getGroup() != null) {
 }
 
 occupiedSeats += leader.groupSize;
+customersServed += leader.groupSize;
 ]]></Body>
 				</Function>
 				<Function AccessType="default" StaticFunction="false">
@@ -5345,8 +5298,7 @@ c.shouldTurnAway = (remainingMinutes - estimatedWait < minimumDiningTime);
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[customersServed++;
-if (ped.assignedTable != null) {
+								<Code><![CDATA[if (ped.assignedTable != null) {
     occupiedSeats -= 1;
     // Only add it if it's NOT already in the dirty list
     if (!dirtyTables.contains(ped.assignedTable)) {
@@ -5358,8 +5310,12 @@ if (ped.assignedTable != null) {
         busboyCleaning.inject(1);
     }
     ped.assignedTable = null; // Critical - clear after check
-    
+}
 
+// Group-based service count for arrivals formula symmetry
+Customer c = (Customer) ped;
+if (c.getGroup() == null || c.getGroup().getLeader() == c) {
+    customersServed++;
 }
 ]]></Code>
 							</Value>
@@ -6314,9 +6270,6 @@ if (iceCreamFoodLevel == 0 && iceCreamZeroStart < 0) iceCreamZeroStart = time(MI
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[totalEntered++;]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnterQueue]]></Name>
@@ -6597,7 +6550,7 @@ if (iceCreamFoodLevel == 0 && iceCreamZeroStart < 0) iceCreamZeroStart = time(MI
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[3]]></Code>
+								<Code><![CDATA[10]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -28572,7 +28525,7 @@ if (c.shouldTurnAway) {
 				<Text>
 					<Id>1775905000001</Id>
 					<Name><![CDATA[textTurnedAway]]></Name>
-					<X>1920</X><Y>840</Y>
+					<X>1910</X><Y>860</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28638,7 +28591,7 @@ if (c.shouldTurnAway) {
 				<Text>
 					<Id>1775312345683</Id>
 					<Name><![CDATA[textQueue4Total]]></Name>
-					<X>1920</X><Y>860</Y>
+					<X>1910</X><Y>880</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28660,7 +28613,7 @@ if (c.shouldTurnAway) {
 				<Text>
 					<Id>1775312345684</Id>
 					<Name><![CDATA[textQueue10Total]]></Name>
-					<X>1920</X><Y>870</Y>
+					<X>1910</X><Y>900</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28737,7 +28690,7 @@ if (c.shouldTurnAway) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Total Arrivals: ]]></Text>
-					<TextCode><![CDATA["Total Arrivals: " + totalEntered]]></TextCode>
+					<TextCode><![CDATA["Total Arrivals: " + (customersServed + balkCount + turnedAwayCount + timeBasedAbandonCount)]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
@@ -30323,8 +30276,8 @@ if (c.shouldTurnAway) {
 				<StopOption><![CDATA[Stop at specified date]]></StopOption>
 				<InitialDate><![CDATA[1774177200000]]></InitialDate>
 				<InitialTime><![CDATA[0.0]]></InitialTime>
-				<FinalDate><![CDATA[1774191600000]]></FinalDate>
-				<FinalTime><![CDATA[14400.0]]></FinalTime>
+				<FinalDate><![CDATA[1774184400000]]></FinalDate>
+				<FinalTime><![CDATA[7200.0]]></FinalTime>
 			</ModelTimeProperties>
 			<BypassInitialScreen>true</BypassInitialScreen>
 		</SimulationExperiment>	
