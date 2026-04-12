@@ -542,7 +542,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[100]]></Code>
+							<Code><![CDATA[30]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -557,7 +557,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[100]]></Code>
+							<Code><![CDATA[30]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -3066,7 +3066,7 @@ return false;]]></Body>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[8]]></Code>
+								<Code><![CDATA[6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3854,6 +3854,9 @@ return false;]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maximumCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[sendResources]]></Name>
@@ -4045,6 +4048,9 @@ return false;]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maximumCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[entityLocation]]></Name>
@@ -4241,6 +4247,9 @@ return false;]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maximumCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[sendResources]]></Name>
@@ -4574,6 +4583,9 @@ return false;]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maximumCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[entityLocation]]></Name>
@@ -5694,14 +5706,14 @@ else if (ped.foodChoice == 6) candiesFoodLevel = Math.max(0, candiesFoodLevel - 
 else if (ped.foodChoice == 7) iceCreamFoodLevel = Math.max(0, iceCreamFoodLevel - 1);
 
 // Count depletion only at the moment of transition to zero
-if (ped.foodChoice == 0 && seaFoodLevel == 0) seaFoodDepletionCount++;
-if (ped.foodChoice == 1 && dimsumFoodLevel == 0) dimsumDepletionCount++;
-if (ped.foodChoice == 2 && buffetFoodLevel == 0) buffetDepletionCount++;
-if (ped.foodChoice == 3 && beverageFoodLevel == 0) beverageDepletionCount++;
-if (ped.foodChoice == 4 && meatFoodLevel == 0) meatDepletionCount++;
-if (ped.foodChoice == 5 && sushiFoodLevel == 0) sushiDepletionCount++;
-if (ped.foodChoice == 6 && candiesFoodLevel == 0) candiesDepletionCount++;
-if (ped.foodChoice == 7 && iceCreamFoodLevel == 0) iceCreamDepletionCount++;
+if (ped.foodChoice == 0 && seaFoodLevel == 0 && seaFoodZeroStart < 0) seaFoodDepletionCount++;
+if (ped.foodChoice == 1 && dimsumFoodLevel == 0 && dimsumZeroStart < 0) dimsumDepletionCount++;
+if (ped.foodChoice == 2 && buffetFoodLevel == 0 && buffetZeroStart < 0) buffetDepletionCount++;
+if (ped.foodChoice == 3 && beverageFoodLevel == 0 && beverageZeroStart < 0) beverageDepletionCount++;
+if (ped.foodChoice == 4 && meatFoodLevel == 0 && meatZeroStart < 0) meatDepletionCount++;
+if (ped.foodChoice == 5 && sushiFoodLevel == 0 && sushiZeroStart < 0) sushiDepletionCount++;
+if (ped.foodChoice == 6 && candiesFoodLevel == 0 && candiesZeroStart < 0) candiesDepletionCount++;
+if (ped.foodChoice == 7 && iceCreamFoodLevel == 0 && iceCreamZeroStart < 0) iceCreamDepletionCount++;
 
 // Refill logic and Starvation Start tracking (All 8 Stations)
 if (seaFoodLevel <= (seaFoodMax * refillThreshold) && !seaFoodRefilling) { seaFoodRefilling = true; pendingRefillStations.add(0); triggerRefill.inject(1); }
@@ -6550,7 +6562,7 @@ if (iceCreamFoodLevel == 0 && iceCreamZeroStart < 0) iceCreamZeroStart = time(MI
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -28690,7 +28702,7 @@ if (c.shouldTurnAway) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Total Arrivals: ]]></Text>
-					<TextCode><![CDATA["Total Arrivals: " + (customersServed + balkCount + turnedAwayCount + timeBasedAbandonCount)]]></TextCode>
+					<TextCode><![CDATA["Total Arrivals: " + (customersServed + balkCount + timeBasedAbandonCount)]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
@@ -28778,7 +28790,7 @@ if (c.shouldTurnAway) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Seafood Empty: ]]></Text>
-					<TextCode><![CDATA["Seafood Empty: " + (seaFoodDepletionCount > 0 ? String.format("%.1f mins", seaFoodZeroTime / seaFoodDepletionCount) : "0.0 mins")]]></TextCode>
+					<TextCode><![CDATA["Seafood Empty: " + (seaFoodDepletionCount > 0 ? String.format("%.1f mins", (seaFoodZeroTime + (seaFoodLevel == 0 && seaFoodZeroStart >= 0 ? (time(MINUTE) - seaFoodZeroStart) : 0)) / seaFoodDepletionCount) : "0.0 mins")]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
@@ -28800,7 +28812,7 @@ if (c.shouldTurnAway) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Dimsum Empty: ]]></Text>
-					<TextCode><![CDATA["Dimsum Empty: " + (dimsumDepletionCount > 0 ? String.format("%.1f mins", dimsumZeroTime / dimsumDepletionCount) : "0.0 mins")]]></TextCode>
+					<TextCode><![CDATA["Dimsum Empty: " + (dimsumDepletionCount > 0 ? String.format("%.1f mins", (dimsumZeroTime + (dimsumFoodLevel == 0 && dimsumZeroStart >= 0 ? (time(MINUTE) - dimsumZeroStart) : 0)) / dimsumDepletionCount) : "0.0 mins")]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
@@ -28822,7 +28834,7 @@ if (c.shouldTurnAway) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Main Buffet Empty: ]]></Text>
-					<TextCode><![CDATA["Main Buffet Empty: " + (buffetDepletionCount > 0 ? String.format("%.1f mins", buffetZeroTime / buffetDepletionCount) : "0.0 mins")]]></TextCode>
+					<TextCode><![CDATA["Main Buffet Empty: " + (buffetDepletionCount > 0 ? String.format("%.1f mins", (buffetZeroTime + (buffetFoodLevel == 0 && buffetZeroStart >= 0 ? (time(MINUTE) - buffetZeroStart) : 0)) / buffetDepletionCount) : "0.0 mins")]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
@@ -29118,7 +29130,7 @@ if (c.shouldTurnAway) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Sushi Empty: ]]></Text>
-					<TextCode><![CDATA["Sushi Empty: " + (sushiDepletionCount > 0 ? String.format("%.1f mins", sushiZeroTime / sushiDepletionCount) : "0.0 mins")]]></TextCode>
+					<TextCode><![CDATA["Sushi Empty: " + (sushiDepletionCount > 0 ? String.format("%.1f mins", (sushiZeroTime + (sushiFoodLevel == 0 && sushiZeroStart >= 0 ? (time(MINUTE) - sushiZeroStart) : 0)) / sushiDepletionCount) : "0.0 mins")]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
@@ -29140,7 +29152,7 @@ if (c.shouldTurnAway) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Meat Empty: ]]></Text>
-					<TextCode><![CDATA["Meat Empty: " + (meatDepletionCount > 0 ? String.format("%.1f mins", meatZeroTime / meatDepletionCount) : "0.0 mins")]]></TextCode>
+					<TextCode><![CDATA["Meat Empty: " + (meatDepletionCount > 0 ? String.format("%.1f mins", (meatZeroTime + (meatFoodLevel == 0 && meatZeroStart >= 0 ? (time(MINUTE) - meatZeroStart) : 0)) / meatDepletionCount) : "0.0 mins")]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
@@ -29162,7 +29174,7 @@ if (c.shouldTurnAway) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Ice Cream Empty: ]]></Text>
-					<TextCode><![CDATA["Ice Cream Empty: " + (iceCreamDepletionCount > 0 ? String.format("%.1f mins", iceCreamZeroTime / iceCreamDepletionCount) : "0.0 mins")]]></TextCode>
+					<TextCode><![CDATA["Ice Cream Empty: " + (iceCreamDepletionCount > 0 ? String.format("%.1f mins", (iceCreamZeroTime + (iceCreamFoodLevel == 0 && iceCreamZeroStart >= 0 ? (time(MINUTE) - iceCreamZeroStart) : 0)) / iceCreamDepletionCount) : "0.0 mins")]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
@@ -29184,7 +29196,7 @@ if (c.shouldTurnAway) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Beverage Empty: ]]></Text>
-					<TextCode><![CDATA["Beverage Empty: " + (beverageDepletionCount > 0 ? String.format("%.1f mins", beverageZeroTime / beverageDepletionCount) : "0.0 mins")]]></TextCode>
+					<TextCode><![CDATA["Beverage Empty: " + (beverageDepletionCount > 0 ? String.format("%.1f mins", (beverageZeroTime + (beverageFoodLevel == 0 && beverageZeroStart >= 0 ? (time(MINUTE) - beverageZeroStart) : 0)) / beverageDepletionCount) : "0.0 mins")]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
@@ -29206,7 +29218,7 @@ if (c.shouldTurnAway) {
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[Candies Empty: ]]></Text>
-					<TextCode><![CDATA["Candies Empty: " + (candiesDepletionCount > 0 ? String.format("%.1f mins", candiesZeroTime / candiesDepletionCount) : "0.0 mins")]]></TextCode>
+					<TextCode><![CDATA["Candies Empty: " + (candiesDepletionCount > 0 ? String.format("%.1f mins", (candiesZeroTime + (candiesFoodLevel == 0 && candiesZeroStart >= 0 ? (time(MINUTE) - candiesZeroStart) : 0)) / candiesDepletionCount) : "0.0 mins")]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
@@ -30233,7 +30245,7 @@ if (c.shouldTurnAway) {
 			<MaximumMemory>512</MaximumMemory>
 			<RandomNumberGenerationType>fixedSeed</RandomNumberGenerationType>
 			<CustomGeneratorCode>new Random()</CustomGeneratorCode>
-			<SeedValue>123</SeedValue>
+			<SeedValue>1</SeedValue>
 			<SelectionModeForSimultaneousEvents>LIFO</SelectionModeForSimultaneousEvents>
 			<VmArgs><![CDATA[]]></VmArgs>
 			<LoadRootFromSnapshot>false</LoadRootFromSnapshot>
