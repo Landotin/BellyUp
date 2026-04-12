@@ -111,6 +111,51 @@
 			<ConnectionsId>1774176465864</ConnectionsId>
 			<Variables>
 				<Variable Class="PlainVariable">
+					<Id>1800000000100</Id>
+					<Name><![CDATA[chefCapacity]]></Name>
+					<X>2190</X><Y>1200</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[8]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1800000000101</Id>
+					<Name><![CDATA[waiterCapacity]]></Name>
+					<X>2190</X><Y>1250</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[3]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1800000000102</Id>
+					<Name><![CDATA[busboyCapacity]]></Name>
+					<X>2190</X><Y>1310</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[4]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
 					<Id>1775981000001</Id>
 					<Name><![CDATA[refillThreshold]]></Name>
 					<X>2690</X><Y>230</Y>
@@ -2525,6 +2570,53 @@
 			</Connectors>
 			<Events>
 				<Event>
+					<Id>1800000000200</Id>
+					<Name><![CDATA[syncCapacities]]></Name>
+					<X>2190</X><Y>1170</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties TriggerType="timeout" Mode="cyclic">
+						<Timeout Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</Timeout>
+						<Rate Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="RateUnits"><![CDATA[PER_SECOND]]></Unit>
+						</Rate>
+						<Id>0</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1776067200000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</RecurrenceCode>
+						<Condition><![CDATA[false]]></Condition>
+					</Properties>
+					<Action><![CDATA[
+// Read slider positions directly and apply them
+int newChefs = (int) sliderChefs.getValue();
+int newWaiters = (int) sliderWaiters.getValue();
+int newBusboys = (int) sliderBusboys.getValue();
+double newRefill = sliderRefill.getValue();
+
+chefCapacity = newChefs;
+waiterCapacity = newWaiters;
+busboyCapacity = newBusboys;
+refillThreshold = newRefill;
+
+chefs.set_capacity(newChefs);
+waiters.set_capacity(newWaiters);
+busboys.set_capacity(newBusboys);
+]]></Action>
+				</Event>
+				<Event>
 					<Id>1774627237943</Id>
 					<Name><![CDATA[event]]></Name>
 					<X>1930</X><Y>1020</Y>
@@ -3066,7 +3158,7 @@ return false;]]></Body>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[6]]></Code>
+								<Code><![CDATA[chefCapacity]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3358,7 +3450,7 @@ return false;]]></Body>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[3]]></Code>
+								<Code><![CDATA[waiterCapacity]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5676,8 +5768,7 @@ if (levels[firstChoice] > 0) {
     for (int i = 0; i < 8; i++) {
         if (i != firstChoice) alternatives.add(i);
     }
-    java.util.Collections.shuffle(alternatives, 
-        new java.util.Random((long)(time() * 1000)));
+    java.util.Collections.shuffle(alternatives, getDefaultRandomGenerator());
     
     boolean found = false;
     for (int alt : alternatives) {
@@ -6562,7 +6653,7 @@ if (iceCreamFoodLevel == 0 && iceCreamZeroStart < 0) iceCreamZeroStart = time(MI
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[4]]></Code>
+								<Code><![CDATA[busboyCapacity]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -29295,7 +29386,7 @@ if (c.shouldTurnAway) {
 				<Text>
 					<Id>1775979587217</Id>
 					<Name><![CDATA[textTableUtil4]]></Name>
-					<X>2000</X><Y>350</Y>
+					<X>1940</X><Y>340</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29376,6 +29467,186 @@ if (c.shouldTurnAway) {
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Control Type="Slider">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1800000000001</Id>
+					<Name><![CDATA[sliderRefill]]></Name>
+					<X>2700</X><Y>300</Y>
+					<Label><X>0</X><Y>-20</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="100" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<DefaultValueCode><![CDATA[0.30]]></DefaultValueCode>
+						<Orientation>HORIZONTAL</Orientation>
+						<MinValue><![CDATA[0.1]]></MinValue>
+						<MaxValue><![CDATA[0.9]]></MaxValue>
+						<Step><![CDATA[0.05]]></Step>
+						<LinkTo>true</LinkTo>
+					</ExtendedProperties>
+				</Control>
+				<Text>
+					<Id>1800000000002</Id>
+					<Name><![CDATA[textSliderRefill]]></Name>
+					<X>2700</X><Y>280</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Refill Threshold]]></Text>
+					<TextCode><![CDATA["Refill Threshold: " + (int)(refillThreshold * 100) + "%"]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>12</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Control Type="Slider">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1800000000003</Id>
+					<Name><![CDATA[sliderChefs]]></Name>
+					<X>2700</X><Y>350</Y>
+					<Label><X>0</X><Y>-20</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="100" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<DefaultValueCode><![CDATA[chefCapacity]]></DefaultValueCode>
+						<Orientation>HORIZONTAL</Orientation>
+						<MinValue><![CDATA[1]]></MinValue>
+						<MaxValue><![CDATA[20]]></MaxValue>
+						<Step><![CDATA[1]]></Step>
+						<LinkTo>true</LinkTo>
+					</ExtendedProperties>
+				</Control>
+				<Text>
+					<Id>1800000000004</Id>
+					<Name><![CDATA[textSliderChefs]]></Name>
+					<X>2700</X><Y>330</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Number of Chefs]]></Text>
+					<TextCode><![CDATA["Chefs: " + chefCapacity]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>12</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Control Type="Slider">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1800000000005</Id>
+					<Name><![CDATA[sliderWaiters]]></Name>
+					<X>2700</X><Y>400</Y>
+					<Label><X>0</X><Y>-20</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="100" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<DefaultValueCode><![CDATA[waiterCapacity]]></DefaultValueCode>
+						<Orientation>HORIZONTAL</Orientation>
+						<MinValue><![CDATA[1]]></MinValue>
+						<MaxValue><![CDATA[10]]></MaxValue>
+						<Step><![CDATA[1]]></Step>
+						<LinkTo>true</LinkTo>
+					</ExtendedProperties>
+				</Control>
+				<Text>
+					<Id>1800000000006</Id>
+					<Name><![CDATA[textSliderWaiters]]></Name>
+					<X>2700</X><Y>380</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Number of Waiters]]></Text>
+					<TextCode><![CDATA["Waiters: " + waiterCapacity]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>12</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Control Type="Slider">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1800000000007</Id>
+					<Name><![CDATA[sliderBusboys]]></Name>
+					<X>2700</X><Y>440</Y>
+					<Label><X>0</X><Y>5</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="100" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<DefaultValueCode><![CDATA[busboyCapacity]]></DefaultValueCode>
+						<Orientation>HORIZONTAL</Orientation>
+						<MinValue><![CDATA[1]]></MinValue>
+						<MaxValue><![CDATA[10]]></MaxValue>
+						<Step><![CDATA[1]]></Step>
+						<LinkTo>true</LinkTo>
+					</ExtendedProperties>
+				</Control>
+				<Text>
+					<Id>1800000000008</Id>
+					<Name><![CDATA[textSliderBusboys]]></Name>
+					<X>2700</X><Y>430</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Number of Busboys]]></Text>
+					<TextCode><![CDATA["Busboys: " + busboyCapacity]]></TextCode>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>12</Size>
 						<Style>1</Style>
 					</Font>
 					<Alignment>LEFT</Alignment>
@@ -30246,7 +30517,7 @@ if (c.shouldTurnAway) {
 			<RandomNumberGenerationType>fixedSeed</RandomNumberGenerationType>
 			<CustomGeneratorCode>new Random()</CustomGeneratorCode>
 			<SeedValue>1</SeedValue>
-			<SelectionModeForSimultaneousEvents>LIFO</SelectionModeForSimultaneousEvents>
+			<SelectionModeForSimultaneousEvents>FIFO</SelectionModeForSimultaneousEvents>
 			<VmArgs><![CDATA[]]></VmArgs>
 			<LoadRootFromSnapshot>false</LoadRootFromSnapshot>
 
@@ -30288,8 +30559,8 @@ if (c.shouldTurnAway) {
 				<StopOption><![CDATA[Stop at specified date]]></StopOption>
 				<InitialDate><![CDATA[1774177200000]]></InitialDate>
 				<InitialTime><![CDATA[0.0]]></InitialTime>
-				<FinalDate><![CDATA[1774184400000]]></FinalDate>
-				<FinalTime><![CDATA[7200.0]]></FinalTime>
+				<FinalDate><![CDATA[1774195200000]]></FinalDate>
+				<FinalTime><![CDATA[18000.0]]></FinalTime>
 			</ModelTimeProperties>
 			<BypassInitialScreen>true</BypassInitialScreen>
 		</SimulationExperiment>	
