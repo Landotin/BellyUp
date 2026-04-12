@@ -301,7 +301,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[200	]]></Code>
+							<Code><![CDATA[120]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -316,7 +316,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[180]]></Code>
+							<Code><![CDATA[120]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -331,7 +331,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[180]]></Code>
+							<Code><![CDATA[100]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -346,7 +346,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[200]]></Code>
+							<Code><![CDATA[120]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -557,7 +557,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[150]]></Code>
+							<Code><![CDATA[80]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -572,7 +572,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[120]]></Code>
+							<Code><![CDATA[80]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -3940,6 +3940,9 @@ return false;]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[seizePolicy]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.SEIZE_UNITS_ONE_BY_ONE]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
@@ -4992,8 +4995,7 @@ switch(idx) {
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[time(MINUTE) < 20 ? 1.0 : (time(MINUTE) < 80 ? 3.5 : (time(MINUTE) < 150 ? 0.5 : 0.0))
-]]></Code>
+								<Code><![CDATA[time(MINUTE) < 20 ? 1.0 : (time(MINUTE) < 80 ? 3.5 : (time(MINUTE) < 150 ? 0.5 : 0.0))]]></Code>
 								<Unit Class="RateUnits"><![CDATA[PER_MINUTE]]></Unit>
 							</Value>
 						</Parameter>
@@ -29386,7 +29388,7 @@ if (c.shouldTurnAway) {
 				<Text>
 					<Id>1775979587217</Id>
 					<Name><![CDATA[textTableUtil4]]></Name>
-					<X>1940</X><Y>340</Y>
+					<X>2000</X><Y>340</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29579,7 +29581,7 @@ if (c.shouldTurnAway) {
 						<DefaultValueCode><![CDATA[waiterCapacity]]></DefaultValueCode>
 						<Orientation>HORIZONTAL</Orientation>
 						<MinValue><![CDATA[1]]></MinValue>
-						<MaxValue><![CDATA[10]]></MaxValue>
+						<MaxValue><![CDATA[15]]></MaxValue>
 						<Step><![CDATA[1]]></Step>
 						<LinkTo>true</LinkTo>
 					</ExtendedProperties>
@@ -29597,8 +29599,8 @@ if (c.shouldTurnAway) {
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
-					<Text><![CDATA[Number of Waiters]]></Text>
-					<TextCode><![CDATA["Waiters: " + waiterCapacity]]></TextCode>
+					<Text><![CDATA[Runners/Waiters]]></Text>
+					<TextCode><![CDATA["Runners: " + waiterCapacity]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>12</Size>
@@ -29624,7 +29626,7 @@ if (c.shouldTurnAway) {
 						<DefaultValueCode><![CDATA[busboyCapacity]]></DefaultValueCode>
 						<Orientation>HORIZONTAL</Orientation>
 						<MinValue><![CDATA[1]]></MinValue>
-						<MaxValue><![CDATA[10]]></MaxValue>
+						<MaxValue><![CDATA[20]]></MaxValue>
 						<Step><![CDATA[1]]></Step>
 						<LinkTo>true</LinkTo>
 					</ExtendedProperties>
